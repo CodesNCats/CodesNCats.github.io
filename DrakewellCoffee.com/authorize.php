@@ -327,15 +327,15 @@ echo "</OL>\n";*/
 	
     <!-- Header --->
     
-    	<section id="logCart" class="f2"><a href="login.php">Log In</a>  <a href="cart.php">Your Cart</a></section>
+    	<section id="logCart" class="f2"><a href="login.php">Log In</a>  <a href="cart.html">Your Cart</a></section>
 	
 		<div class="mainMenu f3">
         	
-        	<a id="store" href="coffee.php">Coffee</a>
-            <a id="fundrasier" href="fund.php">Fundraiser</a>
+        	<a id="store" href="coffee.html">Coffee</a>
+            <a id="fundrasier" href="fund.html">Fundraiser</a>
             <a id="logo" href="index.html"><span id="cup"></span></a>
-            <a id="contact" href="contact.php">Contact</a>
-        	<a id="about" href="about.php">About</a>
+            <a id="contact" href="contact.html">Contact</a>
+        	<a id="about" href="about.html">About</a>
             
         </div>
         
@@ -356,7 +356,7 @@ echo "</OL>\n";*/
     	<?php 
 			echo $response_array[3] ;
 		?>
-        <a href="coffee.php">&#10094;</a>
+        <a href="coffee.html">&#10094;</a>
     	
     </div>
 	

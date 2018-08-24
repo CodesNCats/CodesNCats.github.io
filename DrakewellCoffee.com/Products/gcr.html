@@ -1,9 +1,9 @@
 <?php
 
 if (isset($_POST["C"])) {
-	setcookie("BB[C]", $_POST["C"], time()+24*3600, "/", ".drakewellcoffee.com");
-	setcookie("BB[G]", $_POST["G"], time()+24*3600, "/", ".drakewellcoffee.com");
-	setcookie("BB[W]", $_POST["W"], time()+24*3600, "/", ".drakewellcoffee.com");
+	setcookie("CB[C]", $_POST["C"], time()+24*3600, "/", ".drakewellcoffee.com");
+	setcookie("CB[G]", $_POST["G"], time()+24*3600, "/", ".drakewellcoffee.com");
+	setcookie("CB[W]", $_POST["W"], time()+24*3600, "/", ".drakewellcoffee.com");
 	header('Location: http://www.drakewellcoffee.com/cart.php');
 }else{
 
@@ -24,17 +24,16 @@ if (isset($_POST["C"])) {
 <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
 
 <!-- InstanceBeginEditable name="head" -->
-
 <style>
 .pan{
-	background-image:url(../Images/Panoramic_Strips/breakfast_blend.jpg);
+	background-image:url(../Images/Panoramic_Strips/colombia.jpg);
 }
 .itemTitle{
-	color:#4ab646;
+	color:#ec1e28;
 }
 .box #prev:hover, .box #next:hover{
-	background-color:#4ab646;
-	border-color:#4ab646;
+	background-color:#ec1e28;
+	border-color:#ec1e28;
 }
 .typeImage1{
 
@@ -58,15 +57,15 @@ if (isset($_POST["C"])) {
 	
     <!-- Header --->
     
-    	<section id="logCart" class="f2"><a href="../login.php">Log In</a>  <a href="../cart.php">Your Cart</a></section>
+    	<section id="logCart" class="f2"><a href="../login.php">Log In</a>  <a href="../cart.html">Your Cart</a></section>
 	
 		<div class="mainMenu f3">
         	
-        	<a id="store" href="../coffee.php">Coffee</a>
-            <a id="fundrasier" href="../fund.php">Fundraiser</a>
+        	<a id="store" href="../coffee.html">Coffee</a>
+            <a id="fundrasier" href="../fund.html">Fundraiser</a>
             <a id="logo" href="../index.html"><span id="cup"></span></a>
-            <a id="contact" href="../contact.php">Contact</a>
-        	<a id="about" href="../about.php">About</a>
+            <a id="contact" href="../contact.html">Contact</a>
+        	<a id="about" href="../about.html">About</a>
             
         </div>
         
@@ -88,12 +87,12 @@ if (isset($_POST["C"])) {
         	<div class="box">
             
             <!-- InstanceBeginEditable name="Nav" -->
-        	<a id="prev" href="hot_chocolate.php"></a> <a id="next" href="restwell.php"></a>
+        	<a id="prev" href="sleepwell.html"></a> <a id="next" href="seb.html"></a>
             <!-- InstanceEndEditable -->
             
             	<div class="itemTitle f1">
             		<!-- InstanceBeginEditable name="Title" -->
-            Breakfast Blend
+            Colombian Roast
             		<!-- InstanceEndEditable -->
            		</div>
             

@@ -1,46 +1,3 @@
-<?php
-if (isset($_POST["BBC"])) {
-	$day = 24*3600;
-	setcookie("BB[C]", $_POST["BBC"], time()+ $day, "/", ".drakewellcoffee.com");
-	setcookie("BB[G]", $_POST["BBG"], time()+ $day, "/", ".drakewellcoffee.com");
-	setcookie("BB[W]", $_POST["BBW"], time()+ $day, "/", ".drakewellcoffee.com");
-	
-	setcookie("RW[C]", $_POST["RWC"], time()+ $day, "/", ".drakewellcoffee.com");
-	setcookie("RW[G]", $_POST["RWG"], time()+ $day, "/", ".drakewellcoffee.com");
-	setcookie("RW[W]", $_POST["RWW"], time()+ $day, "/", ".drakewellcoffee.com");
-	
-	setcookie("SW[C]", $_POST["SWC"], time()+ $day, "/", ".drakewellcoffee.com");
-	setcookie("SW[G]", $_POST["SWG"], time()+ $day, "/", ".drakewellcoffee.com");
-	setcookie("SW[W]", $_POST["SWW"], time()+ $day, "/", ".drakewellcoffee.com");
-	
-	setcookie("CB[C]", $_POST["CBC"], time()+ $day, "/", ".drakewellcoffee.com");
-	setcookie("CB[G]", $_POST["CBG"], time()+ $day, "/", ".drakewellcoffee.com");
-	setcookie("CB[W]", $_POST["CBW"], time()+ $day, "/", ".drakewellcoffee.com");
-	
-	setcookie("ES[C]", $_POST["ESC"], time()+ $day, "/", ".drakewellcoffee.com");
-	setcookie("ES[G]", $_POST["ESG"], time()+ $day, "/", ".drakewellcoffee.com");
-	setcookie("ES[W]", $_POST["ESW"], time()+ $day, "/", ".drakewellcoffee.com");
-	
-	setcookie("CP[C]", $_POST["CPC"], time()+ $day, "/", ".drakewellcoffee.com");
-	setcookie("CP[G]", $_POST["CPG"], time()+ $day, "/", ".drakewellcoffee.com");
-	setcookie("CP[W]", $_POST["CPW"], time()+ $day, "/", ".drakewellcoffee.com");
-	
-	setcookie("HZ[C]", $_POST["HZC"], time()+ $day, "/", ".drakewellcoffee.com");
-	setcookie("HZ[G]", $_POST["HZG"], time()+ $day, "/", ".drakewellcoffee.com");
-	setcookie("HZ[W]", $_POST["HZW"], time()+ $day, "/", ".drakewellcoffee.com");
-	
-	setcookie("DF[C]", $_POST["DFC"], time()+ $day, "/", ".drakewellcoffee.com");
-	setcookie("DF[G]", $_POST["DFG"], time()+ $day, "/", ".drakewellcoffee.com");
-	setcookie("DF[W]", $_POST["DFW"], time()+ $day, "/", ".drakewellcoffee.com");
-	
-	setcookie("HC[C]", $_POST["HCC"], time()+ $day, "/", ".drakewellcoffee.com");
-	setcookie("HC[G]", $_POST["HCG"], time()+ $day, "/", ".drakewellcoffee.com");
-	setcookie("HC[W]", $_POST["HCW"], time()+ $day, "/", ".drakewellcoffee.com");
-	
-	header('Location: http://www.drakewellcoffee.com/cart.php');
-}
-?>
-
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/Master.dwt" codeOutsideHTMLIsLocked="false" -->
 <head>
@@ -218,15 +175,15 @@ form #sub:hover:before{
 	
     <!-- Header --->
     
-    	<section id="logCart" class="f2"><a href="login.php">Log In</a>  <a href="cart.php">Your Cart</a></section>
+    	<section id="logCart" class="f2"><a href="login.php">Log In</a>  <a href="cart.html">Your Cart</a></section>
 	
 		<div class="mainMenu f3">
         	
-        	<a id="store" href="coffee.php">Coffee</a>
-            <a id="fundrasier" href="fund.php">Fundraiser</a>
+        	<a id="store" href="coffee.html">Coffee</a>
+            <a id="fundrasier" href="fund.html">Fundraiser</a>
             <a id="logo" href="index.html"><span id="cup"></span></a>
-            <a id="contact" href="contact.php">Contact</a>
-        	<a id="about" href="about.php">About</a>
+            <a id="contact" href="contact.html">Contact</a>
+        	<a id="about" href="about.html">About</a>
             
         </div>
         
@@ -254,20 +211,9 @@ form #sub:hover:before{
 
 	<span class="f1">Breakfast Blend</span>
     
-    
-    <?php
-if (isset($_COOKIE["BB"]))
-  {
-	foreach ($_COOKIE["BB"] as $name => $value)
-    {
-    echo "<input name='BB$name' value='$value' type='number' min='0' required='required'/>";
-    }
-  }else{
-	echo "<input name='BBC' value='0' type='number' min='0' required='required'/>";
-	echo "<input name='BBG' value='0' type='number' min='0' required='required'/>";
-	echo "<input name='BBW' value='0' type='number' min='0' required='required'/>";
-  }
-	?>
+<input name='BBC' value='0' type='number' min='0' required='required'/>
+<input name='BBG' value='0' type='number' min='0' required='required'/>
+<input name='BBW' value='0' type='number' min='0' required='required'/>
 
 </div>
   
@@ -276,19 +222,9 @@ if (isset($_COOKIE["BB"]))
     
     <span class="f1">Restwell</span>
     
-        <?php
-if (isset($_COOKIE["RW"]))
-  {
-	foreach ($_COOKIE["RW"] as $name => $value)
-    {
-    echo "<input name='RW$name' value='$value' type='number' min='0' required='required'/>";
-    }
-  }else{
-	echo "<input name='RWC' value='0' type='number' min='0' required='required'/>";
-	echo "<input name='RWG' value='0' type='number' min='0' required='required'/>";
-	echo "<input name='RWW' value='0' type='number' min='0' required='required'/>";
-  }
-	?>
+<input name='RWC' value='0' type='number' min='0' required='required'/>
+<input name='RWG' value='0' type='number' min='0' required='required'/>
+<input name='RWW' value='0' type='number' min='0' required='required'/>
 
 </div>
     
@@ -296,20 +232,10 @@ if (isset($_COOKIE["RW"]))
 <div class="product">
 
 	<span class="f1">Sleepwell</span>
-    
-        <?php
-if (isset($_COOKIE["SW"]))
-  {
-	foreach ($_COOKIE["SW"] as $name => $value)
-    {
-    echo "<input name='SW$name' value='$value' type='number' min='0' required='required'/>";
-    }
-  }else{
-	echo "<input name='SWC' value='0' type='number' min='0' required='required'/>";
-	echo "<input name='SWG' value='0' type='number' min='0' required='required'/>";
-	echo "<input name='SWW' value='0' type='number' min='0' required='required'/>";
-  }
-	?>
+
+	<input name='SWC' value='0' type='number' min='0' required='required'/>
+	<input name='SWG' value='0' type='number' min='0' required='required'/>
+	<input name='SWW' value='0' type='number' min='0' required='required'/>
 
 </div>
     
@@ -317,20 +243,11 @@ if (isset($_COOKIE["SW"]))
     <div class="product">
     
     <span class="f1">Colombian Roast</span>
-    
-        <?php
-if (isset($_COOKIE["CB"]))
-  {
-	foreach ($_COOKIE["CB"] as $name => $value)
-    {
-    echo "<input name='CB$name' value='$value' type='number' min='0' required='required'/>";
-    }
-  }else{
-	echo "<input name='CBC' value='0' type='number' min='0' required='required'/>";
-	echo "<input name='CBG' value='0' type='number' min='0' required='required'/>";
-	echo "<input name='CBW' value='0' type='number' min='0' required='required'/>";
-  }
-	?>
+
+<input name='CBC' value='0' type='number' min='0' required='required'/>
+	<input name='CBG' value='0' type='number' min='0' required='required'/>
+	<input name='CBW' value='0' type='number' min='0' required='required'/>
+
 
 </div>
     
@@ -338,19 +255,10 @@ if (isset($_COOKIE["CB"]))
     
     <span class="f1">Espresso</span>
     
-        <?php
-if (isset($_COOKIE["ES"]))
-  {
-	foreach ($_COOKIE["ES"] as $name => $value)
-    {
-    echo "<input name='ES$name' value='$value' type='number' min='0' required='required'/>";
-    }
-  }else{
-	echo "<input name='ESC' value='0' type='number' min='0' required='required'/>";
-	echo "<input name='ESG' value='0' type='number' min='0' required='required'/>";
-	echo "<input name='ESW' value='0' type='number' min='0' required='required'/>";
-  }
-	?> 
+<input name='ESC' value='0' type='number' min='0' required='required'/>
+	<input name='ESG' value='0' type='number' min='0' required='required'/>
+	<input name='ESW' value='0' type='number' min='0' required='required'/>
+
 
 </div>
     
@@ -358,19 +266,9 @@ if (isset($_COOKIE["ES"]))
     
     <span class="f1">Cappuccino</span>
     
-        <?php
-if (isset($_COOKIE["CP"]))
-  {
-	foreach ($_COOKIE["CP"] as $name => $value)
-    {
-    echo "<input name='CP$name' value='$value' type='number' min='0' required='required'/>";
-    }
-  }else{
-	echo "<input name='CPC' value='0' type='number' min='0' required='required'/>";
-	echo "<input name='CPG' value='0' type='number' min='0' required='required'/>";
-	echo "<input name='CPW' value='0' type='number' min='0' required='required'/>";
-  }
-	?>
+<input name='CPC' value='0' type='number' min='0' required='required'/>
+	<input name='CPG' value='0' type='number' min='0' required='required'/>
+	<input name='CPW' value='0' type='number' min='0' required='required'/>
 
 </div>
     
@@ -378,19 +276,9 @@ if (isset($_COOKIE["CP"]))
     
     <span class="f1">Hazelnut</span>
     
-       <?php
-if (isset($_COOKIE["HZ"]))
-  {
-	foreach ($_COOKIE["HZ"] as $name => $value)
-    {
-    echo "<input name='HZ$name' value='$value' type='number' min='0' required='required'/>";
-    }
-  }else{
-	echo "<input name='HZC' value='0' type='number' min='0' required='required'/>";
-	echo "<input name='HZG' value='0' type='number' min='0' required='required'/>";
-	echo "<input name='HZW' value='0' type='number' min='0' required='required'/>";
-  }
-	?>
+<input name='HZC' value='0' type='number' min='0' required='required'/>
+	<input name='HZG' value='0' type='number' min='0' required='required'/>
+	<input name='HZW' value='0' type='number' min='0' required='required'/>
 
 </div>
     
@@ -398,19 +286,9 @@ if (isset($_COOKIE["HZ"]))
     
     <span class="f1">Decaffeinated</span>
     
-        <?php
-if (isset($_COOKIE["DF"]))
-  {
-	foreach ($_COOKIE["DF"] as $name => $value)
-    {
-    echo "<input name='DF$name' value='$value' type='number' min='0' required='required'/>";
-    }
-  }else{
-	echo "<input name='DFC' value='0' type='number' min='0' required='required'/>";
-	echo "<input name='DFG' value='0' type='number' min='0' required='required'/>";
-	echo "<input name='DFW' value='0' type='number' min='0' required='required'/>";
-  }
-	?>
+<input name='DFC' value='0' type='number' min='0' required='required'/>
+	<input name='DFG' value='0' type='number' min='0' required='required'/>
+	<input name='DFW' value='0' type='number' min='0' required='required'/>
 
 </div>
     
@@ -418,34 +296,20 @@ if (isset($_COOKIE["DF"]))
     
     <span class="f1">Hot Chocolate</span>
     
-        <?php
-if (isset($_COOKIE["HC"]))
-  {
-	foreach ($_COOKIE["HC"] as $name => $value)
-    {
-    echo "<input name='HC$name' value='$value' type='number' min='0' required='required'/>";
-    }
-  }else{
-	echo "<input name='HCC' value='0' type='number' min='0' required='required'/>";
-	echo "<input name='HCG' value='0' type='number' min='0' required='required'/>";
-	echo "<input name='HCW' value='0' type='number' min='0' required='required'/>";
-  }
-	?>
+<input name='HCC' value='0' type='number' min='0' required='required'/>
+	<input name='HCG' value='0' type='number' min='0' required='required'/>
+	<input name='HCW' value='0' type='number' min='0' required='required'/>
 
 </div>
-
-<?php
-require 'calculate.php';
-?>
 
 <div class="product">
 	
     
-    <span>Items: <?php echo $items; ?></span>
-	<span>Shipping: $<?php echo $ship; ?></span>
-    <span>*Total: $<?php echo $total; ?></span>
+    <span>Items: $items</span>
+	<span>Shipping: $ship</span>
+    <span>*Total: $total</span>
     
-    <span> <button type="submit" formaction="cart.php" style="border-radius:0px; height:30px; width:inherit; margin:0px; font-size:16px; border:#520 3px ridge; padding-bottom:25px;">Recalculate</button></span>
+    <span> <button type="submit" formaction="cart.html" style="border-radius:0px; height:30px; width:inherit; margin:0px; font-size:16px; border:#520 3px ridge; padding-bottom:25px;">Recalculate</button></span>
     
 
 </div>
