@@ -103,51 +103,6 @@
 <link href="CSS/Master_CSS.css" rel="stylesheet" type="text/css" />
 <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
 
-<?php
-
- // Connects to your Database 
- 
-/* Company is no longer in business database cannot be accessed commented out to prevent errors
-
-mysql_connect("drakewellcoffee.db.12000725.hostedresource.com", "drakewellcoffee", "Drinkw3ll@#dwg") or die(mysql_error()); 
-
- mysql_select_db("drakewellcoffee") or die(mysql_error()); 
-
- 
- //checks cookies to make sure they are logged in 
-  
- if(isset($_COOKIE['ID_my_site'])) 
-
- { 
-
- 	$username = $_COOKIE['ID_my_site']; 
-
- 	$pass = $_COOKIE['Key_my_site']; 
-
- 	 	$check = mysql_query("SELECT * FROM users WHERE username = '$username'")or die(mysql_error()); 
-        
-if($check){
- print "<style>"; 
-
- print ".logedShow{display:;}";
- 
- print ".logedHide{display:none;}"; 
-
- print "</style>"; 
-
- 		   }  
-}else{
-	print "<style>"; 
-
-	print ".logedShow{display:none;}";
-    
-    print "</style>";
-}
-
-*/
-        
-?>
-
 <!-- InstanceBeginEditable name="head" -->
 
 
