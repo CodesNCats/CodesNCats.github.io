@@ -116,7 +116,7 @@ form button:hover{
         	
         	<a id="store" href="coffee.php">Coffee</a>
             <a id="fundrasier" href="fund.php">Fundraiser</a>
-            <a id="logo" href="index.php"><span id="cup"></span></a>
+            <a id="logo" href="index.html"><span id="cup"></span></a>
             <a id="contact" href="contact.php">Contact</a>
         	<a id="about" href="about.php">About</a>
             

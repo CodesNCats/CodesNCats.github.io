@@ -105,7 +105,7 @@ form a:hover{
         	
         	<a id="store" href="coffee.php">Coffee</a>
             <a id="fundrasier" href="fund.php">Fundraiser</a>
-            <a id="logo" href="index.php"><span id="cup"></span></a>
+            <a id="logo" href="index.html"><span id="cup"></span></a>
             <a id="contact" href="contact.php">Contact</a>
         	<a id="about" href="about.php">About</a>
             
@@ -144,99 +144,6 @@ form a:hover{
 <a target="_blank" class="med"  style="left: 245px; top: 308px; background-image:url(Files/Fundraiser_Electronic_Part4.png);"></a>
 
 <form style="display:block; position:absolute; top:308px; right:10px; width:309px; height:215px; text-align:center;" method="post" action="fund.php">
-    
-    
-    
-<?php
-
-mysql_connect("drakewellcoffee.db.12000725.hostedresource.com", "drakewellcoffee", "Drinkw3ll@#dwg") or die(mysql_error()); 
-
- mysql_select_db("drakewellcoffee") or die(mysql_error()); 
-
-
-function spamcheck($field) {
-// Sanitize e-mail address
-$field=filter_var($field, FILTER_SANITIZE_EMAIL);
-// Validate e-mail address
-if(filter_var($field, FILTER_VALIDATE_EMAIL)) {
-    return TRUE;
-} else {
-    return FALSE;
-}
-}
-
-
-if (isset($_COOKIE["unlock"])){
-	echo "<br /><br /><br /><br /><br /><br /><a href='Files/Fundraiser_Electronic_Package.pdf' target='new'>Download Fundraiser PDF</a>";
-}else{
-if (isset($_POST["email"])) {
-    // Check if "from" email address is valid
-    $mailcheck = spamcheck($_POST["email"]);
-    if ($mailcheck==FALSE) {
-      echo "Invalid input";
-    } else {
-	  $name = $_POST["name"] . " from " . $_POST["company"] . " has downloaded our fundraiser package. They can be reached at". $_POST["phone"];
-      $from = $_POST["email"]; // sender
-      $subject = "Fundraiser Download";
-      $message = $name;
-      // message lines should not exceed 70 characters (PHP rule), so wrap it
-      $message = wordwrap($message, 70);
-      // send mail
-      mail("bschroeder@drakewellgroup.com",$subject,$message,"From: $from\n");
-      echo "Thank you.<br />Your fundraiser access will continue for 30 days.<br /><br /> <a href='Files/Fundraiser_Electronic_Package.pdf' target='new'>Download Fundraiser PDF</a>";
-	  echo'<script type="text/javascript">'
-   , 'register();'
-   , '</script>'
-   ;
-   
-   if (!get_magic_quotes_gpc()) {
-
-
- 		$_POST['name'] = addslashes($_POST['name']);
-
- 	}
-
- $usercheck = $_POST['name'];
-
- $check = mysql_query("SELECT name FROM fundraiser WHERE name = '$usercheck'") 
-
-or die(mysql_error());
-
- $check2 = mysql_num_rows($check);
-
-
-
- //if the name exists it gives an error
-
- if ($check2 != 0) {
-
- 		die('');
-
- 				}
-   
-    }
-	
-	 // now we insert it into the database
-
- 	$insert = "INSERT INTO fundraiser (name, company, email, phone)
-
- 			VALUES ('".$_POST['name']."', '".$_POST['company']."', '".$_POST["email"]."', '".$_POST["phone"]."')";
-
- 	$add_member = mysql_query($insert);
-	
-//if nether presents form
-	
-}else{
-		echo "<p style='width:300px; text-align:justify; margin:10px auto; font-size:20px; font-weight:bold; color:white;'>For our step by step Buck-A-Cup package equipt with a Drakewell Coffee Team, just type in the essentials and we'll take care of the rest!</p>
-		<input type='email' name='email' id='email' placeholder='Email' required='required' />
-	<input type='tel'  name='phone' id='phone' placeholder='Phone Number' required='required' />
-    <input type='text'  name='name' id='name' placeholder='Name' required='required' />
-    <input type='text'  name='company' id='company' placeholder='Organization' required='required' />
-    <button type='submit'>Access Fundraiser Package</button>";
-}
-}
-?>
-    
 </form>
 
 <img src="Images/Random/Coffee.png" style="width: 660px; position: absolute; top: 543px; right: 10px; height: 117px; display:none;" />
