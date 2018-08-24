@@ -106,6 +106,8 @@
 <?php
 
  // Connects to your Database 
+ 
+/* Company is no longer in business database cannot be accessed commented out to prevent errors
 
 mysql_connect("drakewellcoffee.db.12000725.hostedresource.com", "drakewellcoffee", "Drinkw3ll@#dwg") or die(mysql_error()); 
 
@@ -113,7 +115,7 @@ mysql_connect("drakewellcoffee.db.12000725.hostedresource.com", "drakewellcoffee
 
  
  //checks cookies to make sure they are logged in 
-
+  
  if(isset($_COOKIE['ID_my_site'])) 
 
  { 
@@ -142,6 +144,7 @@ if($check){
     print "</style>";
 }
 
+*/
         
 ?>
 
