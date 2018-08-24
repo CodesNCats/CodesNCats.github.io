@@ -1,0 +1,281 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+body > .container{
+	width:100%;
+}
+.container > .container .cut{
+	width:100%;
+	height:100px;
+	background-image:url(../Images/BG_Detail.png);
+	background-size:100%;
+	background-repeat:no-repeat;
+	position:absolute;
+	top:-25px;
+	z-index:10;
+}
+
+
+@keyframes Pan
+{
+from {background-position:0px 0px;}
+to {background-position:-3000px 0px;}
+}
+
+/*Safari and Chrome:*/
+@-webkit-keyframes Pan
+{
+from {background-position:0px 0px;}
+to {background-position:-3000px 0px;}
+}
+.pan{
+	 -webkit-animation: Pan 60s linear infinite; /* Safari and Chrome */
+    animation: Pan 60s linear infinite;
+	width:100%;
+	height:465px;
+	margin:-40px 0px 0px 0px;
+	position:relative;
+	z-index:5;
+	background-size:3000px 465px;
+	background-repeat:repeat-x;
+	background-image:url(file:///D|/Drakewell_Group/Coffee/Images/Panoramics/Legal_5.jpg);
+	overflow:hidden;
+}
+.box{
+	position:relative;
+	width:522px;
+	height:220px;
+	margin:100px auto 0px;
+	background-color: rgba(0,0,0,0.6);
+	text-align:center;
+	border: #FFF double 5px;
+}
+.itemTitle{
+	margin:10px 0px 0px 0px;
+	color:white;
+	font-size:36px;
+	text-transform:;
+}
+.itemDescription{
+	margin-top:10px;
+	color:white;
+	font-size:24px;
+	padding:0px 10px;
+	text-align:left;
+	width: fit-content;
+	margin-left: 90px;
+}
+.box #prev, .box #next{
+	transition:.5s;
+	-webkit-transition:.5s;
+	display:block;
+	position:absolute;
+	width:52px;
+	height:52px;
+	top: calc(50% - 25px);
+	background-image:url(../Images/Symbols/Arrow-01.png);
+	background-size:50px 50px;
+	border-radius:50%;
+	opacity:0.9;
+	border:double 4px white;
+}
+.box #prev{
+	-webkit-transform: rotate(-90deg);
+	-moz-transform: rotate(-90deg);
+	-ms-transform: rotate(-90deg);
+	-o-transform: rotate(-90deg);
+	transform: rotate(-90deg);
+	left:-75px;
+}
+.box #next{
+	-webkit-transform: rotate(90deg);
+	-moz-transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+	-o-transform: rotate(90deg);
+	transform: rotate(90deg);
+	right: -75px;
+}
+
+
+
+/*--- Item Type ---*/
+.container > .container{
+	position:relative;
+	z-index:10;
+	/*height:650px;*/
+	height:450px;
+	width:100%;
+	box-shadow:0px -20px 20px #000;
+}
+.showcase{
+	width:889px;
+	margin:0px auto;
+}
+.typeShowcase{
+	position:relative;
+	z-index:5;
+	transition: .5s;
+	-webkit-transition: .5s;
+	width: 283px;
+	height: 550px;
+	/*height:350px;*/
+	margin: 25px 20px 50px 0px;
+	float: left;
+	box-shadow: 0px 0px 35px #520 inset;
+	border-radius: 15px;
+}
+.typeShowcase:hover{
+	box-shadow: 0px 0px 20px #520 inset;
+}
+.typeShowcase:nth-child(3){
+	transition:.5s;
+	-webkit-transition:.5s;
+	margin:25px 0px 50px 0px;
+}
+.typeShowcase:before{
+	display:block;
+	content:"";
+	position:absolute;
+	z-index:1;
+	bottom:0px;
+	left:0px;
+	opacity:0.3;
+	background-image:url(../Images/logo-01.png);
+	background-size:360px;
+	background-position:-39px 0px;
+	height:195px;
+	width:283px;
+}
+.typeTitle{
+	height: 35px;
+	text-align: center;
+	width: 283px;
+	display: block;
+	padding: 15px 0px;
+	font-size: 30px;
+	font-weight: bold;
+	text-transform:;
+	border-bottom: 2px solid #530;
+	opacity:0.7;
+	font-weight:bold;
+}
+.typeImage1{
+	background-image:url(../Images/Cups.png);
+}
+.typeImage2{
+	background-image:url(../Images/Grounds.png);
+}
+.typeImage3{
+	background-image:url(../Images/Bean.png);
+}
+.typeImage1, .typeImage2, .typeImage3{
+	height:263px;
+	width:263px;
+	transition: 1s;
+	-webkit-transition: 1s;
+	background-size:253px 243px;
+	background-position:5px 25px;
+	margin: 10px 0px 0px 10px;
+	background-repeat:no-repeat;
+}
+.typeShowcase:hover .typeImage1, .typeShowcase:hover .typeImage2, .typeShowcase:hover .typeImage3{
+	background-position:5px -10px;
+}
+.typeImage1:hover, .typeImage2:hover{
+	box-shadow:0px 0px 0px #520 inset;
+}
+.typeDescription{
+	position:relative;
+	z-index:5;
+	height:50px;
+	width:243px;
+	padding:150px 20px 0px 20px;
+	font-weight:bold;
+}
+.typeSize, .typeCost{
+	font-size:20px;
+}
+.typeCost{
+	display:block;
+	float:right;
+	text-align:right;
+}
+.typeSize{
+	display:block;
+	float:left;
+}
+form{
+	display:block;
+	width: 940px;
+	text-align:center;
+	position:relative;
+	margin:-30px auto 50px auto;
+	z-index:20;
+	height: 0px;
+	margin: 50px auto 500px;
+}
+form input{
+	width:70px;
+	position:absolute;
+	top:-400px;
+	background-color: rgba(255,255,255,0.5);
+    border: none;
+	border-bottom: solid 2px #520;
+	font-size:20px;
+	font-family:Arial, Helvetica, sans-serif;
+	padding:10px;
+	text-align:center;
+	height:30px;
+}
+form input:first-of-type{
+	left:120px;
+}
+form input:nth-of-type(2){
+	left:425px;
+}
+form input:nth-of-type(3){
+	right:120px;
+	
+}form button{
+	transition:.5s;
+	-webkit-transition:.5s;
+	padding:5px;
+	margin:10px auto 20px auto;
+	text-transform:uppercase;
+	display:block;
+	font-size:24px;
+	font-weight:bold;
+	width:250px;
+	height:250px;
+	border-radius:50%;
+	background-image:url(../Images/Logo_Cart-01.png);
+	background-repeat:no-repeat;
+	background-size:200px 200px;
+	background-position:25px 25px;
+	background-color:transparent;
+	border:none;
+	box-shadow:0px 0px 15px #520 inset;
+	clear:both;
+}
+form button:hover{
+	box-shadow:0px 0px 0px #520 inset;
+}
+
+/*=== sales ===*/
+.sale{
+	padding:10px;
+	width:300px;
+	height:75px;
+	margin:-20px auto 70px auto;
+	border:double 10px rgba(255,255,255,.5);
+	text-align:center;
+	font-size:18px;
+	color:white;
+	font-weight:bold;
+	background-color:rgba(0, 0, 0, 0.07);
+	border-radius:10px;
+}
+.sale span{
+	color:white;
+}
