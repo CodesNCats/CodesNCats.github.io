@@ -159,7 +159,7 @@ form [type=submit]:hover{
 	
     <!-- Header --->
     
-    	<section id="logCart" class="f2"><a href="login.php">Log In</a>  <a href="cart.html">Your Cart</a></section>
+    	<section id="logCart" class="f2"><a href="#">Log In</a>  <a href="cart.html">Your Cart</a></section>
 	
 		<div class="mainMenu f3">
         	
