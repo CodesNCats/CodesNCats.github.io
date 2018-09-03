@@ -3,11 +3,58 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>Untitled Document</title>
+<style>
+	.port{
+		height:325px;
+		margin:10px;
+		width:225px;
+		
+	}
+	.title{
+		width:225px;
+		text-align:center;
+		font-size:14pt;
+		display:block;
+		font-weight:bold;
+		text-decoration:underline;
+		height:25px;
+	}
+	.description{
+		width:225px;
+		text-align:center;
+		display:block;
+		height:75px;
+	}
+	.window{
+		position:relative;
+		display:block;
+		width:225px;
+		height:225px;
+		overflow:hidden;
+	}
+	.jump{
+		display:block;
+		position:absolute;
+		top:0px;
+		left:0px;
+		width:225px;
+		height:225px;
+	}
+</style>
 </head>
 
 <body>
+<h1> Quick View Portfolio </h1>
 
-	<a href="DrakewellCoffee.com/index.html">Drakewell Coffee </a>
+<div class="port">
+	<span class="title"> Drakewell Coffee LLC </span>
+    <span class="description"> Due to hosting limitations and expired resources some features have been disabled </span>
+    <div class="window">
+	
+    	<iframe src="DrakewellCoffee.com/index.html" frameborder="0" scrolling="no" style="position:absolute;left:-520px; width:1280px; height:1200px;"> Drakewell Coffee </iframe>
+    <a href="DrakewellCoffee.com/index.html" class="jump"></a>
+    </div>
+</div>
 
 </body>
 </html>
