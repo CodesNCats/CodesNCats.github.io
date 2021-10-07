@@ -1,0 +1,1052 @@
+AWSTATS DATA FILE 7.4 (build 20140726)
+# If you remove this file, all statistics for date 201702 will be lost/reset.
+# Last config file used to build this data file was /home/psmallwood/tmp/awstats/awstats.psmallwood.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2013                
+POS_TIME 2694                
+POS_VISITOR 19811               
+POS_DAY 29149               
+POS_DOMAIN 3569                
+POS_LOGIN 4171                
+POS_ROBOT 4326                
+POS_WORMS 5017                
+POS_EMAILSENDER 5148                
+POS_EMAILRECEIVER 5291                
+POS_SESSION 29915               
+POS_SIDER 30124               
+POS_FILETYPES 5426                
+POS_DOWNLOADS 5641                
+POS_OS 5788                
+POS_BROWSER 6137                
+POS_SCREENSIZE 8116                
+POS_UNKNOWNREFERER 8190                
+POS_UNKNOWNREFERERBROWSER 8590                
+POS_ORIGIN 8940                
+POS_SEREFERRALS 9083                
+POS_PAGEREFS 9270                
+POS_SEARCHWORDS 9850                
+POS_KEYWORDS 10127               
+POS_MISC 2358                
+POS_ERRORS 10311               
+POS_CLUSTER 4027                
+POS_SIDER_404 10418               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20170301004444 177 34819 9050967879752
+FirstTime 20170201015217
+LastTime 20170228230023
+LastUpdate 20170301072031 177 0 176 0 0
+TotalVisits 349                 
+TotalUnique 224                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 239                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+TotalMisc 0 0 0
+PDFSupport 0 0 0
+FlashSupport 0 0 0
+AddToFavourites 0 0 0
+JavaEnabled 0 0 0
+DirectorSupport 0 0 0
+JavascriptDisabled 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+RealPlayerSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 17 22 293132 48 100 1638189
+1 34 37 573093 51 98 9599872
+2 70 75 950859 61 98 9074649
+3 21 22 284529 51 94 8763086
+4 26 61 1257291 38 83 887594
+5 17 60 17335772 32 71 771435
+6 17 79 1620319 40 104 17646805
+7 22 42 760734 37 104 881843
+8 44 90 2182941 44 158 9012682
+9 35 111 2840092 39 126 1223112
+10 30 74 1366764 53 145 17563631
+11 20 42 766081 43 137 9123042
+12 32 81 2049755 48 141 8747960
+13 32 84 2395691 33 95 663171
+14 18 48 1403110 51 172 1846535
+15 30 78 1470043 46 145 17948318
+16 29 53 9023581 54 179 8870700
+17 46 155 4675221 27 128 16501991
+18 26 29 400851 73 147 8825729
+19 37 99 91145673 32 104 8666947
+20 27 37 702199 63 221 10068797
+21 51 99 2327567 283 650 787188
+22 47 103 3442275 39 133 610326
+23 37 81 1403725 37 147 522972
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 27
+us 579 1347 136192681
+fr 42 42 483271
+ca 34 58 934629
+cn 31 37 520394
+ru 16 43 1232943
+nl 12 25 1047774
+ua 10 10 157460
+de 9 10 8194100
+gb 5 25 520493
+tr 4 4 33642
+hk 3 8 103208
+it 3 3 47238
+id 3 15 481566
+se 2 2 31492
+no 1 1 15746
+br 1 21 466393
+cz 1 1 15746
+at 1 1 15746
+sa 1 1 15746
+ke 1 1 15746
+lv 1 1 15746
+ro 1 1 15746
+sk 1 1 15746
+au 1 1 15746
+md 1 1 15746
+in 0 1 50808
+pt 1 1 15746
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 14
+bot[\s_+:,\.\;\/\\-] 597 82012567 20170228224310 0
+bingpreview 205 6163027 20170227092100 0
+googlebot 201 19106129 20170228230045 0
+spider 135 42527672 20170228212544 0
+googlebot\-image 32 1165270 20170226134446 0
+crawl 27 413632 20170222055704 0
+checker 22 267023 20170224011923 0
+no_user_agent 22 306347 20170228032231 0
+google[_+\s]web[_+\s]preview 21 466393 20170201154026 0
+[\s_+:,\.\;\/\\-]bot 18 1102034 20170221022134 0
+robot 16 171780 20170222110348 0
+slurp 16 16370930 20170228181138 0
+scanner 2 13571 20170227114357 0
+php 2 65702 20170220145702 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 8
+jpg 744 24682704 0 0
+swf 24 1758111 0 0
+html 699 9528014 0 0
+php 10 10143 0 0
+pdf 14 113330966 0 0
+xml 32 331841 0 0
+js 91 934479 0 0
+css 48 95040 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 2
+/PDF/Philip%20Smallwood%20Brochure.pdf 32 0 259042208
+/Watercolor%20Magic%20Article.pdf 2 0 687232
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 21
+macosx6 26 4
+linuxubuntu 24 24
+winphone 1 1
+win8 4 3
+linux 56 54
+macosx7 33 8
+macosx9 98 64
+winnt 145 57
+Unknown 46 44
+win7 477 218
+winlong 2 2
+macosx 221 32
+winxp 35 13
+win2003 11 10
+unix 13 3
+ios_ipad 40 18
+ios_iphone 248 154
+win8.1 97 44
+macosx8 1 1
+linuxandroid 81 8
+macosx5 3 3
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 98
+chrome46.0.2490.80 3 3
+chrome54.0.2840.99 20 18
+mozilla 11 11
+chrome35.0.1916.47 1 1
+chrome32.0.1736.3 2 2
+firefox14.0.1 1 1
+safari 3 1
+chrome49.0.2623.112 28 3
+Unknown 36 34
+opera12.80 1 1
+chrome45.0.2454.93 1 1
+chrome10.0.649.0 12 12
+firefox49.0 1 1
+chrome22.0.1229.94 1 1
+samsung 3 0
+safari10.0.3 38 3
+safari9.1.1 21 1
+chrome44.0.2403.89 1 1
+chrome46.0.2490.86 1 1
+safari5.1.9 24 2
+firefox31.0 1 1
+chrome34.0.1847.137 18 16
+opera36.0.2130.32 5 5
+wget 17 17
+opera12.16 21 1
+firefox36.0 4 4
+chrome27.0.1453.90 5 5
+chrome29.0.1547.62 21 1
+msie8.0 12 5
+firefox20.0 5 5
+chrome41.0.2228.0 2 2
+chrome23.0.1271.95 4 4
+chrome41.0.2272.96 1 1
+chrome35.0.1916.114 14 11
+chrome36.0.1985.67 1 1
+chrome56.0.2924.87 220 29
+chrome36.0.1985.143 3 2
+firefox3.0.1 2 2
+chrome36.0.1985.125 6 6
+firefox29.0 28 24
+firefox4.0 2 2
+chrome28.0.1500.94 30 3
+safari9.1.3 28 3
+chrome55.0.2883.87 8 3
+chrome35.0.1916.153 1 1
+chrome34.0.1847.131 35 29
+chrome12.0.742.112 24 24
+safari5.1 3 2
+chrome27.0.1453.110 1 1
+firefox39.0 2 2
+firefox23.0 1 1
+firefox50.0 2 2
+msie11 1 1
+firefox15.0.1 1 1
+chrome42.0.2325.47 2 2
+chrome10.0.648.204 4 4
+iphone 27 2
+chrome55.0.2883.95 93 16
+firefox51.0 44 12
+chrome43.0.2357.81 1 1
+chrome34.0.1875.73 2 2
+safari8.0 11 7
+msie9.0 39 34
+chrome34.0.1866.237 1 1
+chrome48.0.2564.109 4 4
+chrome12.0.742.100 12 12
+chrome44.0.2413.65 1 1
+firefox44.0 1 1
+chrome34.0.1847.116 1 1
+firefox22.0 8 4
+chrome40.0.2214.115 7 7
+chrome44.0.2403.125 2 2
+firefox48.0 3 3
+safari5.0.6 1 1
+firefox21.0 15 13
+chrome48.0.2564.103 4 4
+firefox28.0 24 21
+firefox40.1 8 8
+safari10.0 230 164
+android 1 0
+firefox30.0 1 1
+msie10.0 13 10
+chrome38.0.2125.111 1 1
+msie11.0 79 16
+chrome55.0.2883.105 13 3
+firefox17.0 21 3
+msie6.0 1 1
+chrome13.0.782.41 1 1
+safari9.0 35 3
+chrome37.0.2062.120 114 34
+chrome26.0.1410.58 1 0
+chrome37.0.2062.124 1 1
+firefox3.6.3 1 1
+safari5.0.2 1 1
+chrome55.0.2883.91 46 4
+safari7.0.3 19 17
+chrome52.0.2743.116 17 15
+msie7.0 13 11
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 8
+nutch-1.4/Nutch-1.4 20170219082813
+Go-http-client/1.1 20170221092826
+Faraday_v0.9.1 20170225142737
+Ruby 20170225142742
+panscient.com 20170218022535
+Mozilla/5.0_(compatible;_ScoutJet;__http://www.scoutjet.com/) 20170208142004
+python-requests/2.9.1 20170211133925
+Mozilla/5.0_(compatible;_ips-agent) 20170210015312
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 7
+nutch-1.4/Nutch-1.4 20170219082813
+panscient.com 20170218022535
+python-requests/2.3.0_CPython/3.4.0_Linux/4.4.35-33.55.amzn1.x86_64 20170226074427
+Faraday_v0.9.1 20170225142737
+python-requests/2.9.1 20170211133925
+Go-http-client/1.1 20170221092826
+Ruby 20170225142742
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 503 523
+From1 3 3
+From2 37 54
+From3 13 14
+From4 209 1068
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 4
+google 30 47
+yandex 2 2
+baidu 4 4
+bing 1 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 8
+http://burger-imperia.com 6 6
+http://hundejo.com 2 2
+http://hamptonsarthub.com/2017/02/21/reviews-art-review-african-american-artists-draw-on-realisms-aesthetic-strengths/ 1 1
+http://anonymizeme.pro/go/hide.cgi 1 1
+http://paintingthehamptons.blogspot.com/2017/02/expanding-tradition-at-grenning-gallery.html 1 1
+http://pizza-imperia.com 1 1
+http://pizza-tycoon.com 1 1
+http://dattiliostudio.com/new-milford-new-jersey-taxi.html 0 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 3
+p.smallwoodart%7corignialwatercolorartandlimitededitionprints 4
+philip+smallwood+new+york+times 1
+phillip+smallwood+artist 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 8
+p.smallwoodart%7corignialwatercolorartandlimitededitionprints 4
+smallwood 2
+york 1
+philip 1
+new 1
+times 1
+artist 1
+phillip 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 3
+404 1989 0
+301 2 0
+206 7 94497
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 323
+/was/main.html 2 -
+/plus/download.php 2 -
+/tpl/user/tpl1/css/skins/blue.css 2 -
+/custom/SkinTemplate/skin/public/images/sys-logo-1caitong-180.jpg 2 -
+/plugins/filemanager/filemanager/js 2 -
+/admin/login.asp 2 -
+/coremail/common/help/images/helplogo_zh.gif 2 -
+/wp/wp-admin/setup-config.php 2 -
+/apple-touch-icon.png 205 -
+/static/images/logo/webserver_small.gif 2 -
+/docs/ 2 -
+/API/DW/Dwplugin/TemplateManage/manage_site.htm 2 -
+/CuteSoft_Client/CuteEditor/Style/IE.css 2 -
+/siteserver/upgrade/default.aspx 2 -
+/help/ch_gb/images/help-title.gif 2 -
+/apple-touch-icon-152x152.png 16 -
+/plus/sitemap.html 2 -
+/Prompt/images/P_Wrong.gif 2 -
+/ks_inc/ajax.js 2 -
+/uc_server/control/admin/db.php 2 -
+/plug/publish 2 -
+/addons/theme/stv2/_static/ts2/layout.css 2 -
+/index.php 12 -
+/datacenter/downloadApp/showDownload.do 2 -
+/Template/Default/Skin/user/images/login_back.jpg 2 -
+//wp-login.php 1 -
+/next/img/logo.gif 2 -
+/xmlrpc.php 8 -
+/sypex/dumper.php 1 -
+/data/rss 2 -
+/dump/dumper.php 1 -
+/kindeditor-min.js 2 -
+/feed.asp 2 -
+/forums/list.page 2 -
+/jcms/index_jcms.jsp 2 -
+/store. 1 -
+/images/branding/logo.gif 2 -
+/feed 2 -
+/test/wp-login.php 1 -
+/old/wp-admin/setup-config.php 1 -
+/UserCenter/css/admin/bgimg/admin_all_bg.png 2 -
+/feeds/posts/default 2 -
+/maintlogin.jsp 2 -
+/Site/Pages/WebResources.ashx/PoweredByKodakImage 2 -
+/ymail/images/index_r1_c4.jpg 2 -
+/FCK/fckeditor.js 2 -
+/atom.xml 2 -
+/app/Tpl/fanwe_1/js/DD_belatedPNG_0.0.8a-min.js 2 -
+/admin/SouthidcEditor/ButtonImage/standard/componentmenu.gif 2 -
+/admin/inc/xml.xslt 2 -
+/ckfinder/ckfinder.html 2 -
+/wp/ 7 -
+/Install/logo.gif 2 -
+/examples/file-manager.html 2 -
+/console/js/CWCMDialogHead.js 2 -
+/examples/readonly.html 2 -
+/old/dumper.php 1 -
+/administrator/index.php 1 -
+/inc/Templates/rss.xslt 2 -
+/back/scripts/jspxcms_choose.js 2 -
+/template/home.htm 2 -
+/API/DW/Dwplugin/TemplateManage/login_site.htm 2 -
+/Public/Admin/Images/login_main_bg.jpg 2 -
+/wp-content/plugins/g-translate/readme.txt 1 -
+/apps/admin/_static/image/login_box_bg.png 2 -
+/temp/dumper.php 1 -
+/images/default/post_bt.gif 2 -
+/editor/js/fckeditorcode_ie.js 2 -
+/history.txt 2 -
+/Include/EcsServerApi.js 2 -
+/images/logo_88x31.gif 2 -
+/clientscript/vbulletin_ajax_htmlloader.js 2 -
+/img/pic/login/top-left.jpg 2 -
+/API/DW/Dwplugin/SystemLabel/SiteConfig.htm 2 -
+/license.txt 2 -
+/examples/index.html 2 -
+/index.rdf 2 -
+/includes/general.js 2 -
+/Images/login/mainlogo.gif 2 -
+// 1 -
+/scripts/swfobject_modified.js 1 -
+/License.txt 2 -
+/e/master/login.aspx 2 -
+/imagesschool/style1/flash2.jpg 2 -
+/style/default/hdwiki.css 2 -
+/plugin.php 2 -
+/base/login/login.php 2 -
+/images/zh-CN/logo.ico 2 -
+/doku.php 2 -
+/Help 2 -
+/digg.php 2 -
+/business/images/index-gg1.jpg 2 -
+/rss.php 2 -
+/Admin/Login.aspx 2 -
+/ids/admin/login.jsp 2 -
+/m 2 -
+/app/home/skins/default/style.css 2 -
+/apple-touch-icon-precomposed.png 205 -
+/api/api_user.xml 2 -
+/portal/index.php 47 -
+/index.cgi 2 -
+/README.txt 2 -
+/en/wp-login.php 2 -
+/docs.css 2 -
+/themes/default/graphics/horde-power1.png 2 -
+/system/Login.aspx 2 -
+/lang/en.js 2 -
+/home/wp-login.php 1 -
+/app/images/login/logo.png 2 -
+/ckfinder/install.txt 2 -
+/admin/SouthidcEditor/Dialog/dialog.js 2 -
+/pub/guiedit/guiedit.js 2 -
+/console/js/CTRSRequestParam.js 2 -
+/user 1 -
+/app/images/login/toplogo.gif 2 -
+/themes/default/default.css 2 -
+/data/admin/ver.txt 2 -
+/bencandy.php 2 -
+/inc/playerKinds.xml 2 -
+/User/Login.aspx 2 -
+/ckeditor/ckeditor.js 2 -
+/extman/default/images/logo.gif 2 -
+/images/Default_bg_002.gif 2 -
+/images/2_11.gif 2 -
+/system/language/zh-cn.xml 2 -
+/plus/rssmap.html 2 -
+/app/login.jsp 2 -
+/images/login/logo.gif 2 -
+/Admin/Images/LoginImages/admin_top.gif 2 -
+/Admin/Common/HelpLinks.xml 2 -
+/apple-touch-icon-120x120.png 189 -
+/web/wp-login.php 1 -
+/dumper.php 1 -
+/cms/wp-login.php 2 -
+/console/auth/reg_newuser.jsp 2 -
+/fckeditor.js 2 -
+/stylesheet.css 2 -
+/admin/login.aspx 2 -
+/media/com_hikashop/js/hikashop.js 2 -
+/Images/login/biaoti.jpg 2 -
+/issmall/ 2 -
+/app/js/source/wcmlib/WCMConstants.js 2 -
+/wp-config.php 1 -
+/wordpress/wp-login.php 1 -
+/kindeditor.js 2 -
+/admin/admin_login.php 2 -
+/www/dumper.php 1 -
+/Scripts/jquery/maticsoft.jquery.min.js 2 -
+/common/common.js 2 -
+/plus/heightsearch.php 2 -
+/customdir/images/english_logo.jpg 2 -
+/administrator/manifests/files/joomla.xml 2 -
+/Admin/Images/LoginImages/admin_text.gif 2 -
+/robots.txt 460 -
+/images/logo_product-cml.png 2 -
+/admin.php 5 -
+/static/hgicon.png 2 -
+/include/dedeajax2.js 2 -
+/common/help/images/helplogo.gif 2 -
+/ 6 -
+/test_404_page/ 2 -
+/wp-login.php 17 -
+/skin/frontend/default/modern/css/styles.css 2 -
+/rss.xml 2 -
+/news/wp-login.php 2 -
+/fckeditor/fckconfig.js 2 -
+/js/buttons.js 2 -
+/archiver/ 2 -
+/Ntalker/lawfirm.aspx 2 -
+/templates/jsn_glass_pro/ext/hikashop/jsn_ext_hikashop.css 2 -
+/jcms/index.jsp 2 -
+/master/login.aspx 2 -
+//cgi-sys/realsignup.cgi 1 -
+/admin/js/IdSUtil.js 2 -
+/blog/feed 2 -
+/siteserver/login.aspx 2 -
+/archive/archive.css 2 -
+/archiver 2 -
+/was/help.jsp 2 -
+/asp.net/README.txt 2 -
+/ckeditor/ckfinder/install.txt 2 -
+/administrator/dumper.php 1 -
+/whir_system/module/security/login.aspx 2 -
+/web2/login_template/1.files/Logo1.jpg 2 -
+/ids/admin/userhome/forgetPwd.jsp 2 -
+/include/dialog/config.php 2 -
+/admin/dumper.php 1 -
+/backup/dumper.php 1 -
+/sxd/dumper.php 1 -
+/auth/login 2 -
+/forum/ 2 -
+/wp-cron.php 2 -
+/apple-touch-icon-120x120-precomposed.png 189 -
+/FCK/editor/js/fckeditorcode_ie.js 2 -
+/Site/SystemThemes/7917A0869761B5458281E407AE0090F5/Images/ISBanner58px.jpg 2 -
+/Wq_StranJF.js 2 -
+/licence.txt 2 -
+/API/DW/Dwplugin/ThirdPartyTags/SiteFactory.xml 2 -
+/advfile/ad12.js 2 -
+/dumper/dumper.php 1 -
+/Scripts/application/x-shockwave-flash 2 -
+/apple-touch-icon-152x152-precomposed.png 16 -
+/CuteSoft_Client/CuteEditor/ImageEditor/listfiles.aspx 2 -
+/wp-admin/admin-ajax.php 3 -
+/weblog/ 2 -
+/wordpress/wp-admin/setup-config.php 2 -
+/template/1/bluewise/_files/jspxcms.css 2 -
+/helpnew/faq/faq_simple_zh_CN.jsp 2 -
+/nobody/mobile.htm 2 -
+/phpmyadmin/ 2 -
+/adminsoft/templates/images/login_bg_top.jpg 2 -
+/pub/skins/pmwiki/pmwiki.css 2 -
+/phpmyadmin/themes/original/img/logo_right.png 2 -
+/application/x-shockwave-flash 2 -
+/readme.html 3 -
+/blog/wp-login.php 1 -
+/logo/logo_jw.png 2 -
+//cgi-bin/test-cgi 1 -
+/images/login/eyoumail.gif 2 -
+/fckeditor/fckeditor.js 2 -
+/script/valid_formdata.js 2 -
+/CuteSoft_Client/CuteEditor/Images/log.gif 2 -
+/data/atom 2 -
+/dialog/dialog.js 2 -
+/404.jpg 2 -
+/fckeditor/editor/dtd/fck_dtd_test.html 2 -
+/wp-content 2 -
+/media/logo_img.php 2 http://www.psmallwood.com/media/logo_img.php
+/wp/wp-login.php 1 -
+/admin/login.php 2 -
+/fckeditor/license.txt 2 -
+/script/login.js 2 -
+/Error.aspx 2 -
+/admin/start/index.php 2 -
+/coremail/common/help/images/helplogo.gif 2 -
+/default/images/logo.gif 2 -
+/images/logo-white.png 2 -
+/tpl/login/user/images/login_bg_1.jpg 2 -
+/ckeditor/ckfinder/ckfinder.html 2 -
+/blog/ 9 -
+/Search.html 2 -
+/db/dumper.php 1 -
+/common/help/images/helplogo_zh.gif 2 -
+/administrator 1 -
+/update.php 3 -
+/phpmyadmin/docs.css 2 -
+/admin/index.php 2 -
+/wcm/ 2 -
+/help/en/h_authenticate.html 2 -
+/fckeditor/editor/js/fckeditorcode_ie.js 2 -
+/help/user/index.html 2 -
+/admin/template/article_more/config.htm 2 -
+/v3flashslideshow/(No%20data%20file%20specified) 2 -
+/wp-config-sample.php 1 -
+/sites/psmallwood.com/settings 1 -
+/blog/robots.txt 7 -
+/sites/default/settings 1 -
+/blog/wp-admin/setup-config.php 2 -
+/images/login/icon-up.gif 2 -
+/CuteSoft_Client/CuteEditor/Help/default.htm 2 -
+/rss.aspx 2 -
+/ycportal/js/wbTextBox/showimg.jsp 2 -
+/wordpress/ 7 -
+/addons/theme/stv1/_static/ts2/layout.css 2 -
+/bbs/ 2 -
+/rss 4 -
+/max-templates/classic/styles/app.css 2 -
+/login/Jeecms.do 2 -
+/blogs/wp-login.php 1 -
+/portal/ 9 -
+/public/js/ipb.js 2 -
+/CHANGELOG.txt 2 -
+/vmskdl44rededd 2 -
+/index.php/feed/ 2 -
+/text/css 2 -
+/Editor.js 2 -
+/forum.php 2 -
+/list.php 2 -
+/new_gb/help/images/usage/3.3.gif 2 -
+/extern.php 2 -
+/N0WaY/N0WaY1bb2/N0WaY123.php 2 -
+/wp/index.php 1 -
+/API/DW/Dwplugin/TemplateManage/save_template.htm 2 -
+/console/include/not_login.htm 2 -
+/admin/ 2 -
+/docs/DOCUMENTATION.txt 2 -
+/webbuilder/script/locale/wb-lang-zh_CN.js 2 -
+/wordpress/index.php 1 -
+/Scripts/text/css 2 -
+/deptWebsiteAction.do 2 -
+/configuration.php 1 -
+/themes/graphics/horde-power1.png 2 -
+/cgi/index.cgi 2 -
+/was5/web/index.jsp 2 -
+/changelog.txt 2 -
+/admin/SouthidcEditor/ewebeditor.asp 2 -
+/inc/rsd.php 2 -
+/whir_system/login.aspx 2 -
+/index.xml 2 -
+/install 2 -
+/tools/rss.aspx 2 -
+/admin 2 -
+/N0Wccvvd333.php 2 -
+/images/hwem.css 2 -
+/new/wp-login.php 1 -
+/plugins/anchor/anchor.js 2 -
+/site/wp-login.php 1 -
+/public/about.html 2 -
+/editor/fckeditor.js 2 -
+/admin/editor/ 2 -
+/include/install_ocx.aspx 2 -
+/images/login9/login_33.jpg 2 -
+/eams/static/scripts/grade/course/input.js 2 -
+/sitemap.xml 2 -
+/member/space/company/info.txt 2 -
+/data/images/wap_logo.gif 2 -
+/javascripts/logo_img.php 1 http://www.psmallwood.com/javascripts/logo_img.php
+/system/skins/default/system.login.htm 2 -
+/default/css/em_css.css 2 -
+/Images/login/lefttu.jpg 2 -
+/js/ajax_x.js 2 -
+/images/login_Name.jpg 2 -
+/system/Update.aspx 2 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 239
+71.178.237.187 134 154 2560611 20170228220730
+72.79.57.172 27 29 390427 20170218022535
+94.23.40.23 24 24 272340 20170225020403
+138.197.111.243 18 18 230214 20170223211836
+123.125.125.250 17 17 267682 20170225095157
+54.90.174.54 14 14 167662 20170226024415
+158.69.228.25 13 15 181358 20170219175525
+37.59.55.128 12 12 136170 20170211010419
+68.205.102.219 12 42 1737582 20170226221818
+142.4.215.116 12 12 136170 20170224022317
+69.58.178.57 11 11 135586 20170210015312
+40.132.71.160 11 51 1817893 20170214131454
+38.100.21.78 10 11 121820 20170222195220
+138.197.73.64 9 9 115107 20170216034250
+40.85.182.184 9 9 115107 20170201042637
+45.55.50.168 9 9 115107 20170210155546
+138.197.111.170 9 9 115107 20170209033239
+138.197.73.157 9 9 115107 20170204050815
+13.90.209.21 9 9 115107 20170228071129
+138.197.96.240 9 9 115107 20170214120539
+138.197.11.168 9 9 115107 20170228083056
+138.197.73.72 9 9 115107 20170205225247
+138.197.69.240 9 9 115107 20170212044631
+138.197.96.212 9 9 115107 20170222105419
+138.197.96.199 9 9 115107 20170202093151
+192.99.9.164 1 1 15746 20170228124006
+38.140.157.84 1 1 15746 20170208084448
+69.244.130.69 1 21 466393 20170222060540
+108.6.137.177 3 28 1141729 20170212083533
+109.87.36.111 1 1 15746 20170205011735
+217.172.40.94 1 1 15746 20170227213843
+75.73.44.218 4 13 292683 20170201222407
+220.181.108.109 0 1 7077 
+98.221.145.254 0 1 81464 
+138.197.111.51 1 2 22823 20170215151510
+104.154.153.179 3 23 497885 20170223080230
+207.195.235.117 1 1 6643 20170227230745
+138.197.2.254 1 2 22823 20170210160635
+47.216.180.221 3 25 508078 20170219173210
+138.197.111.45 1 2 22823 20170213130504
+187.41.119.218 1 21 466393 20170228230023
+149.5.113.190 1 1 5749 20170227230748
+85.93.31.106 1 1 5013 20170227232524
+66.87.81.114 1 1 15746 20170206102636
+138.197.111.90 1 2 22823 20170203060516
+23.80.142.236 2 2 7044 20170227183218
+173.175.69.77 1 1 15746 20170212085510
+66.87.80.177 3 3 47238 20170222203346
+54.224.168.105 3 3 47238 20170225142742
+66.87.80.180 1 1 15746 20170220165812
+220.181.51.103 0 1 1980 
+138.197.111.114 1 2 22823 20170216162619
+36.81.22.35 1 1 15746 20170201221024
+24.185.219.84 2 24 525154 20170220115513
+138.197.64.75 1 2 22823 20170226191955
+88.99.68.199 1 1 15746 20170217154359
+109.86.71.234 2 2 31492 20170210095320
+198.240.123.151 1 1 15746 20170216164414
+138.197.6.76 1 2 22823 20170205101609
+185.35.21.161 1 1 4733 20170227232523
+193.70.14.60 1 1 15746 20170223123816
+62.210.245.138 1 1 15746 20170221075335
+138.197.11.92 1 2 22823 20170224121448
+198.27.85.233 1 1 15746 20170226204813
+88.99.27.172 1 1 6862 20170222210331
+40.122.170.235 0 2 16190138 
+78.109.23.1 1 1 15746 20170221101108
+138.197.13.94 1 2 22823 20170227132907
+65.19.167.132 1 1 15746 20170221055744
+128.72.221.187 3 10 700139 20170226224058
+138.197.11.160 1 2 22823 20170223193446
+197.237.175.78 1 1 15746 20170219082115
+107.72.162.28 2 22 482139 20170204154638
+54.89.91.173 1 1 15746 20170218101436
+23.106.164.57 2 2 7044 20170204181344
+104.162.116.31 3 28 1141729 20170220145633
+54.172.18.248 3 23 497885 20170220104420
+88.85.253.38 1 1 15746 20170214024502
+213.239.205.118 2 2 31492 20170204011125
+63.240.132.85 0 2 57080 
+47.21.5.194 3 28 1141729 20170207091326
+109.163.234.7 1 1 15746 20170221091811
+125.64.94.206 6 6 94476 20170219214318
+138.197.111.57 2 4 45646 20170222212453
+185.75.243.174 1 1 15746 20170227230745
+52.23.178.244 3 23 497885 20170213152721
+138.197.111.123 1 2 22823 20170217160931
+84.51.157.211 1 21 466393 20170214065056
+92.63.91.84 1 1 15746 20170213085421
+24.73.152.114 0 1 13137 
+50.167.149.184 3 28 1141729 20170204213919
+52.36.25.179 1 21 466393 20170215193248
+220.181.108.155 1 1 15746 20170227155124
+46.229.167.149 2 2 31492 20170222050811
+52.71.155.178 5 5 47710 20170226231750
+52.203.88.122 1 1 6028 20170213150003
+46.101.2.35 1 1 15746 20170224174640
+149.5.113.88 1 1 20905 20170227230740
+220.181.108.147 0 1 7077 
+185.146.168.19 1 1 15746 20170223202512
+216.69.191.98 1 1 15746 20170205063830
+138.197.111.49 1 2 22823 20170207100741
+178.137.83.79 1 1 15746 20170225194850
+138.197.10.222 1 2 22823 20170225234405
+73.184.194.125 3 30 1181129 20170209170454
+104.155.174.233 4 4 49526 20170228060302
+94.103.44.20 1 1 6028 20170227230744
+52.86.138.81 1 1 6862 20170206080245
+104.36.17.234 1 1 15746 20170228212108
+138.197.3.203 1 2 22823 20170225043811
+54.210.88.216 2 2 12056 20170220121347
+54.210.45.10 2 2 13724 20170220111900
+61.135.190.103 0 1 7077 
+144.217.80.113 2 2 31492 20170208181851
+216.79.145.22 1 9 247057 20170207132032
+172.56.23.145 1 21 466393 20170218163522
+61.135.190.221 2 2 31492 20170206020725
+104.207.133.17 1 1 15746 20170211133925
+206.217.206.179 1 1 6862 20170227230742
+199.87.254.25 1 1 15746 20170208142004
+54.203.117.63 1 1 15746 20170212101921
+172.0.48.20 1 1 15746 20170203213942
+45.55.155.171 1 1 15746 20170215034304
+138.197.111.85 1 2 22823 20170218130510
+54.91.16.247 4 4 62984 20170226231022
+138.197.111.19 1 2 22823 20170206103303
+95.65.30.156 1 1 15746 20170214012356
+94.103.44.7 1 1 7135 20170227230746
+198.240.100.200 1 1 15746 20170226063512
+66.87.81.90 1 1 15746 20170216135510
+131.253.36.203 3 4 161215 20170201015232
+54.165.146.185 3 23 497885 20170227161011
+69.114.1.194 1 21 466393 20170204125045
+54.90.69.47 1 3 24803 20170225142737
+54.88.104.5 2 22 482139 20170206070012
+54.165.146.27 2 2 13724 20170227180916
+98.208.83.163 4 27 561930 20170201235636
+138.197.111.17 1 2 22823 20170221234519
+104.197.154.223 2 4 40549 20170221043846
+178.33.217.31 1 1 15746 20170202155346
+23.82.184.79 2 2 7045 20170223181300
+61.135.190.223 0 1 7077 
+66.87.81.158 1 1 15746 20170205165123
+138.197.111.119 1 2 22823 20170204081150
+167.114.158.43 2 2 31492 20170228161503
+216.146.135.97 1 1 30293 20170227230743
+71.7.181.145 1 1 15746 20170227224903
+185.169.229.167 3 3 22505 20170204114759
+148.75.127.38 3 28 1141729 20170211125934
+32.210.169.158 0 5 245539 
+104.156.230.231 1 1 15746 20170215102453
+192.36.27.6 1 1 15746 20170222015739
+66.87.80.114 1 1 15746 20170218232403
+54.212.223.214 1 1 15746 20170211001220
+45.32.130.173 1 1 15746 20170207044659
+203.36.233.178 1 1 15746 20170227225647
+54.90.57.106 4 4 62984 20170225200303
+205.237.93.30 1 1 15746 20170222224930
+138.197.111.124 1 2 22823 20170202031152
+138.197.111.116 1 2 22823 20170214140253
+107.72.164.47 0 3 102002 
+193.90.12.86 1 1 15746 20170221194449
+54.159.27.107 2 2 12056 20170227182335
+138.197.11.151 1 2 22823 20170220061440
+5.230.31.120 1 1 1018 20170226121014
+180.251.120.249 1 1 15746 20170205010126
+54.144.135.96 4 4 62984 20170212183209
+123.125.71.57 0 1 1980 
+64.223.181.131 3 13 359965 20170214094244
+99.173.178.19 6 44 90255479 20170220193053
+45.32.129.200 1 1 15746 20170223184554
+95.211.138.129 2 2 31492 20170220081006
+45.21.201.153 1 1 15746 20170214090625
+66.240.236.119 1 1 15746 20170227224215
+23.106.27.73 1 1 6028 20170222194557
+73.211.124.62 3 11 256287 20170223223929
+220.181.108.163 1 1 15746 20170218141050
+204.185.137.124 0 1 81464 
+52.7.132.65 1 1 15746 20170209095149
+172.93.104.138 1 1 15746 20170227155947
+54.91.28.61 1 1 15746 20170210195956
+66.87.80.244 1 1 15746 20170221172504
+24.45.40.216 1 6 93978 20170212001058
+94.6.171.30 1 1 15746 20170216141350
+46.161.9.20 8 8 28160 20170224204523
+54.145.62.161 1 1 15746 20170211202527
+144.214.115.248 3 8 103208 20170216201444
+52.90.205.150 1 1 15746 20170204193430
+23.82.186.144 2 2 7046 20170209172448
+77.248.42.78 5 18 937552 20170221173330
+85.248.227.163 1 1 15746 20170221062632
+89.187.142.208 1 1 15746 20170216200958
+66.87.80.136 2 2 31492 20170211152802
+136.243.17.161 2 2 14270 20170222210332
+52.200.43.245 1 1 15746 20170221092826
+117.78.13.53 1 1 15746 20170219082813
+86.148.223.87 1 1 15746 20170221192831
+185.38.14.171 1 1 15746 20170221095918
+138.197.7.44 1 2 22823 20170226012609
+85.93.31.146 1 1 15746 20170211052823
+138.197.104.23 1 1 15746 20170217175813
+138.197.111.27 2 4 45646 20170219100316
+98.224.245.251 3 28 1141729 20170228175103
+178.137.83.166 4 4 62984 20170214124300
+176.31.64.186 4 4 43269 20170226120958
+54.89.59.136 1 1 6028 20170206075136
+208.94.231.40 1 1 15746 20170214062520
+138.197.111.88 1 2 22823 20170209122602
+66.87.81.202 1 1 15746 20170205110913
+24.215.202.223 2 24 525154 20170210210138
+52.25.122.161 1 1 15746 20170215184735
+66.87.81.230 5 5 78730 20170228120946
+66.87.81.92 3 3 47238 20170215183640
+96.225.71.100 2 23 495401 20170224053730
+46.118.155.228 1 1 15746 20170201231402
+66.87.80.97 3 3 47238 20170201143024
+192.42.116.16 1 1 15746 20170209190845
+123.125.67.165 1 1 15746 20170217085531
+174.55.171.144 1 21 466393 20170212170301
+138.197.104.21 8 8 94202 20170207132213
+65.55.211.242 0 1 7077 
+79.168.106.239 1 1 15746 20170221082425
+65.200.177.5 5 28 560220 20170207150655
+138.197.111.108 1 2 22823 20170208095916
+5.9.112.6 1 2 8110815 20170222210332
+54.193.97.20 1 1 15746 20170214180511
+171.25.193.78 1 1 15746 20170203202158
+176.42.195.79 1 1 15746 20170224174119
+184.73.150.176 1 1 6862 20170213152832
+202.77.101.242 1 13 450074 20170202044248
+79.137.85.189 1 1 15746 20170212214327
+68.55.214.90 2 42 932786 20170222105456
+138.197.111.174 9 9 115107 20170220213541
+42.106.16.28 0 1 50808 
+176.195.122.30 1 21 466393 20170201043628
+79.137.81.168 1 1 15746 20170221141031
+54.159.191.7 1 1 15746 20170226074427
+61.135.190.102 2 2 31492 20170222220306
+208.72.118.109 1 1 4493 20170227232607
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 28
+20170201 31 84 1709867 13
+20170202 16 56 1441274 8
+20170203 12 14 277493 10
+20170204 30 96 2399454 15
+20170205 16 17 232406 8
+20170206 17 40 770893 13
+20170207 24 101 2611154 9
+20170208 5 6 85807 5
+20170209 19 47 1389089 8
+20170210 39 62 997824 8
+20170211 27 53 1473928 13
+20170212 24 74 1974667 9
+20170213 15 36 675312 11
+20170214 37 108 2971133 16
+20170215 14 35 678168 8
+20170216 25 33 16620228 12
+20170217 13 17 313777 7
+20170218 35 60 983176 9
+20170219 42 67 1079302 13
+20170220 37 144 100820740 16
+20170221 29 47 1341807 22
+20170222 44 89 1542829 23
+20170223 25 54 1009369 10
+20170224 29 51 850386 12
+20170225 33 37 490047 13
+20170226 57 96 3004959 18
+20170227 33 56 865141 28
+20170228 37 82 2061068 12
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+30mn-1h 11
+0s-30s 302
+15mn-30mn 5
+1h+ 9
+2mn-5mn 2
+30s-2mn 13
+5mn-15mn 7
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 27
+/ 417 6566082 299 266
+/about.html 44 301928 12 11
+/contact.html 42 253176 15 8
+/gallery.html 33 219219 3 5
+/media.html 31 648055 4 5
+/exhibit.html 30 214050 3 5
+/mailing_list.html 28 160972 6 3
+/store.html 27 817911 2 5
+/v3flashslideshow/slideshow.swf 13 1694758 0 0
+/slideshow.html 12 56796 1 4
+/v3flashslideshow/smallwoodhome.xml 11 144353 0 9
+/menu.swf 10 62580 0 0
+/FormToEmail.php 10 10143 1 10
+/menu.xml 9 26748 0 4
+/terms.html 9 45117 1 1
+/store2.html 8 180560 0 6
+/giclee_sizes.html 8 35944 1 1
+/v3flashslideshow/gallery.xml 6 88530 0 2
+/Scripts/ 4 1392 0 1
+/v3flashslideshow/recentwork.xml 3 43128 0 1
+/v3flashslideshow/ 2 1232 0 0
+/lifescapes.html 2 12330 0 1
+/recent_work.html 2 13250 1 0
+/sitemap.xml 1 2288 0 1
+/Scripts/expressInstall.swf 1 773 0 0
+/v3flashslideshow/slideshow.xml 1 13541 0 0
+/v3flashslideshow/urban-slideshow.xml 1 13253 0 0
+END_SIDER

@@ -1,0 +1,82 @@
+Return-Path: <>
+Delivered-To: psmallwood@bart.asoshared.com
+Received: from bart.asoshared.com
+	by bart.asoshared.com (Dovecot) with LMTP id UUW0JEpRFlk4BwEAcF9qlQ
+	for <psmallwood@bart.asoshared.com>; Fri, 12 May 2017 20:20:26 -0400
+Return-path: <>
+Envelope-to: psmallwood@bart.asoshared.com
+Delivery-date: Fri, 12 May 2017 20:20:26 -0400
+Received: from mailnull by bart.asoshared.com with local (Exim 4.88)
+	id 1d9KnK-000S6p-H2
+	for psmallwood@bart.asoshared.com; Fri, 12 May 2017 20:20:26 -0400
+X-Failed-Recipients: psmallwood2@verizon.net,
+  katherine@creative-launch.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@bart.asoshared.com>
+To: psmallwood@bart.asoshared.com
+Content-Type: multipart/report; report-type=delivery-status; boundary=1494634826-eximdsn-1713649077
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1d9KnK-000S6p-H2@bart.asoshared.com>
+Date: Fri, 12 May 2017 20:20:26 -0400
+
+--1494634826-eximdsn-1713649077
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  psmallwood2@verizon.net
+    host smtp.mailchannels.net [52.40.57.148]
+    SMTP error from remote mail server after end of data:
+    550 5.7.1 [CS] Message blocked. If this is a false positive, please report this to your hosting service provider. See https://console.mailchannels.net/insights/bounce?auid=asmallorange&sender=psmallwood%40bart.asoshared.com&txid=2509a8f57e24263b
+  katherine@creative-launch.com
+    host smtp.mailchannels.net [52.40.57.148]
+    SMTP error from remote mail server after end of data:
+    550 5.7.1 [CS] Message blocked. If this is a false positive, please report this to your hosting service provider. See https://console.mailchannels.net/insights/bounce?auid=asmallorange&sender=psmallwood%40bart.asoshared.com&txid=2509a8f57e24263b
+
+--1494634826-eximdsn-1713649077
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; bart.asoshared.com
+
+Action: failed
+Final-Recipient: rfc822;katherine@creative-launch.com
+Status: 5.0.0
+Remote-MTA: dns; smtp.mailchannels.net
+Diagnostic-Code: smtp; 550 5.7.1 [CS] Message blocked. If this is a false positive, please report this to your hosting service provider. See https://console.mailchannels.net/insights/bounce?auid=asmallorange&sender=psmallwood%40bart.asoshared.com&txid=2509a8f57e24263b
+
+Action: failed
+Final-Recipient: rfc822;psmallwood2@verizon.net
+Status: 5.0.0
+Remote-MTA: dns; smtp.mailchannels.net
+Diagnostic-Code: smtp; 550 5.7.1 [CS] Message blocked. If this is a false positive, please report this to your hosting service provider. See https://console.mailchannels.net/insights/bounce?auid=asmallorange&sender=psmallwood%40bart.asoshared.com&txid=2509a8f57e24263b
+
+--1494634826-eximdsn-1713649077
+Content-type: message/rfc822
+
+Return-path: <psmallwood@bart.asoshared.com>
+Received: from psmallwood by bart.asoshared.com with local (Exim 4.88)
+	(envelope-from <psmallwood@bart.asoshared.com>)
+	id 1d9KnJ-000S6S-5f; Fri, 12 May 2017 20:20:25 -0400
+To: katherine@creative-launch.com,psmallwood2@verizon.net
+Subject: P. Smallwood Art Comments
+X-PHP-Originating-Script: 1622:FormToEmail.php
+From: mjgmwllywwr@bxohmdbo.com
+Message-Id: <E1d9KnJ-000S6S-5f@bart.asoshared.com>
+Date: Fri, 12 May 2017 20:20:25 -0400
+
+Name: Chelsea Wallace
+
+Email: mjgmwllywwr@bxohmdbo.com
+
+Comments: This is a comment to the Contact Artist | P. Smallwood admin. Your website is missing out on at least 300 visitors per day. Our traffic system will  dramatically increase your traffic to your website: http://tdil.co/3p - We offer 500 free targeted visitors during our free trial period and we offer up to 30,000 targeted visitors per month. Hope this helps :)																				Unsubscribe here: http://acortarurl.es/97
+
+
+
+-- 
+Thank you for using FormToEmail from http://FormToEmail.com
+
+--1494634826-eximdsn-1713649077--

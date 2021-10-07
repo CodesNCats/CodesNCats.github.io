@@ -1,0 +1,135 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/masterTemplate.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>Portfolio</title>
+<!-- InstanceEndEditable -->
+<!-- InstanceBeginEditable name="head" -->
+<!-- InstanceEndEditable -->
+<link href="masterCSS.css" rel="stylesheet" type="text/css" />
+<script>
+		function includeHTML() {
+  			var z, i, elmnt, file, xhttp;
+ 			/* Loop through a collection of all HTML elements: */
+  			z = document.getElementsByTagName("*");
+  			for (i = 0; i < z.length; i++) {
+   				elmnt = z[i];
+    			/*search for elements with a certain atrribute:*/
+    			file = elmnt.getAttribute("w3-include-html");
+    			if (file) {
+      			/* Make an HTTP request using the attribute value as the file name: */
+      			xhttp = new XMLHttpRequest();
+      			xhttp.onreadystatechange = function() {
+        			if (this.readyState == 4) {
+          				if (this.status == 200) {elmnt.innerHTML = this.responseText;}
+          				if (this.status == 404) {elmnt.innerHTML = "Page not found.";}
+          				/* Remove the attribute, and call this function once more: */
+          				elmnt.removeAttribute("w3-include-html");
+          				includeHTML();
+        			}
+      			}
+      			xhttp.open("GET", file, true);
+      			xhttp.send();
+      			/* Exit the function: */
+      			return;
+    		}
+  		}
+	}
+</script> 
+<script type="text/jscript" src="Parts/jquery-3.4.1.min.js"></script>
+<script type="text/jscript" src="Parts/jquery.smoothState.js"></script>
+<script type="text/jscript" src="Parts/custom.js"></script>
+</head>
+
+<body>
+<div w3-include-html="Parts/mainMenu.html"></div>
+<div id="main" class="">
+<!-- InstanceBeginEditable name="body" -->
+
+<div class="wrapper scene_element fadeLeft">
+
+<div class="section "><span class="sectionTitle">Web Materials (PHP disabled)</span>
+
+	<div class="port">
+		<span class="title"> Drakewell Coffee LLC </span>
+    	<span class="description">  </span>
+    	<div class="window">
+    		<iframe src="DrakewellCoffee.com/index.html" frameborder="0" scrolling="no" style="position:absolute;left:-520px; width:1280px; height:1200px;"> Drakewell Coffee </iframe>
+			<a target="_blank" href="DrakewellCoffee.com/index.html" class="jump"></a>
+    	</div>
+	</div>
+    
+    <div class="port">
+		<span class="title"> Smallwoodprints.com </span>
+    	<span class="description">  </span>
+    	<div class="window">
+    		<iframe src="SmallwoodPrints.com/index.html" frameborder="0" scrolling="no" style="position:absolute;left:-450px; top:-800px; width:1280px; height:1200px;"> SmallwoodPrints.com </iframe>
+			<a target="_blank" href="SmallwoodPrints.com/index.html" class="jump"></a>
+    	</div>
+	</div>
+    
+    <div class="port">
+		<span class="title"> Smallwood.com </span>
+    	<span class="description">  </span>
+    	<div class="window">
+    		<iframe src="Smallwood.com/index.html" frameborder="0" scrolling="no" style="position:absolute;left:-390px; width:1280px; height:1200px;"> Smallwood.com </iframe>
+			<a target="_blank" href="Smallwood.com/index.html" class="jump"></a>
+    	</div>
+	</div>
+</div>
+
+<div class="section"><span class="sectionTitle">Printed Materials</span>
+
+	<div class="port">
+		<span class="title"> P.F. Sheets </span>
+    	<span class="description"> Freelance work for a local gameing group. Created using Illistrator and provided source material </span>
+		<a target="_blank" href="Portfolio/Pathfinder_Character_Sheet 2.0 (5e influence).pdf" style="background-image:url(Images/Pathfinder.png);background-size:contain;" class="window"></a>
+	</div>
+    
+    <div class="port">
+		<span class="title"> P.F. Spell Sheets </span>
+    	<span class="description"> Freelance work for local gaming group. Created using Illistrator and provided source material</span>
+		<a target="_blank" href="Portfolio/Pathfinder_Spell_Sheet.pdf" style="background-image:url(Images/Pathfinder.png);background-size:contain;" class="window"></a>
+	</div>
+    
+    <div class="port">
+		<span class="title"> P.F. Polymorph Sheet </span>
+    	<span class="description"> Freelance work for local gaming group. Created using Illistrator and provided source material </span>
+		<a target="_blank" href="Portfolio/Pathfinder_Polymorph_Sheet.pdf" style="background-image:url(Images/Pathfinder.png);background-size:contain;" class="window"></a>
+	</div>
+    
+    <div class="port">
+		<span class="title"> Talent Managment </span>
+    	<span class="description"> Printed media created while performing at Drakewell Group. Created using InDesign </span>
+		<a target="_blank" href="Portfolio/TriFold_TalentMangement.pdf" class="window"></a>
+	</div>
+    
+    <div class="port">
+		<span class="title"> Hanover Flyer </span>
+    	<span class="description"> Printed media created while working for Hanover Pharmacy. Created using Illistrator </span>
+		<a target="_blank" href="Portfolio/hanover_Flyer.pdf" class="window"></a>
+	</div>
+    
+     <div class="port">
+		<span class="title"> Cinder Menu </span>
+    	<span class="description"> Class work completed at Antham Institute. Created using InDesign </span>
+		<a target="_blank" href="Portfolio/Cinder_Menu.pdf" class="window"></a>
+	</div>
+    
+     <div class="port">
+		<span class="title"> African Safari </span>
+    	<span class="description"> Class work completed at Antham Institute. Created using InDesign </span>
+		<a target="_blank" href="Portfolio/brochure_template 2.0.pdf" class="window"></a>
+	</div>
+</div>
+
+</div>
+<!-- InstanceEndEditable -->
+</div>
+<!-- <div w3-include-html="Parts/footer.html"></div> -->
+<script>
+includeHTML();
+</script>
+</body>
+<!-- InstanceEnd --></html>

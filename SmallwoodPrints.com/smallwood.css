@@ -1,0 +1,111 @@
+@charset "utf-8";
+.header_tx {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	color: #81591B;
+	text-transform: lowercase;
+	text-align: center;
+}
+.menu_tbl {
+	float: left;
+	top: auto;
+	background-color: #FFF;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.home_headtx {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	text-transform: lowercase;
+	color: #FFF;
+}
+.back a {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #963;
+	text-decoration: none;
+}
+
+.body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000;
+	text-align: left;
+}
+.body_header {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	color: #81591B;
+	text-align: left;
+	text-transform: lowercase;
+}
+
+.copyright {
+	color: #FFF;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	text-align: center;
+}
+.subhead {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: #000;
+	text-align: left;
+}
+
+.img_lf {
+	float: left;
+	margin-top: 0px;
+	margin-right: 10px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+.copyright td a {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #FFF;
+	text-decoration: none;
+	text-transform: lowercase;
+}
+.img_rt {
+	float: right;
+}
+.print_titles {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #030;
+	font-weight: bold;
+}
+a:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #963;
+}
+a:link {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #000;
+	text-decoration: none;
+}
+.body a {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #000;
+	text-decoration: none;
+}
+.body a:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #963;
+}
+#back_button a .back {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #930;
+	text-decoration: none;
+}

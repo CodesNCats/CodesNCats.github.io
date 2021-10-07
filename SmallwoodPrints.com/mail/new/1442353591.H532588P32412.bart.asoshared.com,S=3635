@@ -1,0 +1,52 @@
+Return-path: <>
+Envelope-to: psmallwood@bart.asoshared.com
+Delivery-date: Tue, 15 Sep 2015 17:46:31 -0400
+Received: from mailnull by bart.asoshared.com with local (Exim 4.85)
+	id 1Zby3b-0008Qg-Ei
+	for psmallwood@bart.asoshared.com; Tue, 15 Sep 2015 17:46:31 -0400
+X-Failed-Recipients: psmallwood2@verizon.net,
+  katherine@creative-launch.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@bart.asoshared.com>
+To: psmallwood@bart.asoshared.com
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1Zby3b-0008Qg-Ei@bart.asoshared.com>
+Date: Tue, 15 Sep 2015 17:46:31 -0400
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  psmallwood2@verizon.net
+    host productio-tcloadba-tkyjfaz4ap1l-328615543.us-west-2.elb.amazonaws.com [54.214.243.124]
+    SMTP error from remote mail server after end of data:
+    550 5.7.1 [CS] Message blocked. If this is a false positive, please report this to your hosting service provider. https://console.mailchannels.net/insights/bounce?auid=asmallorange&sender=psmallwood%40bart.asoshared.com&txid=183ddb27
+  katherine@creative-launch.com
+    host productio-tcloadba-tkyjfaz4ap1l-328615543.us-west-2.elb.amazonaws.com [54.214.243.124]
+    SMTP error from remote mail server after end of data:
+    550 5.7.1 [CS] Message blocked. If this is a false positive, please report this to your hosting service provider. https://console.mailchannels.net/insights/bounce?auid=asmallorange&sender=psmallwood%40bart.asoshared.com&txid=183ddb27
+
+------ This is a copy of the message, including all the headers. ------
+
+Return-path: <psmallwood@bart.asoshared.com>
+Received: from psmallwood by bart.asoshared.com with local (Exim 4.85)
+	(envelope-from <psmallwood@bart.asoshared.com>)
+	id 1Zby3U-0008Oh-Ne; Tue, 15 Sep 2015 17:46:24 -0400
+To: katherine@creative-launch.com,psmallwood2@verizon.net
+Subject: P. Smallwood Art Comments
+From: wxaawanejq@tom.com
+Message-Id: <E1Zby3U-0008Oh-Ne@bart.asoshared.com>
+Date: Tue, 15 Sep 2015 17:46:24 -0400
+
+Name: Lindsey
+
+Email: wxaawanejq@tom.com
+
+Comments: I was just looking at your Contact Artist | P. Smallwood website and see that your site has the potential to become very popular. I just want to tell you, In case you didn't already know... There is a website network which already has more than 16 million users, and the majority of the users are looking for websites like yours. By getting your website on this service you have a chance to get your site more popular than you can imagine. It is free to sign up and you can read more about it here: http://ittsy.com/it/3x - Now, let me ask you... Do you need your website to be successful to maintain your way of life? Do you need targeted traffic who are interested in the services and products you offer? Are looking for exposure, to increase sales, and to quickly develop awareness for your website? If your answer is YES, you can achieve these things only if you get your site on the network I am describing. This traffic service advertises you to thousands, while also giving you a chance to test the service before paying anything. All the popular sites are using this network to boost their readership and ad revenue! Why aren’t you? And what is better than traffic? It’s recurring traffic! That's how running a successful site works... Here's to your success! Find out more here: http://bbqr.me/4fj5
+Lindsey http://www.arvut.org/1/dft
+
+
+
+-- 
+Thank you for using FormToEmail from http://FormToEmail.com

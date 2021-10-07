@@ -1,0 +1,78 @@
+Return-path: <>
+Envelope-to: psmallwood@bart.asoshared.com
+Delivery-date: Thu, 05 May 2016 00:52:00 -0400
+Received: from mailnull by bart.asoshared.com with local (Exim 4.87)
+	id 1ayBGa-0005Pz-SQ
+	for psmallwood@bart.asoshared.com; Thu, 05 May 2016 00:52:00 -0400
+X-Failed-Recipients: katherine@creative-launch.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@bart.asoshared.com>
+To: psmallwood@bart.asoshared.com
+Content-Type: multipart/report; report-type=delivery-status; boundary=1462423920-eximdsn-522205395
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1ayBGa-0005Pz-SQ@bart.asoshared.com>
+Date: Thu, 05 May 2016 00:52:00 -0400
+
+--1462423920-eximdsn-522205395
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  katherine@creative-launch.com
+    host mx1.smtp.exch082.serverdata.net [208.65.145.2]
+    SMTP error from remote mail server after end of data:
+    554 Denied [CS] [071da275.0.13219150.00-2303.25618468.s12p02m096.mxlogic.net] (Mode:
+    normal)
+
+--1462423920-eximdsn-522205395
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; bart.asoshared.com
+
+Action: failed
+Final-Recipient: rfc822;katherine@creative-launch.com
+Status: 5.0.0
+Remote-MTA: dns; mx1.smtp.exch082.serverdata.net
+Diagnostic-Code: smtp; 554 Denied [CS] [071da275.0.13219150.00-2303.25618468.s12p02m096.mxlogic.net] (Mode: normal)
+
+--1462423920-eximdsn-522205395
+Content-type: message/rfc822
+
+Return-path: <psmallwood@bart.asoshared.com>
+Received: from psmallwood by bart.asoshared.com with local (Exim 4.87)
+	(envelope-from <psmallwood@bart.asoshared.com>)
+	id 1ayBGZ-0005PS-Lf; Thu, 05 May 2016 00:51:59 -0400
+To: katherine@creative-launch.com,psmallwood2@verizon.net
+Subject: P. Smallwood Art Comments
+From: designsbypros@gmail.com
+Message-Id: <E1ayBGZ-0005PS-Lf@bart.asoshared.com>
+Date: Thu, 05 May 2016 00:51:59 -0400
+
+Name: Ed Frez
+
+Comments: My team and I specialize in helping companies get the most out of their websites. We are able to take your current website and transform it into a modern, appealing site that will help you make more sales each month. 
+
+Most sites look visually appealing but lack a lot of basic optimization principals such as basic usability features, conversion funnels, and calls to action. A site without these basic sales optimizations functions is leaving money on the table from lost sales each month.
+
+I am currently offering a free website consultation where we will take a look at what your current site is doing and what we can do to transform it into something really great. Even if you don't use our services we will at least be able to help you and answer all of your questions.
+
+The best part is that we have financing options available up to 12-24 months for your website. We do this so can help your site beat your competitors without it costing you an arm and a leg.
+
+Let me know when you are available to speak and I will come prepared with some ideas that will help your site. If you are not interested in my offer just let me know and I won't bother you again.
+
+Thanks,
+
+Ed Frez
+
+Email: designsbypros@gmail.com
+
+
+
+-- 
+Thank you for using FormToEmail from http://FormToEmail.com
+
+--1462423920-eximdsn-522205395--

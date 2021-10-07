@@ -1,0 +1,88 @@
+Return-Path: <>
+Delivered-To: psmallwood@bart.asoshared.com
+Received: from bart.asoshared.com
+	by bart.asoshared.com (Dovecot) with LMTP id p+u9Ao6OK1lmSgcAcF9qlQ
+	for <psmallwood@bart.asoshared.com>; Sun, 28 May 2017 22:59:26 -0400
+Return-path: <>
+Envelope-to: psmallwood@bart.asoshared.com
+Delivery-date: Sun, 28 May 2017 22:59:26 -0400
+Received: from mailnull by bart.asoshared.com with local (Exim 4.88)
+	id 1dFAtx-0020Pm-VC
+	for psmallwood@bart.asoshared.com; Sun, 28 May 2017 22:59:26 -0400
+X-Failed-Recipients: psmallwood2@verizon.net,
+  katherine@creative-launch.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@bart.asoshared.com>
+To: psmallwood@bart.asoshared.com
+Content-Type: multipart/report; report-type=delivery-status; boundary=1496026765-eximdsn-1058806354
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1dFAtx-0020Pm-VC@bart.asoshared.com>
+Date: Sun, 28 May 2017 22:59:25 -0400
+
+--1496026765-eximdsn-1058806354
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  psmallwood2@verizon.net
+    host smtp.mailchannels.net [35.165.119.205]
+    SMTP error from remote mail server after end of data:
+    550 5.7.1 [SHFD] Message rejected. See https://console.mailchannels.net/insights/bounce?auid=asmallorange&sender=psmallwood%40bart.asoshared.com&txid=4f4b803b545762e0
+  katherine@creative-launch.com
+    host smtp.mailchannels.net [35.165.119.205]
+    SMTP error from remote mail server after end of data:
+    550 5.7.1 [SHFD] Message rejected. See https://console.mailchannels.net/insights/bounce?auid=asmallorange&sender=psmallwood%40bart.asoshared.com&txid=4f4b803b545762e0
+
+--1496026765-eximdsn-1058806354
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; bart.asoshared.com
+
+Action: failed
+Final-Recipient: rfc822;katherine@creative-launch.com
+Status: 5.0.0
+Remote-MTA: dns; smtp.mailchannels.net
+Diagnostic-Code: smtp; 550 5.7.1 [SHFD] Message rejected. See https://console.mailchannels.net/insights/bounce?auid=asmallorange&sender=psmallwood%40bart.asoshared.com&txid=4f4b803b545762e0
+
+Action: failed
+Final-Recipient: rfc822;psmallwood2@verizon.net
+Status: 5.0.0
+Remote-MTA: dns; smtp.mailchannels.net
+Diagnostic-Code: smtp; 550 5.7.1 [SHFD] Message rejected. See https://console.mailchannels.net/insights/bounce?auid=asmallorange&sender=psmallwood%40bart.asoshared.com&txid=4f4b803b545762e0
+
+--1496026765-eximdsn-1058806354
+Content-type: message/rfc822
+
+Return-path: <psmallwood@bart.asoshared.com>
+Received: from psmallwood by bart.asoshared.com with local (Exim 4.88)
+	(envelope-from <psmallwood@bart.asoshared.com>)
+	id 1dFAtv-0020Om-DJ; Sun, 28 May 2017 22:59:23 -0400
+To: katherine@creative-launch.com,psmallwood2@verizon.net
+Subject: P. Smallwood Art Comments
+X-PHP-Originating-Script: 1622:FormToEmail.php
+From: grnoskovatf2@mail.ru
+Message-Id: <E1dFAtv-0020Om-DJ@bart.asoshared.com>
+Date: Sun, 28 May 2017 22:59:23 -0400
+
+Name: Viktrozhag
+
+Email: grnoskovatf2@mail.ru
+
+Comments: Мы хотим пригласить на наш интернет-портал молодых мужчин, которые желают заказать <a href="http://viagra-tablet.ru/">купить роаккутан 20мг купить в</a>  и похожие таблетки по самой привлекательной цене в Рунете. 
+ 
+Мы предлагаем людям только прошедшие сертификацию пилюли, производимые на лучших фармацевтических заводах Европы. 
+ 
+Благодаря полному отсутствию посредников между фабриками и покупателями, наша интернет-аптека предлагает препараты для увеличения потенции по самым низким ценникам.
+
+Submit: Send
+
+
+
+-- 
+Thank you for using FormToEmail from http://FormToEmail.com
+
+--1496026765-eximdsn-1058806354--

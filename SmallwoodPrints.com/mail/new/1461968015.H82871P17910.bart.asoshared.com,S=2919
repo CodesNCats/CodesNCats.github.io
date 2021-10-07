@@ -1,0 +1,75 @@
+Return-path: <>
+Envelope-to: psmallwood@bart.asoshared.com
+Delivery-date: Fri, 29 Apr 2016 18:13:35 -0400
+Received: from mailnull by bart.asoshared.com with local (Exim 4.86_1)
+	id 1awGfH-0004en-0k
+	for psmallwood@bart.asoshared.com; Fri, 29 Apr 2016 18:13:35 -0400
+X-Failed-Recipients: katherine@creative-launch.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@bart.asoshared.com>
+To: psmallwood@bart.asoshared.com
+Content-Type: multipart/report; report-type=delivery-status; boundary=1461968014-eximdsn-924484052
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1awGfH-0004en-0k@bart.asoshared.com>
+Date: Fri, 29 Apr 2016 18:13:35 -0400
+
+--1461968014-eximdsn-924484052
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  katherine@creative-launch.com
+    host mx1.smtp.exch082.serverdata.net [208.65.145.2]
+    SMTP error from remote mail server after end of data:
+    554 Denied [e8cd3275.0.2986813.00-2051.5864665.s12p02m095.mxlogic.net] (Mode:
+    normal)
+
+--1461968014-eximdsn-924484052
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; bart.asoshared.com
+
+Action: failed
+Final-Recipient: rfc822;katherine@creative-launch.com
+Status: 5.0.0
+Remote-MTA: dns; mx1.smtp.exch082.serverdata.net
+Diagnostic-Code: smtp; 554 Denied [e8cd3275.0.2986813.00-2051.5864665.s12p02m095.mxlogic.net] (Mode: normal)
+
+--1461968014-eximdsn-924484052
+Content-type: message/rfc822
+
+Return-path: <psmallwood@bart.asoshared.com>
+Received: from psmallwood by bart.asoshared.com with local (Exim 4.86_1)
+	(envelope-from <psmallwood@bart.asoshared.com>)
+	id 1awGfA-0004cS-Tb; Fri, 29 Apr 2016 18:13:28 -0400
+To: katherine@creative-launch.com,psmallwood2@verizon.net
+Subject: P. Smallwood Art Comments
+From: daylightwebdesigns@gmail.com
+Message-Id: <E1awGfA-0004cS-Tb@bart.asoshared.com>
+Date: Fri, 29 Apr 2016 18:13:28 -0400
+
+Name: Josh Williams
+
+Comments: Google has made many changes to their algorithm recently that favors sites that are experts on a particular topic.  I specialize in making Google view my client's sites as the experts, which helps my client's sites rank at the top of the searches for their industry.  The impact on your traffic and sales is huge when you rank at the top of the search engines.  
+
+I would like to have a call with you and tell you about what we do and see if you're interested.  Just let me know what time works for you to speak and I will be in touch.
+
+Thank you
+
+Josh Williams
+
+
+If you are not interested in my help or advice just let me know and I will remove you from my list.
+
+Email: daylightwebdesigns@gmail.com
+
+
+
+-- 
+Thank you for using FormToEmail from http://FormToEmail.com
+
+--1461968014-eximdsn-924484052--

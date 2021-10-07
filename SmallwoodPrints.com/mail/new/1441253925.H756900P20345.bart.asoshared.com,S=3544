@@ -1,0 +1,70 @@
+Return-path: <>
+Envelope-to: psmallwood@bart.asoshared.com
+Delivery-date: Thu, 03 Sep 2015 00:18:45 -0400
+Received: from mailnull by bart.asoshared.com with local (Exim 4.85)
+	id 1ZXLz3-0005I1-MC
+	for psmallwood@bart.asoshared.com; Thu, 03 Sep 2015 00:18:45 -0400
+X-Failed-Recipients: psmallwood2@verizon.net,
+  katherine@creative-launch.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@bart.asoshared.com>
+To: psmallwood@bart.asoshared.com
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1ZXLz3-0005I1-MC@bart.asoshared.com>
+Date: Thu, 03 Sep 2015 00:18:45 -0400
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  psmallwood2@verizon.net
+    host mailchannels-lb-2-364402916.us-west-2.elb.amazonaws.com [54.214.4.91]
+    SMTP error from remote mail server after end of data:
+    550 5.7.1 [CS] Message blocked. If this is a false positive, please report this to your hosting service provider. https://console.mailchannels.net/insights/bounce?auid=asmallorange&sender=psmallwood%40bart.asoshared.com&txid=507b9160
+  katherine@creative-launch.com
+    host mailchannels-lb-2-364402916.us-west-2.elb.amazonaws.com [54.214.4.91]
+    SMTP error from remote mail server after end of data:
+    550 5.7.1 [CS] Message blocked. If this is a false positive, please report this to your hosting service provider. https://console.mailchannels.net/insights/bounce?auid=asmallorange&sender=psmallwood%40bart.asoshared.com&txid=507b9160
+
+------ This is a copy of the message, including all the headers. ------
+
+Return-path: <psmallwood@bart.asoshared.com>
+Received: from psmallwood by bart.asoshared.com with local (Exim 4.85)
+	(envelope-from <psmallwood@bart.asoshared.com>)
+	id 1ZXLz2-0005HN-1M; Thu, 03 Sep 2015 00:18:44 -0400
+To: katherine@creative-launch.com,psmallwood2@verizon.net
+Subject: P. Smallwood Art Comments
+From: jan_thomas103+psmallwood.com@findbusinessfunding.co
+Message-Id: <E1ZXLz2-0005HN-1M@bart.asoshared.com>
+Date: Thu, 03 Sep 2015 00:18:44 -0400
+
+Name: Janice
+
+Email: jan_thomas103+psmallwood.com@findbusinessfunding.co
+
+Comments: Quicker and Simpler than the SBA, http://SmartFinancialFunding.com can get your business a loan for $10k to $2M With low-credit and without traditional personal guarantees or collateral required. 
+ 
+Use our quick form to Find Out exactly how much you can get, Completely No-Cost: 
+ 
+http://SmartFinancialFunding.com/?url=psmallwood.com&id=h302 
+If you've been in business for at least one year you are already pre-qualified. Our Fast service means eligibility and funding can be completed within 48 hours. Terms are personalized for each business so I suggest applying to find out exactly how much you can get. 
+ 
+This no-cost service does not require any personal information since the amount is based on annual revenue of your business. Funds are also Non-Restrictive, allowing you to use the full amount in any way including bills, taxes, hiring, marketing, expansion, or Absolutely Any Other expense. 
+ 
+There are limited tax-deductible-interest funds available so please apply now if interested, 
+ 
+Click Here: http://SmartFinancialFunding.com/?id=h302 
+ 
+Have a great day, 
+Jan Thomas 
+Smart Financial Funding inc. 
+ 
+unsubscribe here - http://remove.smartfinancialfunding.com/?url=psmallwood.com&id=h302
+
+Submit: Send
+
+
+
+-- 
+Thank you for using FormToEmail from http://FormToEmail.com

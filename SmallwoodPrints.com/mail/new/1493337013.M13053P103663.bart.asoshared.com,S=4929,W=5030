@@ -1,0 +1,101 @@
+Return-Path: <>
+Delivered-To: psmallwood@bart.asoshared.com
+Received: from bart.asoshared.com
+	by bart.asoshared.com (Dovecot) with LMTP id eP4LALWDAlnvlAEAcF9qlQ
+	for <psmallwood@bart.asoshared.com>; Thu, 27 Apr 2017 19:50:13 -0400
+Return-path: <>
+Envelope-to: psmallwood@bart.asoshared.com
+Delivery-date: Thu, 27 Apr 2017 19:50:13 -0400
+Received: from mailnull by bart.asoshared.com with local (Exim 4.87)
+	id 1d3tAq-000RH1-TW
+	for psmallwood@bart.asoshared.com; Thu, 27 Apr 2017 19:50:12 -0400
+X-Failed-Recipients: psmallwood2@verizon.net,
+  katherine@creative-launch.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@bart.asoshared.com>
+To: psmallwood@bart.asoshared.com
+Content-Type: multipart/report; report-type=delivery-status; boundary=1493337012-eximdsn-1112019308
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1d3tAq-000RH1-TW@bart.asoshared.com>
+Date: Thu, 27 Apr 2017 19:50:12 -0400
+
+--1493337012-eximdsn-1112019308
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  psmallwood2@verizon.net
+    host smtp.mailchannels.net [52.10.170.215]
+    SMTP error from remote mail server after end of data:
+    550 5.7.1 [CS] Message blocked. If this is a false positive, please report this to your hosting service provider. See https://console.mailchannels.net/insights/bounce?auid=asmallorange&sender=psmallwood%40bart.asoshared.com&txid=628009754fc7beb7
+  katherine@creative-launch.com
+    host smtp.mailchannels.net [52.10.170.215]
+    SMTP error from remote mail server after end of data:
+    550 5.7.1 [CS] Message blocked. If this is a false positive, please report this to your hosting service provider. See https://console.mailchannels.net/insights/bounce?auid=asmallorange&sender=psmallwood%40bart.asoshared.com&txid=628009754fc7beb7
+
+--1493337012-eximdsn-1112019308
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; bart.asoshared.com
+
+Action: failed
+Final-Recipient: rfc822;katherine@creative-launch.com
+Status: 5.0.0
+Remote-MTA: dns; smtp.mailchannels.net
+Diagnostic-Code: smtp; 550 5.7.1 [CS] Message blocked. If this is a false positive, please report this to your hosting service provider. See https://console.mailchannels.net/insights/bounce?auid=asmallorange&sender=psmallwood%40bart.asoshared.com&txid=628009754fc7beb7
+
+Action: failed
+Final-Recipient: rfc822;psmallwood2@verizon.net
+Status: 5.0.0
+Remote-MTA: dns; smtp.mailchannels.net
+Diagnostic-Code: smtp; 550 5.7.1 [CS] Message blocked. If this is a false positive, please report this to your hosting service provider. See https://console.mailchannels.net/insights/bounce?auid=asmallorange&sender=psmallwood%40bart.asoshared.com&txid=628009754fc7beb7
+
+--1493337012-eximdsn-1112019308
+Content-type: message/rfc822
+
+Return-path: <psmallwood@bart.asoshared.com>
+Received: from psmallwood by bart.asoshared.com with local (Exim 4.87)
+	(envelope-from <psmallwood@bart.asoshared.com>)
+	id 1d3tAp-000RGb-Du; Thu, 27 Apr 2017 19:50:11 -0400
+To: katherine@creative-launch.com,psmallwood2@verizon.net
+Subject: P. Smallwood Art Comments
+X-PHP-Originating-Script: 1622:FormToEmail.php
+From: fundingteam+psmallwood.com@get-my-business-funded.com
+Message-Id: <E1d3tAp-000RGb-Du@bart.asoshared.com>
+Date: Thu, 27 Apr 2017 19:50:11 -0400
+
+Name: GetMyBusinessFunded
+
+Email: fundingteam+psmallwood.com@get-my-business-funded.com
+
+Comments: Hi, letting you know that http://Get-My-Business-Funded.com can find your business a SBA or private loan for $2,000 - $350K Without high credit or collateral. 
+ 
+Find Out how much you qualify for here: 
+ 
+http://Get-My-Business-Funded.com/i.php?url=psmallwood.com&id=e68 
+ 
+Minimum requirements include your company being established for at least a year and with current gross revenue of at least 120K. Eligibility and funding can be completed in as fast as 48hrs. Terms are personalized for each business so I suggest applying to find out exactly how much you can get on various terms. 
+ 
+This is a free service from a qualified lender and the approval will be based on the annual revenue of your business. These funds are Non-Restrictive, allowing you to spend the full amount in any way you require including business debt consolidation, hiring, marketing, or Absolutely Any Other expense. 
+ 
+If you need fast and easy business funding take a look at these programs now as there is limited availability. 
+ 
+Click Here: http://Get-My-Business-Funded.com/i.php?url=psmallwood.com&id=e68 
+ 
+Have a great day, 
+The Get My Business Funded Team 
+ 
+unsubscribe/remove - http://get-my-business-funded.com/r.php?url=psmallwood.com&id=e68
+
+Submit: Send
+
+
+
+-- 
+Thank you for using FormToEmail from http://FormToEmail.com
+
+--1493337012-eximdsn-1112019308--

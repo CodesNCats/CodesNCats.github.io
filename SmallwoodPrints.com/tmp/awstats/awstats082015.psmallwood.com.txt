@@ -1,0 +1,391 @@
+AWSTATS DATA FILE 7.4 (build 20140726)
+# If you remove this file, all statistics for date 201508 will be lost/reset.
+# Last config file used to build this data file was /home/psmallwood/tmp/awstats/awstats.psmallwood.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2013                
+POS_TIME 2691                
+POS_VISITOR 8269                
+POS_DAY 10242               
+POS_DOMAIN 3399                
+POS_LOGIN 3764                
+POS_ROBOT 3919                
+POS_WORMS 4397                
+POS_EMAILSENDER 4528                
+POS_EMAILRECEIVER 4671                
+POS_SESSION 10423               
+POS_SIDER 10582               
+POS_FILETYPES 4806                
+POS_DOWNLOADS 4994                
+POS_OS 5088                
+POS_BROWSER 5307                
+POS_SCREENSIZE 5920                
+POS_UNKNOWNREFERER 5994                
+POS_UNKNOWNREFERERBROWSER 6334                
+POS_ORIGIN 6582                
+POS_SEREFERRALS 6717                
+POS_PAGEREFS 6872                
+POS_SEARCHWORDS 7104                
+POS_KEYWORDS 7277                
+POS_MISC 2355                
+POS_ERRORS 7359                
+POS_CLUSTER 3620                
+POS_SIDER_404 7444                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20150901023956 50 11688 9867120131550
+FirstTime 20150827150620
+LastTime 20150831222246
+LastUpdate 20150901221538 50 0 49 0 0
+TotalVisits 52                  
+TotalUnique 47                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 49                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 0 0 0 7 10 427688
+1 1 1 14321 20 26 598657
+2 3 3 2361 10 15 162818
+3 0 0 0 5 6 42963
+4 0 0 0 4 6 43018
+5 3 3 51138 2 3 19124
+6 3 22 113653 16 18 180586
+7 2 2 14321 9 13 145686
+8 8 29 191780 6 14 82955
+9 8 9 116659 5 10 45054
+10 6 25 156616 7 13 117249
+11 19 122 4024881 3 11 367697
+12 8 28 192456 3 18 101254
+13 2 4 37810 1 2 130366
+14 1 28 104054 4 4 51831
+15 1 1 13123 3 6 386579
+16 1 20 85011 6 8 78797
+17 4 49 260038 5 6 55064
+18 3 3 31740 8 22 252331
+19 11 67 1492294 4 7 47418
+20 11 12 134503 2 7 69035
+21 4 28 781426 2 4 14321
+22 4 32 342037 1 9 367105
+23 0 0 0 3 5 45054
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 11
+us 85 347 7266777
+zz 5 13 304626
+br 3 52 244357
+in 3 3 27406
+gb 2 2 7194
+tr 1 1 21079
+es 1 20 85011
+jm 1 20 85011
+nl 1 1 14321
+de 1 28 104054
+cn 0 1 386
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 10
+bot[\s_+:,\.\;\/\\-] 68 897397 20150831182048 0
+googlebot 51 1936414 20150831182448 0
+spider 32 710873 20150831232012 0
+slurp 4 50595 20150831085733 0
+crawl 4 49721 20150831161710 0
+curl 2 28642 20150829070139 0
+no_user_agent 1 14321 20150831005815 0
+bingpreview 1 130366 20150830131920 0
+php 1 14321 20150831041308 0
+robot 1 0 20150831163220 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 7
+php 1 1054 0 0
+css 20 41820 0 0
+html 81 1052822 0 0
+xml 14 127062 0 0
+jpg 341 6244470 0 0
+js 24 276864 0 0
+swf 7 416130 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 1
+/Watercolor%20Magic%20Article.pdf 5 0 1718080
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 12
+linuxandroid 65 5
+winxp 45 9
+winlong 1 1
+ios_iphone 2 1
+java 1 1
+symbian 10 2
+linux 50 18
+win7 194 34
+macosx 89 15
+macosx9 2 2
+Unknown 28 14
+macosx7 1 1
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 30
+chrome34.0.1847.76 23 2
+msie6.0 3 3
+firefox20.0 8 7
+chrome29.0.1547.57 4 4
+firefox17.0 33 2
+firefox40.0 2 2
+android 22 2
+chrome39.0.2171.95 3 3
+firefox29.0 2 2
+firefox4.0 3 3
+chrome38.0.2125.111 11 3
+chrome32.0.1700.107 2 2
+chrome23.0.1271.95 1 1
+firefox31.0 3 3
+safari8.0.4 88 14
+msie8.0 1 1
+nokia 10 2
+firefox6.0.2 1 0
+chrome36.0.1985.143 100 5
+mozilla 46 8
+chrome35.0.1916.153 20 1
+chrome44.0.2403.157 59 14
+firefox22.0 6 2
+chrome37.0.2062.120 1 1
+chrome10.0.648.204 3 3
+chrome44.0.2403.133 20 1
+Unknown 10 10
+chrome40.0.2214.93 1 1
+firefox3.5 1 1
+safari 1 0
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 6
+Google_favicon 20150829102009
+Python-urllib/3.4 20150830200406
+Mozilla/5.0_(compatible;_DomainAppender_/1.0;__http://www.profound.net/domainappender) 20150828120059
+Mozilla/4.0_(compatible;) 20150831080401
+voltron 20150830015745
+NerdyBot 20150831100703
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 5
+Google_favicon 20150829102009
+Python-urllib/3.4 20150830200406
+Apache-HttpClient/UNAVAILABLE_(java_1.4) 20150829125049
+voltron 20150830015745
+NerdyBot 20150831100703
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 55 72
+From1 0 0
+From2 8 8
+From3 8 8
+From4 32 400
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+google 8 8
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 3
+http://success-seo.com/try.php 6 6
+http://pizza-tycoon.com 1 1
+http://PSMAK.COM 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 1
+watercolor+painter 2
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 2
+painter 2
+watercolor 2
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 1
+404 66 0
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 9
+/scripts/swfobject_modified.js 1 -
+/robots.txt 57 -
+/mobile 1 -
+/apple-touch-icon.png 1 -
+/v3flashslideshow/smallwoodhome.xml 1 http://www.psmallwood.com/v3flashslideshow/slideshow.swf
+/portal/index.php 2 -
+/mobi/ 1 -
+/admin/fckeditor/editor/filemanager/connectors/php/upload.php 1 PSMALLWOOD.com/admin/fckeditor/editor/filemanager/connectors/php/upload.php
+/admin/fckeditor/editor/filemanager/connectors/php/upload.phpindex.php 1 PSMALLWOOD.com/admin/fckeditor/editor/filemanager/connectors/php/upload.phpindex.php
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 49
+24.187.131.164 14 88 3605660 20150831115420
+69.55.81.2 7 45 1365754 20150828195539
+54.158.86.70 6 7 88017 20150830093531
+54.213.179.14 5 5 64022 20150828120059
+54.159.193.78 5 40 222079 20150829170541
+148.177.1.212 4 25 153153 20150831080402
+52.8.49.14 3 27 760347 20150831215855
+99.172.77.116 3 11 256640 20150830225555
+54.166.25.252 3 3 2361 20150831023541
+52.21.231.225 3 3 31740 20150829183757
+198.252.44.13 3 3 42963 20150831080705
+182.64.43.5 3 3 27406 20150831202339
+8.28.16.254 3 3 24306 20150831080402
+162.243.186.18 3 3 27406 20150831204709
+193.109.196.223 2 2 7194 20150828204831
+65.12.186.177 2 2 26246 20150828055246
+107.23.56.124 2 2 28642 20150829094711
+108.53.237.10 2 23 143855 20150831111631
+70.199.247.110 2 22 114113 20150829124839
+104.197.103.100 1 1 14321 20150830100707
+130.211.182.100 1 1 14321 20150829100708
+52.22.36.38 1 1 21079 20150828215117
+198.143.9.130 1 1 14321 20150829205713
+66.249.83.156 1 1 14321 20150829102009
+52.21.166.51 1 1 6945 20150828114745
+166.137.248.62 0 1 29534 
+201.78.163.96 1 19 83577 20150828191225
+199.73.63.162 1 20 85011 20150831161625
+111.206.36.147 0 1 386 
+54.91.16.247 1 1 0 20150830074217
+193.110.157.151 1 1 14321 20150830205705
+52.76.56.18 1 1 14321 20150828094700
+52.20.61.198 1 1 7242 20150830050729
+52.3.168.225 1 1 30773 20150830050733
+168.235.197.110 1 9 247342 20150830111335
+83.47.248.240 1 20 85011 20150829060232
+176.219.140.44 1 1 21079 20150830111333
+70.195.141.202 1 20 85011 20150831222246
+104.154.82.155 1 1 14321 20150828100652
+54.93.56.212 1 1 14321 20150829195631
+104.197.136.34 1 1 14321 20150831100703
+54.158.220.243 1 1 14321 20150830015745
+54.153.104.88 1 1 14321 20150830200406
+70.210.34.245 1 1 14321 20150829125049
+177.184.222.38 1 13 75769 20150828172259
+54.206.49.184 1 1 14321 20150828192847
+52.8.157.152 1 1 14321 20150828065617
+78.51.57.174 1 28 104054 20150828142804
+187.95.44.249 1 20 85011 20150830103946
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 5
+20150827 1 1 13123 1
+20150828 27 124 1850932 15
+20150829 17 90 559235 12
+20150830 19 56 793774 12
+20150831 39 217 4943158 12
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 2
+0s-30s 51
+15mn-30mn 1
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 19
+/ 51 687408 40 31
+/about.html 8 55560 2 2
+/media.html 5 105395 4 3
+/menu.xml 5 15200 0 4
+/v3flashslideshow/smallwoodhome.xml 5 65615 2 4
+/contact.html 4 24560 1 3
+/gallery.html 4 26948 1 1
+/menu.swf 4 25032 0 0
+/store.html 3 92319 1 1
+/v3flashslideshow/slideshow.swf 3 391098 0 0
+/exhibit.html 2 14484 1 1
+/v3flashslideshow/gallery.xml 2 29510 0 0
+/v3flashslideshow/recentwork.xml 1 14376 0 0
+/sitemap.xml 1 2361 0 1
+/mailing_list.html 1 5843 0 0
+/directions.html 1 10682 0 0
+/FormToEmail.php 1 1054 0 1
+/store2.html 1 22903 0 0
+/recent_work.html 1 6720 0 0
+END_SIDER

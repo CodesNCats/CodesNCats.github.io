@@ -1,0 +1,78 @@
+Return-path: <>
+Envelope-to: psmallwood@bart.asoshared.com
+Delivery-date: Fri, 25 Nov 2016 14:09:56 -0500
+Received: from mailnull by bart.asoshared.com with local (Exim 4.87)
+	id 1cALsi-00032v-Mc
+	for psmallwood@bart.asoshared.com; Fri, 25 Nov 2016 14:09:56 -0500
+X-Failed-Recipients: psmallwood2@verizon.net,
+  katherine@creative-launch.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@bart.asoshared.com>
+To: psmallwood@bart.asoshared.com
+Content-Type: multipart/report; report-type=delivery-status; boundary=1480100996-eximdsn-1591722861
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1cALsi-00032v-Mc@bart.asoshared.com>
+Date: Fri, 25 Nov 2016 14:09:56 -0500
+
+--1480100996-eximdsn-1591722861
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  psmallwood2@verizon.net
+    host smtp.mailchannels.net [54.244.228.61]
+    SMTP error from remote mail server after end of data:
+    550 5.7.1 [CS] Message blocked. If this is a false positive, please report this to your hosting service provider. See https://console.mailchannels.net/insights/bounce?auid=asmallorange&sender=psmallwood%40bart.asoshared.com&txid=7a7c44ed2beab3fa
+  katherine@creative-launch.com
+    host smtp.mailchannels.net [54.244.228.61]
+    SMTP error from remote mail server after end of data:
+    550 5.7.1 [CS] Message blocked. If this is a false positive, please report this to your hosting service provider. See https://console.mailchannels.net/insights/bounce?auid=asmallorange&sender=psmallwood%40bart.asoshared.com&txid=7a7c44ed2beab3fa
+
+--1480100996-eximdsn-1591722861
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; bart.asoshared.com
+
+Action: failed
+Final-Recipient: rfc822;katherine@creative-launch.com
+Status: 5.0.0
+Remote-MTA: dns; smtp.mailchannels.net
+Diagnostic-Code: smtp; 550 5.7.1 [CS] Message blocked. If this is a false positive, please report this to your hosting service provider. See https://console.mailchannels.net/insights/bounce?auid=asmallorange&sender=psmallwood%40bart.asoshared.com&txid=7a7c44ed2beab3fa
+
+Action: failed
+Final-Recipient: rfc822;psmallwood2@verizon.net
+Status: 5.0.0
+Remote-MTA: dns; smtp.mailchannels.net
+Diagnostic-Code: smtp; 550 5.7.1 [CS] Message blocked. If this is a false positive, please report this to your hosting service provider. See https://console.mailchannels.net/insights/bounce?auid=asmallorange&sender=psmallwood%40bart.asoshared.com&txid=7a7c44ed2beab3fa
+
+--1480100996-eximdsn-1591722861
+Content-type: message/rfc822
+
+Return-path: <psmallwood@bart.asoshared.com>
+Received: from psmallwood by bart.asoshared.com with local (Exim 4.87)
+	(envelope-from <psmallwood@bart.asoshared.com>)
+	id 1cALsh-00032F-91; Fri, 25 Nov 2016 14:09:55 -0500
+To: katherine@creative-launch.com,psmallwood2@verizon.net
+Subject: P. Smallwood Art Comments
+From: svv05@blurpemailgun.bid
+Message-Id: <E1cALsh-00032F-91@bart.asoshared.com>
+Date: Fri, 25 Nov 2016 14:09:55 -0500
+
+Name: asNix3ksm50
+
+Email: svv05@blurpemailgun.bid
+
+Comments: <a href=http://elimite3.us/>elimite cream</a>
+
+Submit: Send
+
+
+
+-- 
+Thank you for using FormToEmail from http://FormToEmail.com
+
+--1480100996-eximdsn-1591722861--

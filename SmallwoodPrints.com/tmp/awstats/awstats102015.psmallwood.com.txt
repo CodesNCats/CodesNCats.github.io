@@ -1,0 +1,1223 @@
+AWSTATS DATA FILE 7.4 (build 20140726)
+# If you remove this file, all statistics for date 201510 will be lost/reset.
+# Last config file used to build this data file was /home/psmallwood/tmp/awstats/awstats.psmallwood.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2013                
+POS_TIME 2694                
+POS_VISITOR 20648               
+POS_DAY 31945               
+POS_DOMAIN 3573                
+POS_LOGIN 4312                
+POS_ROBOT 4467                
+POS_WORMS 5118                
+POS_EMAILSENDER 5249                
+POS_EMAILRECEIVER 5392                
+POS_SESSION 32810               
+POS_SIDER 33019               
+POS_FILETYPES 5527                
+POS_DOWNLOADS 5745                
+POS_OS 5840                
+POS_BROWSER 6248                
+POS_SCREENSIZE 8265                
+POS_UNKNOWNREFERER 8339                
+POS_UNKNOWNREFERERBROWSER 8867                
+POS_ORIGIN 9245                
+POS_SEREFERRALS 9388                
+POS_PAGEREFS 9580                
+POS_SEARCHWORDS 10202               
+POS_KEYWORDS 10523               
+POS_MISC 2358                
+POS_ERRORS 10720               
+POS_CLUSTER 4168                
+POS_SIDER_404 10829               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20151101002420 170 36099 7546823895561
+FirstTime 20151001002923
+LastTime 20151031165315
+LastUpdate 20151101004200 170 0 169 0 0
+TotalVisits 327                 
+TotalUnique 269                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 287                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 3 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 25 67 4590754 38 74 2325349
+1 20 64 4651848 56 80 1105814
+2 11 21 375890 52 73 989802
+3 20 39 2104944 21 37 288335
+4 41 65 2992723 55 87 3385369
+5 10 24 2005507 39 68 523123
+6 11 48 4555009 44 64 843098
+7 27 109 8554525 34 73 1345457
+8 47 200 16601133 41 77 649397
+9 45 213 15720151 43 75 820027
+10 46 182 15874308 22 56 632046
+11 25 123 7420605 56 97 3002979
+12 71 223 14674408 49 89 732414
+13 64 262 18800990 51 82 1354338
+14 69 265 14224346 35 62 483390
+15 97 214 9356090 37 67 3071125
+16 55 239 18717069 107 144 727074
+17 33 106 6512161 24 52 434732
+18 67 195 11792189 48 81 1268144
+19 67 259 20629028 20 45 392843
+20 49 170 11061960 44 79 1055158
+21 74 307 23313321 234 404 1539617
+22 41 176 11358432 50 105 3342693
+23 16 16 186507 36 48 403376
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 35
+us 685 2653 177097405
+fr 81 81 916497
+ca 56 116 5702687
+zz 36 40 469212
+gb 33 115 8767091
+cn 24 24 324222
+ro 19 38 2093768
+br 18 225 24697959
+ru 17 17 167792
+de 11 30 1985677
+ua 9 9 118182
+in 6 15 312906
+it 5 63 7562850
+za 5 19 2073904
+ee 4 4 40007
+nl 4 4 51316
+cz 3 7 77253
+ec 2 26 3753815
+pt 1 13 1875547
+tr 1 1 12829
+ph 1 3 24607
+mx 1 20 1884789
+co 1 13 1878268
+th 1 9 247057
+ir 1 13 1875547
+es 0 1 29534
+sa 0 1 29534
+lt 0 1 29534
+ke 1 1 15550
+be 1 1 12829
+cl 1 1 12829
+is 1 1 12829
+au 1 20 1884789
+vn 0 1 29534
+bg 1 1 5749
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 13
+bot[\s_+:,\.\;\/\\-] 428 7214595 20151031160238 0
+googlebot 241 3124129 20151031063248 0
+spider 149 6146967 20151031221910 0
+bingpreview 76 5995774 20151031170354 0
+crawl 44 527516 20151031225230 0
+googlebot\-image 41 3745706 20151031044520 0
+google[_+\s]web[_+\s]preview 29 2134567 20151030180926 0
+php 21 264859 20151020012338 0
+robot 20 878563 20151031033640 0
+slurp 19 205036 20151028125028 0
+no_user_agent 16 158945 20151031030042 0
+[\s_+:,\.\;\/\\-]bot 3 70329 20151025025656 0
+netcraft 1 12829 20151009165802 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 8
+css 121 239580 0 0
+pdf 3 1030848 0 0
+swf 88 6130079 0 0
+php 9 6262 0 0
+html 716 8350212 0 0
+js 177 2246349 0 0
+jpg 2255 225449632 0 0
+xml 218 2620936 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 1
+/Watercolor%20Magic%20Article.pdf 19 0 6528704
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 25
+linuxredhat 1 1
+blackberry 13 2
+linuxandroid 123 21
+winxp 90 52
+winlong 124 28
+macosx6 7 3
+ios_iphone 135 15
+winphone 3 3
+win2003 1 1
+win8 20 6
+macosx9 105 39
+ios_ipad 150 24
+macosx7 1 1
+unix 4 2
+winnt 187 45
+java 18 18
+macosx5 1 0
+linuxubuntu 59 59
+linux 100 89
+win7 1592 332
+win16 1 1
+macosx 382 99
+Unknown 95 89
+win8.1 348 98
+macosx8 27 3
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 105
+firefox28.0 6 5
+safari7.0.3 3 3
+chrome44.0.2403.125 1 1
+msie6.0 16 16
+chrome34.0.1847.137 5 4
+firefox26.0 3 3
+chrome28.0.1500.94 23 2
+chrome5.0.375.99 2 2
+chrome11.0.654.0 1 1
+chrome39.0.2171.95 1 1
+firefox4.0 4 4
+firefox34.0 1 1
+opera12.80 1 1
+msie11 1 1
+chrome23.0.1271.95 1 1
+chrome28.0.1500.72 1 1
+msie8.0 311 72
+msie7.0 1 1
+safari6.2.8 27 3
+firefox23.0 1 1
+chrome37.0.2062.120 5 5
+firefox41.0 302 62
+chrome10.0.638.0 1 1
+netscape 1 1
+chrome32.0.1667.0 1 1
+firefox40.0 12 4
+firefox42.0 125 33
+chrome37.0.2049.0 2 2
+chrome34.0.1847.131 7 7
+firefox21.0 56 56
+firefox10.0.1 1 1
+firefox29.0 12 11
+firefox3.5.2 1 1
+chrome46.0.2490.71 109 16
+firefox38.0 4 2
+chrome32.0.1700.107 54 4
+chrome35.0.1916.114 6 5
+chrome46.0.2490.80 127 24
+chrome14.0.794.0 1 1
+chrome36.0.1985.143 367 28
+firefox33.0 4 4
+chrome18.0.1025.142 1 1
+mozilla 33 23
+arora 1 1
+chrome44.0.2403.157 1 1
+firefox14.0.1 10 10
+chrome42.0.2311.135 49 9
+firefox3.6.3 1 1
+opera8.50 1 1
+chrome41.0.2228.0 1 1
+chrome44.0.2403.133 22 2
+firefox19.0 1 1
+firefox36.0 1 1
+firefox35.0 25 5
+safari 78 11
+safari7.0 41 6
+firefox5.0 1 1
+firefox20.0 6 6
+bonecho 1 1
+firefox3.0.7 1 1
+chrome43.0.2357.124 2 2
+android 27 6
+chrome10.0.612.3 1 1
+opera12.0 1 1
+chrome36.0.1985.125 4 4
+chrome42.0.2311.111 24 4
+chrome12.0.742.112 57 57
+safari8.0.6 1 1
+firefox31.0 5 5
+iphone 60 3
+chrome46.0.2490.76 6 1
+firefox6.0.2 18 18
+firefox16.0 1 0
+chrome10.0.648.204 9 9
+safari8.0 63 10
+msie9.0 40 26
+firefox27.0 2 2
+Unknown 94 92
+firefox3.0.8 1 1
+chrome30.0.0.0 3 2
+opera11.51 1 1
+blackberry 13 2
+safari8.0.8 27 3
+firefox17.0 20 3
+firefox3.0.4 1 1
+safari9.0.1 144 55
+opera8.00 1 1
+chrome41.0.2227.0 1 1
+msie5.5 3 3
+chrome38.0.2125.102 6 1
+firefox2.0.0.11 1 1
+chrome41.0.2227.1 1 1
+msie11.0 465 98
+chrome45.0.2454.94 12 2
+chrome18.0.1025.133 1 1
+safari9.0 234 47
+firefox39.0 8 6
+chrome45.0.2454.101 237 52
+chrome35.0.1916.153 43 5
+firefox22.0 4 2
+msie10.0 56 18
+chrome5.0.375.70 2 2
+firefox3.5 2 2
+chrome23.0.1271.97 1 1
+konqueror4.3 1 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 10
+Mozilla 20151017004954
+Python-urllib/3.4 20151003220351
+Ruby 20151009131626
+Mozilla/5.0_PhantomJS_(compatible;_Seznam_screenshot-generator_2.1;__http://fulltext.sblog.cz/screenshot/) 20151023125624
+voltron 20151004001923
+Mozilla/5.0_(compatible;_Lipperhey-Kaus-Australis/5.0;__https://www.lipperhey.com/en/about/) 20151002233701
+panscient.com 20151015153327
+Google_favicon 20151030162737
+CB/Nutch-1.7 20151003103545
+NerdyBot 20151006100707
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 10
+Java/1.7.0_79 20151015210913
+Python-urllib/3.4 20151003220351
+Apache-HttpClient/4.3.5_(java_1.5) 20151031060457
+Ruby 20151009131626
+voltron 20151004001923
+panscient.com 20151015153327
+Java/1.6.0_32 20151012093535
+Google_favicon 20151030162737
+CB/Nutch-1.7 20151003103545
+NerdyBot 20151006100707
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 415 428
+From1 1 1
+From2 65 76
+From3 46 46
+From4 504 3036
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 5
+google 49 60
+bing 5 5
+aol 1 1
+ask 1 1
+yahoo 9 9
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 12
+http://rankings-analytics.com/try.php 26 26
+http://success-seo.com/try.php 5 5
+http://buttons-for-website.com 3 3
+http://pizza-imperia.com 2 2
+http://searchassist.verizon.com/main 2 2
+http://video--production.com 2 2
+http://pizza-tycoon.com 1 1
+http://www.hotfrog.com/business/nj/new-milford/p-smallwood 1 1
+http://www.psmallwoodprints.com/links.html 1 1
+http://hundejo.com 1 1
+http://fiostrending.verizon.com/search/index.php 1 1
+http://www.search-error.com/index.php 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 8
+philip+smallwood 2
+philip+smallwood+artist 2
+limited+home+art 1
+media+borough+painting 1
+small+wood+art 1
+psmallwood.com 1
+watercolor+painting+gallery 1
+smallwood+art 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 14
+smallwood 5
+philip 4
+art 3
+painting 2
+artist 2
+small 1
+wood 1
+limited 1
+media 1
+watercolor 1
+psmallwood.com 1
+home 1
+borough 1
+gallery 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 3
+206 20 235885
+301 28 0
+404 865 0
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 351
+/Watercolor 1 http://www.psmallwood.com/media.html
+/wordpress/ 6 -
+/admin.php 4 -
+/images/2_11.gif 1 -
+/phpcms/ 1 -
+/logon/fckeditor/editor/fckeditor.html 1 -
+/CuteSoft_Client/CuteEditor/Images/log.gif 1 -
+/KEdit/ 1 -
+/new_gb/help/images/usage/3.3.gif 1 -
+/fckeditor/fckeditor.js 1 -
+/common/common.js 1 -
+/API/DW/Dwplugin/TemplateManage/manage_site.htm 1 -
+/Images/login/lefttu.jpg 1 -
+/Admin/Images/LoginImages/admin_top.gif 1 -
+/Images/login/mainlogo.gif 1 -
+/xmlrpc.php 5 -
+/member/space/company/info.txt 1 -
+/siteserver/upgrade/default.aspx 1 -
+/admin/FCKeditor/editor/fckeditor.html 1 -
+/weblogin/fckeditor/editor/fckeditor.html 1 -
+/administrator/manifests/files/joomla.xml 1 -
+/mailing_list.html 2 -
+/index.cgi 1 -
+/php/fckeditor/editor/fckeditor.html 1 -
+/cms/wp-login.php 1 -
+/cgi-sys/entropysearch.cgi 1 -
+/doku.php 1 -
+/FCKeditor/editor/fckeditor.html 1 -
+/user/fckeditro/editrp/fckeditor.html 1 -
+/administrator/ 2 -
+/image/fckeditor/editor/fckeditor.html 1 -
+/docs.css 1 -
+/portal/index.php 33 -
+/mobi/ 1 -
+/wp-login.php 12 -
+/inc/rsd.php 1 -
+/admin/inc/xml.xslt 1 -
+/system/ 2 -
+/User/Login.aspx 1 -
+/kindeditor.js 1 -
+/system/fckeditor/editor/fckeditor.html 1 -
+/libs/ 1 -
+/cgi-bin/php 1 -
+/UserCenter/css/admin/bgimg/admin_all_bg.png 1 -
+/bencandy.php 1 -
+/sys/fckeditor/editor/fckeditor.html 1 -
+/jcms/index_jcms.jsp 1 -
+/images/zh-CN/logo.ico 1 -
+/text/css 1 -
+/shop/ 3 -
+/directions.html 1 -
+/admin/SouthidcEditor/ButtonImage/standard/componentmenu.gif 1 -
+/Images/login/biaoti.jpg 1 -
+/admin/fckeditor/editor/fckeditor.html 1 -
+/index.html 2 -
+/license.txt 1 -
+/checkout/ 1 -
+/verycms/ 1 -
+/archiver/ 1 -
+/plug/publish 1 -
+/license.php 1 http://psmallwood.com/license.php
+/cmseasy/ 1 -
+/cgi/index.cgi 1 -
+/history.txt 1 -
+/addons/theme/stv1/_static/ts2/layout.css 1 -
+/tpl/login/user/images/login_bg_1.jpg 1 -
+/deptWebsiteAction.do 1 -
+/wp/wp-admin/setup-config.php 1 -
+/plus/sitemap.html 1 -
+/dede/ 1 -
+/images/login-page.gif 1 -
+/rss.aspx 1 -
+/readme.html 1 -
+/member/fckeditor/editor/fckeditor.html 1 -
+/system/language/zh-cn.xml 1 -
+/includes/general.js 1 -
+/dedecms/ 1 -
+/addons/theme/stv2/_static/ts2/layout.css 1 -
+/manager/status 2 -
+/kindeditor-min.js 1 -
+/default/css/em_css.css 1 -
+/jcms/index.jsp 1 -
+/editor/js/fckeditorcode_ie.js 1 -
+/system/skins/default/system.login.htm 1 -
+/app/images/login/toplogo.gif 1 -
+/mail/ 3 -
+/Template/Default/Skin/user/images/login_back.jpg 1 -
+/editor/FCKeditor/editor/fckeditor.html 1 -
+/robots.txt 378 -
+/includes/fckeditor/editor/fckeditor.html 1 -
+/archive/archive.css 1 -
+/app/home/skins/default/style.css 1 -
+/fckeditor/editor/dtd/fck_dtd_test.html 1 -
+/cgi-sys/defaultwebpage.cgi 1 -
+/manage/ 2 -
+/images/hwem.css 1 -
+/forum/ 3 -
+/sys-cgi 1 -
+/alimail/ 1 -
+/wordpress/wp-login.php 1 -
+/Images/Prints/Summer 1 http://www.psmallwood.com/store.html
+/media/FCKeditor/editor/fckeditor.html 1 -
+/lang/en.js 1 -
+/dvbbs/ 1 -
+/console/js/CWCMDialogHead.js 1 -
+/examples/index.html 1 -
+/zcms/ 1 -
+/wordpress 1 -
+/ids/admin/userhome/forgetPwd.jsp 1 -
+/editor/dtd/ 2 -
+/Admin/fckeditor/editor/fckeditor.html 1 -
+/ckfinder/install.txt 1 -
+/Search.html 1 -
+/Admin/Login.aspx 1 -
+/Prompt/images/P_Wrong.gif 1 -
+/exhibit.html 1 -
+/template/home.htm 1 -
+/default/images/logo.gif 1 -
+/misc/druplicon.png 1 -
+/m 2 -
+/plus/rssmap.html 1 -
+/web/FCKeditor/editor/fckeditor.html 1 -
+/cgi-bin/ 1 -
+/contact.html 3 -
+/include/fckeditor/editor/fckeditor.html 1 -
+/fangmail/ 1 -
+/docs/ 1 -
+/leadbbs/ 1 -
+/administe/fckeditor/editor/fckeditor.html 1 -
+/images/zh-CN/winisp.gif 1 -
+/admin/ 3 -
+/issmall 1 -
+/mobile 1 -
+/adm/fckeditor/editor/fckeditor.html 1 -
+/apple-touch-icon.png 1 -
+/images/login/eyoumail.gif 1 -
+/images/joomla_logo_black.jpg 1 -
+/ckeditor/ckeditor.js 1 -
+/cgi-bin/php4 1 -
+/application/x-shockwave-flash 1 -
+/Install/logo.gif 1 -
+/blog/ 8 -
+/next/img/logo.gif 1 -
+/about.html 2 -
+/cgi-bin/index.cgi 1 -
+/wp/ 6 -
+/digg.php 1 -
+/archiver 3 -
+/maintlogin.jsp 1 -
+//skin/install/default/install.php 1 -
+/cgi-bin/php-cgi 1 -
+/adminsoft/templates/images/login_bg_top.jpg 1 -
+/plugins/filemanager/filemanager/js 1 -
+/asp.net/README.txt 1 -
+/cgi-mod/index.cgi 1 -
+/inc/Templates/rss.xslt 1 -
+/media.html 3 -
+/API/DW/Dwplugin/SystemLabel/SiteConfig.htm 1 -
+/API/DW/Dwplugin/ThirdPartyTags/SiteFactory.xml 1 -
+/extman/default/images/logo.gif 2 -
+/admin 1 -
+/cgi-mod/header_logo.cgi 1 -
+/extern.php 1 -
+/master/login.aspx 1 -
+/admin/login.aspx 1 -
+/console/include/not_login.htm 1 -
+/tools/rss.aspx 1 -
+/fckeditor/editor/js/fckeditorcode_ie.js 2 -
+/cgi-bin/test.cgi 1 -
+/apple-app-site-association 1 -
+/ewebeditor/ 1 -
+/apps/admin/_static/image/login_box_bg.png 1 -
+/admin/includes/ 1 -
+/admin/eWebEditor/ 1 -
+/ 7 -
+/stylesheet.css 1 -
+/editor/filemanager/fckeditor.html 1 -
+/Help 1 -
+/blogs/wp-admin/setup-config.php 1 -
+/feed.asp 1 -
+/webedit/ 1 -
+/shops/ 3 -
+/examples/file-manager.html 1 -
+/drupal/ 1 -
+/coremail/common/help/images/helplogo.gif 2 -
+/CuteSoft_Client/CuteEditor/ImageEditor/listfiles.aspx 1 -
+/ckeditor/ckfinder/install.txt 1 -
+/siteserver/login.aspx 1 -
+/images/login/logo.gif 1 -
+/store.html 6 -
+/help/ch_gb/images/help-title.gif 1 -
+/blog/wp-admin/setup-config.php 1 -
+/API/DW/Dwplugin/TemplateManage/login_site.htm 1 -
+/Admin/Common/HelpLinks.xml 1 -
+/Editor.js 1 -
+/examples/readonly.html 1 -
+/ids/admin/login.jsp 1 -
+/blog 1 -
+/admin/wp-login.php 1 -
+/wcm/ 1 -
+/admin/start/index.php 1 -
+/FCK/fckeditor.js 1 -
+/statics/ 1 -
+/CuteSoft_Client/CuteEditor/Style/IE.css 1 -
+/tools/fckeditor/editor/fckeditor.html 1 -
+/wp-content 1 -
+/joomla/ 1 -
+/dialog/dialog.js 1 -
+/whir_system/login.aspx 1 -
+/ch/ 1 -
+/dump.sql 1 http://psmallwood.com/dump.sql
+/eWebEditor/ 1 -
+/extmail/ 1 -
+/6kbbs/ 1 -
+/images/branding/logo.gif 1 -
+/ecshop/ 1 -
+/js/fckeditor/editor/fckeditor.html 1 -
+/app/js/source/wcmlib/WCMConstants.js 1 -
+/jxcms/ 1 -
+/manager/media 1 -
+/eshop/ 3 -
+/kindeditor/ 1 -
+/API/DW/Dwplugin/TemplateManage/save_template.htm 1 -
+/wp-login/ 1 -
+/data/admin/ver.txt 1 -
+/plugins/anchor/anchor.js 1 -
+/CuteSoft_Client/CuteEditor/Help/default.htm 1 -
+/coremail/common/help/images/helplogo_zh.gif 2 -
+/admin/js/IdSUtil.js 1 -
+/js/mage/cookies.js 1 http://psmallwood.com
+/e/master/login.aspx 1 -
+/skin/frontend/default/modern/css/styles.css 1 -
+/data/fckeditor/editor/fckeditor.html 1 -
+/metinfo/ 1 -
+/admin-console 1 -
+/themes/default/default.css 1 -
+/eweb/ 1 -
+/kesion/ 1 -
+/section/wp-login.php 1 -
+/mall/ 3 -
+/images/login/icon-up.gif 1 -
+/weblog/ 3 -
+/admin/spaw2/dialogs/dialog.php 1 http://psmallwood.com/admin/spaw2/dialogs/dialog.php
+/admin/SouthidcEditor/ewebeditor.asp 1 -
+/FCK/editor/js/fckeditorcode_ie.js 1 -
+/cgi-bin/status/status.cgi 1 -
+/administrator/index.php 1 -
+/editor/editor/fckeditor.html 1 -
+/kingcms/ 1 -
+/administrator/fckeditor/editor/fckeditor.html 1 -
+/js/ajax_x.js 1 -
+/empirecms/ 1 -
+/images/default/post_bt.gif 1 -
+/install 1 -
+/images/powered_by.gif 1 -
+/fckeditor/editor/fckeditor.html 1 -
+/fckeditor.js 1 -
+/wp-cron.php 1 -
+/Edit/fckeditor/editor/fckeditor.html 1 -
+/fckeditor/license.txt 1 -
+/fckeditor/fckconfig.js 1 -
+/phpmyadmin/docs.css 1 -
+/ycportal/webpublish/module.main 1 -
+/whir_system/module/security/login.aspx 1 -
+/aspcms/ 1 -
+/webadmin/fckeditor/editor/fckeditor.html 1 -
+/terms.html 2 -
+/licence.txt 1 -
+/web-console 1 -
+/admin/SouthidcEditor/Dialog/dialog.js 1 -
+/console/js/CTRSRequestParam.js 1 -
+/max-templates/classic/styles/app.css 1 -
+/admin/index.php 1 -
+/changelog.txt 1 -
+//autoshell.txt 1 http://www.psmallwood.com//autoshell.txt
+/app/images/login/logo.png 1 -
+/inc/playerKinds.xml 1 -
+/Admin/Images/LoginImages/admin_text.gif 1 -
+/fluxbb/ 1 -
+/store. 1 -
+/wp-admin/wp-login.php 1 -
+/store2.html 3 -
+/browserconfig.xml 2 -
+/phpmyadmin/ 1 -
+/list.php 1 -
+/phpwind/ 1 -
+/login/Jeecms.do 1 -
+/api/api_user.xml 1 -
+/includes/ 1 -
+/phpbb/ 1 -
+/blog/wp-login.php 1 -
+/ycportal/js/wbTextBox/showimg.jsp 1 -
+/Images/Prints/Daddy 1 http://www.psmallwood.com/store.html
+/bbsmax/ 1 -
+/ckfinder/ckfinder.html 1 -
+/ymail/images/index_r1_c4.jpg 1 -
+/oecms/ 1 -
+/discuz/ 2 -
+/web2/login_template/1.files/Logo1.jpg 1 -
+/site/wp-login.php 1 -
+/console/auth/reg_newuser.jsp 1 -
+/manage/fckeditor/editor/fckeditor.html 1 -
+/Images/Prints/J 1 http://www.psmallwood.com/store2.html
+/images/login_03.gif 1 -
+/rss.php 2 -
+/giclee_sizes.html 1 -
+/inc/fckeditor/editor/fckeditor.html 1 -
+/Error.aspx 1 -
+/cgi-bin/php5 1 -
+/modules/fckeditor/fckeditor/editor/fckeditor.html 1 -
+/maxcms/ 1 -
+/blog/fckeditor/editor/fckeditor.html 1 -
+/images/login9/login_33.jpg 1 -
+/spaw/dialogs/dialog.php 1 http://psmallwood.com/spaw/dialogs/dialog.php
+/helpnew/faq/faq_simple_zh_CN.jsp 1 -
+/bbs/ 3 -
+/clientscript/vbulletin_ajax_htmlloader.js 1 -
+/admin/template/article_more/config.htm 1 -
+/wp/wp-login.php 1 -
+/common/help/images/helplogo.gif 1 -
+/foosun/ 1 -
+/zblog/ 1 -
+/cgi-bin-sdb/printenv 1 -
+/CHANGELOG.txt 1 -
+/blog/robots.txt 5 -
+/test/wp-admin/setup-config.php 1 -
+/lazycms/ 1 -
+/License.txt 3 -
+/ckeditor/ckfinder/ckfinder.html 1 -
+/app/login.jsp 1 -
+/common/help/images/helplogo_zh.gif 1 -
+/editor/ 3 -
+/gallery.html 1 -
+/scripts/swfobject_modified.js 1 -
+/coremail/ 1 -
+/system/Login.aspx 1 -
+/plus/heightsearch.php 1 -
+/images/fckeitor/editor/fcleditor.html 1 -
+/portal/ 3 -
+/manager/html 1 -
+/tpl/user/tpl1/css/skins/blue.css 1 -
+/scripts/FCKeditor/editor/fckeditor.html 1 -
+/wp-admin/setup-config.php 1 -
+/cms/ 3 -
+/plug// 1 -
+/index.php/admin/Cms_Wysiwyg/directive/index/ 1 -
+/index.php 4 -
+/auth/login 2 -
+/manager/fckeditor/editor/fckeditor.html 1 -
+/js/buttons.js 1 -
+/Ntalker/lawfirm.aspx 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 287
+65.51.134.250 84 354 21286624 20151027150953
+108.224.166.45 57 142 9611088 20151029204108
+108.224.164.247 40 166 11456967 20151026202048
+96.242.238.40 33 125 7568311 20151025092704
+192.95.29.116 32 32 362950 20151031045057
+37.187.56.76 32 32 362950 20151030153156
+108.21.72.105 24 101 5700427 20151007103522
+108.193.120.246 24 94 5272710 20151026201244
+65.12.186.177 23 111 7526375 20151018121304
+72.76.243.86 23 25 364409 20151015153327
+69.127.53.81 19 69 5377522 20151026224539
+73.170.250.64 18 81 5048814 20151005164309
+86.123.240.240 14 14 146166 20151015210913
+76.167.226.239 13 13 151524 20151023144338
+170.37.244.37 12 50 3212842 20151014133125
+94.23.27.166 12 12 133253 20151003083910
+188.165.196.25 12 12 133253 20151017133015
+142.4.218.236 12 12 139944 20151002233702
+74.105.184.153 12 58 3388998 20151026112927
+37.187.56.81 12 12 133253 20151016124438
+69.58.178.57 11 11 126835 20151010180832
+70.91.252.29 11 55 3457178 20151023090734
+173.54.187.103 10 46 3507204 20151008161001
+38.167.43.10 9 32 1025666 20151019180015
+104.131.127.144 9 9 109273 20151025120306
+93.115.83.253 1 1 12829 20151029070012
+178.18.252.1 1 1 12829 20151027091049
+188.40.112.210 1 1 6862 20151031165315
+130.156.1.80 5 25 1945461 20151022105957
+188.143.232.37 2 2 18578 20151017023030
+108.61.170.228 1 1 12829 20151028213211
+45.55.133.237 1 2 19906 20151018001132
+99.104.104.205 1 1 20905 20151029011156
+204.124.183.98 1 1 6028 20151008033631
+173.18.96.108 0 1 29534 
+208.123.223.248 2 2 7036 20151008172112
+137.147.22.198 1 20 1884789 20151015010532
+52.91.224.139 1 1 12829 20151006052317
+167.102.218.254 1 20 1887510 20151021124328
+148.66.76.124 1 13 1875547 20151026173807
+88.198.110.130 1 1 12829 20151016071234
+185.4.73.70 1 1 15550 20151020095603
+45.58.41.204 1 1 15550 20151019140942
+68.234.26.186 1 1 6862 20151030032850
+142.177.97.233 1 1 22570 20151029013840
+123.125.71.79 2 2 28379 20151023153507
+160.3.159.89 3 24 1950193 20151017132421
+70.88.182.38 6 54 5120250 20151028164555
+188.211.28.61 1 1 30293 20151029011158
+123.125.71.107 1 1 12829 20151017083341
+146.148.75.102 1 1 12829 20151002100641
+68.83.82.62 3 13 297173 20151019144515
+52.91.228.45 1 1 12829 20151006052405
+177.23.170.0 1 13 1875547 20151013132349
+82.144.209.76 1 1 12829 20151027211220
+117.247.60.165 1 2 14809 20151006020533
+188.211.28.221 1 1 6862 20151029011157
+54.226.40.86 1 1 12829 20151026222007
+123.125.71.86 1 1 15550 20151023143442
+54.91.16.247 1 1 12829 20151004121928
+52.32.98.76 1 1 12829 20151031060457
+24.228.177.43 2 21 1897618 20151007193800
+46.38.56.32 1 1 12829 20151027064217
+98.200.241.144 1 9 247057 20151007115202
+172.110.9.65 1 1 12829 20151007161417
+66.249.93.249 1 1 12829 20151010145545
+192.3.248.208 1 1 15550 20151024055300
+108.56.147.173 3 27 2560125 20151007013758
+73.206.66.67 0 1 29534 
+52.64.143.94 1 1 12829 20151003220351
+123.125.71.117 1 1 12829 20151017093357
+197.254.41.190 1 1 15550 20151023055937
+54.237.73.178 5 8 96413 20151021202421
+41.162.36.155 5 19 2073904 20151012091152
+104.197.106.213 1 1 12829 20151001100702
+94.228.142.54 1 1 12829 20151015140709
+93.92.217.228 4 4 31747 20151016225132
+177.221.58.62 1 3 24607 20151021181411
+190.63.143.93 1 13 1878268 20151023092046
+188.165.198.130 9 9 109273 20151015035017
+201.187.95.117 1 1 12829 20151014221201
+66.102.7.162 6 6 79695 20151030162737
+123.125.71.91 1 1 15550 20151023133447
+195.154.146.225 3 3 38487 20151014231835
+107.189.60.68 1 2 22627 20151022154650
+54.160.66.50 1 1 12829 20151019040150
+70.194.241.160 1 13 1875547 20151029072850
+74.96.179.247 1 20 1887510 20151021095148
+52.2.165.213 2 4 34715 20151009131627
+173.63.240.117 4 11 127510 20151019093644
+74.91.44.64 1 1 30293 20151030032850
+62.212.73.49 1 1 12829 20151011015349
+198.96.90.30 1 1 12829 20151004052203
+188.65.117.157 1 1 5013 20151003022104
+66.87.83.17 1 20 1887510 20151021084645
+117.195.23.228 3 11 256287 20151003142011
+144.76.201.69 1 1 6862 20151020173329
+24.115.124.178 3 27 2560125 20151027101833
+77.75.77.123 1 2 8238 20151023125624
+66.249.83.251 1 1 15550 20151023083138
+49.229.104.119 1 9 247057 20151031025943
+189.127.212.59 1 13 1878268 20151021191629
+157.55.39.252 0 1 7077 
+54.237.11.157 1 1 0 20151001234407
+93.186.16.243 0 5 1805319 
+82.153.7.178 2 14 2008634 20151019104451
+189.48.101.33 1 13 1875547 20151009122056
+201.1.59.172 1 13 1875547 20151010101655
+46.229.170.193 1 1 12829 20151008004103
+188.65.117.146 2 2 27063 20151003103545
+69.21.18.138 3 27 2560125 20151012210049
+151.73.37.145 1 13 1875547 20151014114307
+14.162.200.93 0 1 29534 
+89.46.28.178 1 1 12829 20151001124503
+96.44.189.100 1 1 12829 20151002133002
+186.46.227.32 1 13 1875547 20151001162923
+123.125.71.110 1 1 12829 20151017093356
+67.202.119.130 1 1 12829 20151030030638
+87.64.248.177 1 1 12829 20151012093535
+201.62.67.129 1 3 21886 20151028075252
+183.60.244.46 4 4 51316 20151002212534
+151.30.47.35 1 13 1875547 20151001082025
+123.125.71.89 1 1 15550 20151023153507
+208.54.36.197 2 23 1943550 20151009125740
+188.65.117.142 6 6 67203 20151002191307
+188.65.117.162 1 1 5749 20151002202009
+12.180.55.118 1 1 12829 20151029011157
+37.29.74.52 1 1 12829 20151006152732
+188.76.186.60 0 1 29534 
+45.55.135.226 1 2 19906 20151026134725
+70.193.51.83 4 16 653466 20151031141357
+96.237.168.246 2 18 2086622 20151007000735
+192.241.137.72 1 1 12829 20151019074042
+93.66.60.113 1 3 21886 20151012162353
+188.143.232.40 6 6 60402 20151015184145
+95.148.29.124 1 20 1884789 20151003074853
+66.102.7.169 2 2 28379 20151025190756
+23.27.44.136 2 2 7037 20151001174540
+54.148.75.112 1 1 15550 20151022032202
+73.206.92.48 0 1 29534 
+93.186.16.244 1 1 12829 20151004123917
+104.236.119.218 9 9 109273 20151012160904
+89.144.55.154 1 1 12829 20151029005220
+71.189.164.218 4 4 25780 20151019025743
+24.244.83.186 2 22 1916518 20151019201639
+81.132.41.124 2 22 1916518 20151024142858
+80.79.117.78 1 1 4493 20151029013839
+185.75.240.183 1 1 5013 20151029013840
+68.173.146.139 1 9 247057 20151008001902
+209.237.79.138 0 1 29534 
+46.165.221.145 1 1 12829 20151015064005
+54.198.215.144 6 6 76974 20151029073028
+52.26.61.179 1 1 15550 20151024161448
+188.65.117.155 1 1 30293 20151002205712
+173.54.208.28 2 23 1938883 20151019215702
+5.9.17.118 2 2 14270 20151020173328
+123.125.71.33 1 1 12829 20151012171953
+184.148.117.204 9 49 3260705 20151021143319
+104.236.211.213 9 9 109273 20151006101224
+198.143.1.82 1 1 12829 20151010221859
+74.105.178.157 1 10 1853594 20151031102630
+108.53.237.10 6 48 5108941 20151025084541
+80.79.113.11 1 1 7135 20151029011158
+23.94.36.94 1 1 12829 20151017061054
+208.51.62.51 1 1 0 20151012020640
+123.125.71.80 2 2 25658 20151017073411
+177.140.12.83 1 5 57844 20151023194121
+187.244.13.30 1 20 1884789 20151017195450
+69.141.110.83 3 27 2562846 20151024044314
+198.23.243.87 1 1 12829 20151027220456
+191.182.192.78 1 13 1875547 20151001002923
+74.91.37.54 1 1 6643 20151030032851
+68.32.230.88 1 6 93978 20151010224412
+188.65.117.170 1 1 6028 20151002183153
+69.112.98.235 4 28 2113128 20151019182345
+188.65.117.161 1 1 4733 20151003033935
+107.155.194.210 1 1 6643 20151029011158
+68.87.73.165 0 1 29534 
+151.247.71.15 1 13 1875547 20151016051415
+177.6.52.209 1 20 1884789 20151005080141
+166.137.10.81 2 3 26059 20151031141308
+45.55.229.99 9 9 109273 20151019003548
+69.73.73.49 1 20 1884789 20151027213932
+212.154.77.138 1 1 12829 20151015050052
+74.108.42.6 0 1 8936 
+94.153.10.149 5 5 66866 20151024071357
+123.125.71.88 1 1 15550 20151023133446
+193.201.227.163 1 1 12829 20151017004954
+104.197.99.223 1 1 12829 20151006100707
+173.191.130.210 0 1 29534 
+162.217.135.205 1 1 15550 20151020150257
+209.128.92.245 1 1 12829 20151010050059
+73.48.124.234 3 27 2560125 20151014221002
+66.102.7.176 1 1 12829 20151016100927
+107.23.56.124 6 6 82416 20151022071157
+123.125.71.84 1 1 12829 20151013153938
+93.186.16.245 0 6 50322 
+66.87.122.232 3 34 2720536 20151029133626
+189.4.13.55 1 13 1875547 20151007185604
+179.34.91.189 1 13 1878268 20151024102719
+74.91.42.251 1 1 20905 20151030032851
+54.165.235.135 3 3 18909 20151014175046
+172.56.42.1 0 1 10469 
+151.28.138.91 1 13 1875547 20151014061017
+73.29.44.144 1 2 1814991 20151001190525
+104.154.70.3 1 1 12829 20151004100703
+180.153.186.71 1 1 12829 20151019021154
+107.189.60.69 1 3 21886 20151007054056
+187.21.9.203 1 20 1887510 20151021074659
+54.158.216.94 1 1 12829 20151004001923
+62.233.34.184 1 1 6028 20151025041504
+207.195.235.199 1 1 6028 20151029011157
+208.90.57.196 2 2 19691 20151012042806
+188.143.232.16 2 2 18578 20151015195718
+186.228.186.7 1 20 1887510 20151021214656
+176.103.52.83 1 1 12829 20151003101721
+177.184.134.171 1 13 1875547 20151002124000
+201.20.191.14 1 20 1884789 20151014152205
+108.8.237.14 1 20 1887510 20151021091037
+188.65.117.141 1 1 6028 20151002160303
+66.249.85.222 2 2 25658 20151011180405
+68.196.8.165 0 1 81464 
+179.234.92.7 1 20 1884789 20151013185025
+71.187.49.174 3 7 73947 20151028001157
+188.65.117.143 1 1 12829 20151002152157
+69.124.121.51 8 44 3429853 20151021173600
+104.197.42.159 1 1 12829 20151005100736
+91.250.15.107 1 1 12829 20151018085321
+97.119.118.145 8 47 3228546 20151001225608
+110.55.3.206 1 3 24607 20151022212719
+94.228.142.20 1 1 12829 20151019075937
+23.251.153.232 1 1 12829 20151003100650
+108.201.65.252 1 9 247057 20151013194431
+123.125.71.71 1 1 15550 20151023143442
+88.68.171.186 1 20 1887510 20151021100950
+70.192.37.117 1 6 93978 20151023155526
+45.55.135.224 1 2 19906 20151001144717
+77.75.77.174 1 4 58574 20151023125624
+138.36.33.190 1 13 1875547 20151017211853
+54.149.138.26 1 1 15550 20151025025341
+86.184.171.186 6 26 864354 20151003124916
+80.79.125.106 1 1 12829 20151029213724
+198.252.44.13 9 9 115461 20151014221502
+5.189.202.244 1 1 12829 20151001131747
+54.221.92.79 6 9 106521 20151010122706
+66.30.73.230 4 10 113962 20151022071415
+188.65.117.160 5 5 54374 20151002164010
+123.252.197.51 2 2 41810 20151012103951
+27.159.235.58 1 1 12829 20151012022400
+108.227.229.46 9 50 3596605 20151011085725
+216.54.73.211 1 6 76506 20151007191143
+78.57.251.140 0 1 29534 
+212.12.175.122 0 1 29534 
+50.163.23.154 9 58 4150250 20151023215201
+177.56.207.76 1 2 17530 20151020133356
+123.125.71.87 1 1 12829 20151017083340
+54.224.22.213 8 27 1964051 20151027084404
+66.249.83.156 3 3 38487 20151019081751
+70.195.199.111 4 24 1925945 20151031101004
+173.208.35.70 1 1 6028 20151030032850
+66.249.85.219 1 1 12829 20151009183058
+66.249.85.225 2 2 25658 20151012170425
+158.85.87.247 1 1 20905 20151020234125
+77.75.77.200 1 1 10441 20151023124640
+123.125.71.83 1 1 12829 20151013154245
+173.254.236.171 1 1 12829 20151001062011
+123.125.71.30 1 1 12829 20151012171953
+81.89.96.89 1 1 12829 20151003000543
+79.134.234.247 1 1 12829 20151028223937
+23.239.162.168 1 1 4733 20151029013838
+109.112.104.200 0 1 29534 
+107.189.60.76 1 2 19906 20151025221652
+107.173.160.6 1 1 1011 20151008033631
+174.127.96.25 1 20 1887510 20151019163605
+67.55.87.68 1 1 12829 20151029020500
+66.249.83.162 3 3 38487 20151028082725
+108.8.236.8 5 14 299818 20151007110156
+220.181.108.88 1 1 12829 20151017094217
+157.55.39.42 0 1 7077 
+45.55.134.13 1 2 19906 20151009120340
+45.58.61.134 1 1 12829 20151014014319
+177.0.31.157 2 21 2015155 20151007134039
+87.196.160.171 1 13 1875547 20151006161445
+217.18.246.41 1 1 5749 20151029011159
+94.60.105.50 1 20 1884789 20151006203924
+5.170.84.120 1 20 1884789 20151011031550
+5.9.44.13 1 1 6028 20151017091438
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 31
+20151001 21 98 10761266 13
+20151002 51 114 6463996 15
+20151003 31 78 3239637 12
+20151004 18 67 5499481 10
+20151005 14 102 7879672 4
+20151006 21 60 4085598 11
+20151007 29 152 10811635 13
+20151008 18 62 3806823 8
+20151009 8 45 3928910 6
+20151010 24 44 2267026 9
+20151011 13 73 5519881 5
+20151012 31 71 4929321 15
+20151013 6 45 4045880 6
+20151014 27 132 11504733 12
+20151015 59 80 2634933 10
+20151016 22 34 2091924 9
+20151017 61 203 14801171 17
+20151018 29 118 7603625 8
+20151019 70 349 24952992 20
+20151020 30 105 6492815 8
+20151021 31 258 21983880 12
+20151022 23 56 1742952 10
+20151023 63 244 14267965 19
+20151024 9 67 6456181 6
+20151025 30 90 6066158 9
+20151026 125 415 26500905 8
+20151027 43 165 10717595 8
+20151028 11 43 2724820 7
+20151029 28 82 6744022 21
+20151030 39 39 459339 8
+20151031 46 96 5088762 8
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 2
+5mn-15mn 5
+0s-30s 282
+15mn-30mn 4
+30s-2mn 20
+2mn-5mn 11
+30mn-1h 3
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 81
+/ 300 3986302 239 193
+/v3flashslideshow/smallwoodhome.xml 75 984225 0 22
+/v3flashslideshow/gallery.xml 69 1018095 0 7
+/gallery.html 57 378651 7 7
+/about.html 53 363686 21 10
+/v3flashslideshow/slideshow.swf 45 5866470 0 2
+/media.html 44 919820 15 17
+/menu.swf 42 262836 1 1
+/exhibit.html 39 278265 7 8
+/contact.html 38 229064 13 16
+/menu.xml 37 109964 1 6
+/store.html 26 787618 4 6
+/v3flashslideshow/recentwork.xml 24 345024 0 3
+/mailing_list.html 19 109231 7 4
+/slideshow.html 14 66262 2 4
+/lifescapes.html 13 80145 1 0
+/recent_work.html 13 86125 0 0
+/terms.html 12 60156 2 2
+/store2.html 10 225700 2 6
+/FormToEmail.php 9 6262 1 6
+/giclee_sizes.html 8 35944 1 2
+/v3flashslideshow/slideshow.xml 8 108328 0 0
+/v3flashslideshow/urban-slideshow.xml 4 53012 0 0
+/v3flashslideshow/ 2 1232 0 0
+////slideshow.html 2 9466 0 0
+//mailing_list.html 1 5749 1 0
+/sitemap.xml 1 2288 0 1
+///media.html 1 20905 0 0
+///store2.html 1 22570 0 0
+// 1 12829 0 0
+///exhibit.html 1 7135 0 0
+//about.html 1 6862 0 0
+///terms.html 1 5013 0 0
+/////giclee_sizes.html 1 4493 0 0
+//media.html 1 20905 0 0
+/////gallery.html 1 6643 0 0
+//media.html 1 20905 0 0
+//exhibit.html 1 7135 0 0
+////giclee_sizes.html 2 8986 0 0
+////store.html 2 60586 0 0
+//about.html 1 6862 0 0
+/////exhibit.html 1 7135 0 0
+///gallery.html 1 6643 0 0
+/////mailing_list.html 1 5749 0 0
+/Scripts/expressInstall.swf 1 773 0 0
+///about.html 1 6862 0 0
+///slideshow.html 1 4733 0 0
+/////store.html 1 30293 0 0
+////media.html 2 41810 0 0
+//// 2 25658 0 0
+///// 1 12829 0 0
+///contact.html 1 6028 0 0
+//contact.html 1 6028 0 0
+//store.html 1 30293 0 0
+////gallery.html 2 13286 0 0
+/// 1 12829 0 0
+// 1 12829 0 0
+/////media.html 1 20905 0 0
+////contact.html 2 12056 0 0
+///mailing_list.html 1 5749 0 0
+////terms.html 2 10026 0 0
+//store.html 1 30293 0 0
+/directions.html 1 10441 1 1
+//exhibit.html 1 7135 0 0
+//gallery.html 1 6643 0 0
+/////store2.html 1 22570 0 1
+/////contact.html 1 6028 0 0
+////about.html 2 13724 0 0
+////mailing_list.html 2 11498 0 0
+/////about.html 1 6862 0 0
+//gallery.html 1 6643 0 0
+/Scripts/ 2 696 0 1
+///store.html 1 30293 0 0
+///giclee_sizes.html 1 4493 0 0
+//contact.html 1 6028 0 0
+/////slideshow.html 1 4733 0 0
+/urban_slideshow.html 1 4974 0 0
+////exhibit.html 2 14270 0 0
+//mailing_list.html 1 5749 1 0
+////store2.html 2 45140 0 1
+/////terms.html 1 5013 0 0
+END_SIDER

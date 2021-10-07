@@ -1,0 +1,76 @@
+<menu>
+	<properties>
+		<menu_width>
+			<main_menu width="150" />
+			<sub_menu width="100" />
+		</menu_width>
+		<colors_and_alpha>
+			<main_menu>
+				<background Color="FFFFFF" Alpha="100" />
+				<background_gradient topColor="8590AB" bottomColor="393E4B" Alpha="0" />
+				<border Color="252931" Alpha="0" />
+				<emboss_light Color="FFFFFF" Alpha="0" />
+				<buttons_separator Color="32450E" Alpha="100" />
+				<text Color="81591B" rolloverColor="32450E" pressColor="32450E" />
+				<rollover_bar_light Color="16181D" Alpha="0" />
+				<rollover_bar_light_gradient topColor="373C49" bottomColor="555C6F" Alpha="0" />
+			</main_menu>
+			<sub_menu>
+				<background Color="FFFFFF" Alpha="100" />
+				<background_gradient topColor="F58623" bottomColor="F58623" Alpha="0" />
+				<border Color="F58623" Alpha="0" />
+				<emboss_light Color="FFFFFF" Alpha="0" />
+				<buttons_separator Color="32450E" Alpha="100" />
+				<text Color="81591B" rolloverColor="32450E" pressColor="32450E" />
+				<rollover_bar_light Color="8590AB" Alpha="0" />
+				<rollover_bar_light_gradient topColor="000000" bottomColor="B40000" Alpha="0" />
+			</sub_menu>
+		</colors_and_alpha>
+		<buttons_view>
+			<main_menu>
+				<buttons_height height="30" />
+				<emboss state="0" />
+				<on_click_expands_submenu state="0" />
+				<identical_max_width state="0" />
+				<buttons_separator state="1" />
+				<round_corners radius="4" />
+				<text_size size="18" />
+				<text_indent width="20" />
+				<text_align align="center" />
+				<text_font name="Arial" />
+				<text_bold state="0" />
+			</main_menu>
+			<sub_menu>
+				<buttons_height height="20" />
+				<emboss state="0" />
+				<identical_max_width state="1" />
+				<buttons_separator state="1" />
+				<round_corners radius="0" />
+				<text_size size="15" />
+				<text_indent width="25" />
+				<text_align align="center" />
+				<text_font name="Latha" />
+				<text_bold state="0" />
+			</sub_menu>
+		</buttons_view>
+		<your_background>
+			<bg bg_file_path="" />
+		</your_background>
+		<buttons_sound>
+			<rollover_sound mp3source="sfx.mp3" mp3volume="10" />
+		</buttons_sound>
+	</properties>
+	<buttons>
+		<main text="home" url="index.html" target="_parent" action="getUrl" disable="0" />
+		<main text="about" url="about.html" target="_parent" action="getUrl" disable="0">
+			<sub text="lifescapes" url="lifescapes.html" target="_parent" action="getUrl" disable="0" />
+		</main>
+		<main text="gallery" url="gallery.html" target="_parent" action="getUrl" disable="0">
+			<sub text="recent works" url="recent_work.html" target="_parent" action="getUrl" disable="0" />
+		</main>
+		<main text="exhibitions" url="exhibit.html" target="_parent" action="getUrl" disable="0" />
+				<!--<main text="store" url="store.html" target="_parent" action="getUrl" disable="0" /> -->
+		<main text="news" url="media.html" target="_parent" action="getUrl" disable="0" />
+		<main text="contact" url="contact.html" target="_parent" action="getUrl" disable="0" />
+	</buttons>
+</menu>

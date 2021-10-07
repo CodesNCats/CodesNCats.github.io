@@ -1,0 +1,65 @@
+Return-path: <>
+Envelope-to: psmallwood@bart.asoshared.com
+Delivery-date: Fri, 28 Aug 2015 20:48:34 -0400
+Received: from mailnull by bart.asoshared.com with local (Exim 4.85)
+	id 1ZVUJt-0002rr-VE
+	for psmallwood@bart.asoshared.com; Fri, 28 Aug 2015 20:48:33 -0400
+X-Failed-Recipients: psmallwood2@verizon.net,
+  katherine@creative-launch.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@bart.asoshared.com>
+To: psmallwood@bart.asoshared.com
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1ZVUJt-0002rr-VE@bart.asoshared.com>
+Date: Fri, 28 Aug 2015 20:48:33 -0400
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  psmallwood2@verizon.net
+    host productio-tcloadba-tkyjfaz4ap1l-328615543.us-west-2.elb.amazonaws.com [54.214.243.124]
+    SMTP error from remote mail server after end of data:
+    550 5.7.1 [CS] Message blocked. If this is a false positive, please report this to your hosting service provider. https://console.mailchannels.net/insights/bounce?auid=asmallorange&sender=psmallwood%40bart.asoshared.com&txid=594d24b5
+  katherine@creative-launch.com
+    host productio-tcloadba-tkyjfaz4ap1l-328615543.us-west-2.elb.amazonaws.com [54.214.243.124]
+    SMTP error from remote mail server after end of data:
+    550 5.7.1 [CS] Message blocked. If this is a false positive, please report this to your hosting service provider. https://console.mailchannels.net/insights/bounce?auid=asmallorange&sender=psmallwood%40bart.asoshared.com&txid=594d24b5
+
+------ This is a copy of the message, including all the headers. ------
+
+Return-path: <psmallwood@bart.asoshared.com>
+Received: from psmallwood by bart.asoshared.com with local (Exim 4.85)
+	(envelope-from <psmallwood@bart.asoshared.com>)
+	id 1ZVUJr-0002rB-W1; Fri, 28 Aug 2015 20:48:32 -0400
+To: katherine@creative-launch.com,psmallwood2@verizon.net
+Subject: P. Smallwood Art Comments
+From: jen.lands+psmallwood.com@smartfinancialfunding.com
+Message-Id: <E1ZVUJr-0002rB-W1@bart.asoshared.com>
+Date: Fri, 28 Aug 2015 20:48:31 -0400
+
+Name: Jenny
+
+Email: jen.lands+psmallwood.com@smartfinancialfunding.com
+
+Comments: Could your business use a large capital investment to expand profits or help with cashflow? Hi, I'm Jen with http://SmartFinancialFunding.com , Faster and more convenient than the SBA, I can find you loans for $10,000-2 Million without good-credit, traditional personal guarantees, or collateral. 
+ 
+Our alternative process allows you to get the funds you need in a few days or less - unlike your usual bank. We do have some minimum requirements which include your company being in operation for at least a year, with healthy revenue. Your funding plan will be personalized so I suggest you apply or call in to get the most accurate information. We do not require personal information to apply, only your business information is necessary. All funds we offer are Non-Restrictive, with tax-deductible-interest. Allowing you to use the full amount in any way you require including debt/bills, hiring, marketing, expansion, or Absolutely Any Other expense. 
+ 
+I cannot promise availability so I suggest you apply as soon as possible. The application takes a few minutes, is completely no-cost, and you can accept or decline funds at any time. 
+ 
+Click to get your fast, No-Cost info and offers: http://SmartFinancialFunding.com/?id=h29 
+ 
+Have a great weekend, 
+Jen Lands 
+Smart Financial Funding LLC. 
+ 
+remove here - http://remove.smartfinancialfunding.com/?url=psmallwood.com&id=h29
+
+Submit: Send
+
+
+
+-- 
+Thank you for using FormToEmail from http://FormToEmail.com

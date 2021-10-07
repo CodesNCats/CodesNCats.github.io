@@ -1,0 +1,100 @@
+Return-path: <>
+Envelope-to: psmallwood@bart.asoshared.com
+Delivery-date: Sat, 14 May 2016 12:30:01 -0400
+Received: from mailnull by bart.asoshared.com with local (Exim 4.87)
+	id 1b1cS1-000798-3x
+	for psmallwood@bart.asoshared.com; Sat, 14 May 2016 12:30:01 -0400
+X-Failed-Recipients: psmallwood2@verizon.net,
+  katherine@creative-launch.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@bart.asoshared.com>
+To: psmallwood@bart.asoshared.com
+Content-Type: multipart/report; report-type=delivery-status; boundary=1463243401-eximdsn-390204888
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1b1cS1-000798-3x@bart.asoshared.com>
+Date: Sat, 14 May 2016 12:30:01 -0400
+
+--1463243401-eximdsn-390204888
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  psmallwood2@verizon.net
+    host mailchannels-lb-2-364402916.us-west-2.elb.amazonaws.com [54.245.90.16]
+    SMTP error from remote mail server after end of data:
+    550 5.7.1 [CS] Message blocked. If this is a false positive, please report this to your hosting service provider. See https://console.mailchannels.net/insights/bounce?auid=asmallorange&sender=psmallwood%40bart.asoshared.com&txid=52a3243d
+  katherine@creative-launch.com
+    host mailchannels-lb-2-364402916.us-west-2.elb.amazonaws.com [54.245.90.16]
+    SMTP error from remote mail server after end of data:
+    550 5.7.1 [CS] Message blocked. If this is a false positive, please report this to your hosting service provider. See https://console.mailchannels.net/insights/bounce?auid=asmallorange&sender=psmallwood%40bart.asoshared.com&txid=52a3243d
+
+--1463243401-eximdsn-390204888
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; bart.asoshared.com
+
+Action: failed
+Final-Recipient: rfc822;katherine@creative-launch.com
+Status: 5.0.0
+Remote-MTA: dns; mailchannels-lb-2-364402916.us-west-2.elb.amazonaws.com
+Diagnostic-Code: smtp; 550 5.7.1 [CS] Message blocked. If this is a false positive, please report this to your hosting service provider. See https://console.mailchannels.net/insights/bounce?auid=asmallorange&sender=psmallwood%40bart.asoshared.com&txid=52a3243d
+
+Action: failed
+Final-Recipient: rfc822;psmallwood2@verizon.net
+Status: 5.0.0
+Remote-MTA: dns; mailchannels-lb-2-364402916.us-west-2.elb.amazonaws.com
+Diagnostic-Code: smtp; 550 5.7.1 [CS] Message blocked. If this is a false positive, please report this to your hosting service provider. See https://console.mailchannels.net/insights/bounce?auid=asmallorange&sender=psmallwood%40bart.asoshared.com&txid=52a3243d
+
+--1463243401-eximdsn-390204888
+Content-type: message/rfc822
+
+Return-path: <psmallwood@bart.asoshared.com>
+Received: from psmallwood by bart.asoshared.com with local (Exim 4.87)
+	(envelope-from <psmallwood@bart.asoshared.com>)
+	id 1b1cRz-00078n-No; Sat, 14 May 2016 12:29:59 -0400
+To: katherine@creative-launch.com,psmallwood2@verizon.net
+Subject: P. Smallwood Art Comments
+X-PHP-Originating-Script: 1622:FormToEmail.php
+From: Mcquain34046@yahoo.com
+Message-Id: <E1b1cRz-00078n-No@bart.asoshared.com>
+Date: Sat, 14 May 2016 12:29:59 -0400
+
+Name: Maryam
+
+Email: Mcquain34046@yahoo.com
+
+Comments: If you’re like most of my clients, you want to shine more attention on your Social Media presence. 
+ 
+If that’s the case, let me take your Social Media Marketing over the TOP! 
+ 
+Our Promotion Packages: 
+----------------------- 
+ 
+1) 5,000 Facebook Fans/Likes($75)        = Order at:- http://khalaghor.com/5kfb/ 
+2) 5,000 Twitter Followers($35)          = Order at:- http://khalaghor.com/twitter/ 
+3) 25,000 YouTube Views($25)             = Order at:- http://khalaghor.com/youtube/ 
+4) 1,000 Google+ Ones($50)               = Order at:- http://khalaghor.com/google/ 
+5) 5,000 Instagram Followers($40)        = Order at:- http://khalaghor.com/instagram/ 
+ 
+ 
+You can find more options for smaller or even bigger packages at our website.  Click here NOW http://socialeum.com to see what we can do for you! 
+ 
+Don't reply to this mail.We don't monitor inbox. 
+ 
+Thank You 
+ 
+ 
+To unsubscribe, visit:- http://tinyurl.com/jh2j82q
+
+Submit: Send
+
+
+
+-- 
+Thank you for using FormToEmail from http://FormToEmail.com
+
+--1463243401-eximdsn-390204888--

@@ -1,0 +1,82 @@
+Return-path: <>
+Envelope-to: psmallwood@bart.asoshared.com
+Delivery-date: Wed, 01 Jun 2016 19:55:27 -0400
+Received: from mailnull by bart.asoshared.com with local (Exim 4.87)
+	id 1b8Fyx-0000hp-Se
+	for psmallwood@bart.asoshared.com; Wed, 01 Jun 2016 19:55:27 -0400
+X-Failed-Recipients: katherine@creative-launch.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@bart.asoshared.com>
+To: psmallwood@bart.asoshared.com
+Content-Type: multipart/report; report-type=delivery-status; boundary=1464825327-eximdsn-1627763554
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1b8Fyx-0000hp-Se@bart.asoshared.com>
+Date: Wed, 01 Jun 2016 19:55:27 -0400
+
+--1464825327-eximdsn-1627763554
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  katherine@creative-launch.com
+    host mx1.smtp.exch082.serverdata.net [208.65.145.2]
+    SMTP error from remote mail server after end of data:
+    554 Denied [de57f475.0.2040054.00-2361.3909552.s12p02m035.mxlogic.net] (Mode:
+    normal)
+
+--1464825327-eximdsn-1627763554
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; bart.asoshared.com
+
+Action: failed
+Final-Recipient: rfc822;katherine@creative-launch.com
+Status: 5.0.0
+Remote-MTA: dns; mx1.smtp.exch082.serverdata.net
+Diagnostic-Code: smtp; 554 Denied [de57f475.0.2040054.00-2361.3909552.s12p02m035.mxlogic.net] (Mode: normal)
+
+--1464825327-eximdsn-1627763554
+Content-type: message/rfc822
+
+Return-path: <psmallwood@bart.asoshared.com>
+Received: from psmallwood by bart.asoshared.com with local (Exim 4.87)
+	(envelope-from <psmallwood@bart.asoshared.com>)
+	id 1b8Fyt-0000fX-Rt; Wed, 01 Jun 2016 19:55:23 -0400
+To: katherine@creative-launch.com,psmallwood2@verizon.net
+Subject: P. Smallwood Art Comments
+X-PHP-Originating-Script: 1622:FormToEmail.php
+From: teammegamedia@gmail.com
+Message-Id: <E1b8Fyt-0000fX-Rt@bart.asoshared.com>
+Date: Wed, 01 Jun 2016 19:55:23 -0400
+
+Name: Roman T.
+
+Comments: I run a digital marketing agency that helps our clients generate more sales from the web by taking advantage of the most recent changes in Google algorithm.  Have you heard of the changes that Google has made?  If not, I'd like to tell you about them and tell you how you can take advantage of them.  
+
+I wanted to reach out to you to see if you were interested in seeing what my team and I can do to give you the edge on the competition. I would be happy to  look at your competitors with you over the phone and share some of our insights.  
+
+The information we provide gives you a full understanding of what is working in today's digital marketing world and helps you to see what my team and I can do to increase the traffic and sales to your site.  Even if you're not interested in using my services, I will still be happy to answer all your questions and provide you with this information.
+
+What would be the best time to talk?
+
+I am looking forward to speaking with you soon.
+
+Thanks,
+
+Roman T.
+
+If you are not interested in seeing how my team and I can help you outrank your competitors then just reply back and let me know and we will not message you again.
+
+
+Email: teammegamedia@gmail.com
+
+
+
+-- 
+Thank you for using FormToEmail from http://FormToEmail.com
+
+--1464825327-eximdsn-1627763554--

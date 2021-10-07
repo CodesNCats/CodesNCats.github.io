@@ -1,0 +1,78 @@
+Return-path: <>
+Envelope-to: psmallwood@bart.asoshared.com
+Delivery-date: Thu, 19 Jan 2017 23:41:23 -0500
+Received: from mailnull by bart.asoshared.com with local (Exim 4.87)
+	id 1cUR0t-0000In-8v
+	for psmallwood@bart.asoshared.com; Thu, 19 Jan 2017 23:41:23 -0500
+X-Failed-Recipients: psmallwood2@verizon.net,
+  katherine@creative-launch.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@bart.asoshared.com>
+To: psmallwood@bart.asoshared.com
+Content-Type: multipart/report; report-type=delivery-status; boundary=1484887283-eximdsn-249129800
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1cUR0t-0000In-8v@bart.asoshared.com>
+Date: Thu, 19 Jan 2017 23:41:23 -0500
+
+--1484887283-eximdsn-249129800
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  psmallwood2@verizon.net
+    host smtp.mailchannels.net [54.214.33.138]
+    SMTP error from remote mail server after end of data:
+    550 5.7.1 [CS] Message blocked. If this is a false positive, please report this to your hosting service provider. See https://console.mailchannels.net/insights/bounce?auid=asmallorange&sender=psmallwood%40bart.asoshared.com&txid=71ce7de32176815e
+  katherine@creative-launch.com
+    host smtp.mailchannels.net [54.214.33.138]
+    SMTP error from remote mail server after end of data:
+    550 5.7.1 [CS] Message blocked. If this is a false positive, please report this to your hosting service provider. See https://console.mailchannels.net/insights/bounce?auid=asmallorange&sender=psmallwood%40bart.asoshared.com&txid=71ce7de32176815e
+
+--1484887283-eximdsn-249129800
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; bart.asoshared.com
+
+Action: failed
+Final-Recipient: rfc822;katherine@creative-launch.com
+Status: 5.0.0
+Remote-MTA: dns; smtp.mailchannels.net
+Diagnostic-Code: smtp; 550 5.7.1 [CS] Message blocked. If this is a false positive, please report this to your hosting service provider. See https://console.mailchannels.net/insights/bounce?auid=asmallorange&sender=psmallwood%40bart.asoshared.com&txid=71ce7de32176815e
+
+Action: failed
+Final-Recipient: rfc822;psmallwood2@verizon.net
+Status: 5.0.0
+Remote-MTA: dns; smtp.mailchannels.net
+Diagnostic-Code: smtp; 550 5.7.1 [CS] Message blocked. If this is a false positive, please report this to your hosting service provider. See https://console.mailchannels.net/insights/bounce?auid=asmallorange&sender=psmallwood%40bart.asoshared.com&txid=71ce7de32176815e
+
+--1484887283-eximdsn-249129800
+Content-type: message/rfc822
+
+Return-path: <psmallwood@bart.asoshared.com>
+Received: from psmallwood by bart.asoshared.com with local (Exim 4.87)
+	(envelope-from <psmallwood@bart.asoshared.com>)
+	id 1cUR0r-0000IH-UX; Thu, 19 Jan 2017 23:41:21 -0500
+To: katherine@creative-launch.com,psmallwood2@verizon.net
+Subject: P. Smallwood Art Comments
+From: dickrwills@email-me.bid
+Message-Id: <E1cUR0r-0000IH-UX@bart.asoshared.com>
+Date: Thu, 19 Jan 2017 23:41:21 -0500
+
+Name: BillyBap
+
+Email: dickrwills@email-me.bid
+
+Comments: wh0cd666937 <a href=http://fluoxetine-online.trade/>fluoxetine</a> <a href=http://buyavana.webcam/>avana</a> <a href=http://doxycycline-price.science/>doxycycline</a> <a href=http://tretinoin-cream-05.bid/>tretinoin cream</a> <a href=http://ipratropium-albuterol.us/>ipratropium albuterol</a> <a href=http://buyrocaltrol.cricket/>rocaltrol</a>
+
+Submit: Send
+
+
+
+-- 
+Thank you for using FormToEmail from http://FormToEmail.com
+
+--1484887283-eximdsn-249129800--

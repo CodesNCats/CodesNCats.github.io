@@ -1,0 +1,77 @@
+Return-path: <>
+Envelope-to: psmallwood@bart.asoshared.com
+Delivery-date: Wed, 11 May 2016 15:06:30 -0400
+Received: from mailnull by bart.asoshared.com with local (Exim 4.87)
+	id 1b0ZSo-0005ZP-2n
+	for psmallwood@bart.asoshared.com; Wed, 11 May 2016 15:06:30 -0400
+X-Failed-Recipients: psmallwood2@verizon.net,
+  katherine@creative-launch.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@bart.asoshared.com>
+To: psmallwood@bart.asoshared.com
+Content-Type: multipart/report; report-type=delivery-status; boundary=1462993590-eximdsn-1118993422
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1b0ZSo-0005ZP-2n@bart.asoshared.com>
+Date: Wed, 11 May 2016 15:06:30 -0400
+
+--1462993590-eximdsn-1118993422
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  psmallwood2@verizon.net
+    host productio-tcloadba-tkyjfaz4ap1l-328615543.us-west-2.elb.amazonaws.com [54.244.222.11]
+    SMTP error from remote mail server after end of data:
+    550 5.7.1 [CS] Message blocked. If this is a false positive, please report this to your hosting service provider. See https://console.mailchannels.net/insights/bounce?auid=asmallorange&sender=psmallwood%40bart.asoshared.com&txid=163165c1
+  katherine@creative-launch.com
+    host productio-tcloadba-tkyjfaz4ap1l-328615543.us-west-2.elb.amazonaws.com [54.244.222.11]
+    SMTP error from remote mail server after end of data:
+    550 5.7.1 [CS] Message blocked. If this is a false positive, please report this to your hosting service provider. See https://console.mailchannels.net/insights/bounce?auid=asmallorange&sender=psmallwood%40bart.asoshared.com&txid=163165c1
+
+--1462993590-eximdsn-1118993422
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; bart.asoshared.com
+
+Action: failed
+Final-Recipient: rfc822;katherine@creative-launch.com
+Status: 5.0.0
+Remote-MTA: dns; productio-tcloadba-tkyjfaz4ap1l-328615543.us-west-2.elb.amazonaws.com
+Diagnostic-Code: smtp; 550 5.7.1 [CS] Message blocked. If this is a false positive, please report this to your hosting service provider. See https://console.mailchannels.net/insights/bounce?auid=asmallorange&sender=psmallwood%40bart.asoshared.com&txid=163165c1
+
+Action: failed
+Final-Recipient: rfc822;psmallwood2@verizon.net
+Status: 5.0.0
+Remote-MTA: dns; productio-tcloadba-tkyjfaz4ap1l-328615543.us-west-2.elb.amazonaws.com
+Diagnostic-Code: smtp; 550 5.7.1 [CS] Message blocked. If this is a false positive, please report this to your hosting service provider. See https://console.mailchannels.net/insights/bounce?auid=asmallorange&sender=psmallwood%40bart.asoshared.com&txid=163165c1
+
+--1462993590-eximdsn-1118993422
+Content-type: message/rfc822
+
+Return-path: <psmallwood@bart.asoshared.com>
+Received: from psmallwood by bart.asoshared.com with local (Exim 4.87)
+	(envelope-from <psmallwood@bart.asoshared.com>)
+	id 1b0ZSm-0005Yr-KM; Wed, 11 May 2016 15:06:28 -0400
+To: katherine@creative-launch.com,psmallwood2@verizon.net
+Subject: P. Smallwood Art Comments
+X-PHP-Originating-Script: 1622:FormToEmail.php
+From: illdjxc@gmail.com
+Message-Id: <E1b0ZSm-0005Yr-KM@bart.asoshared.com>
+Date: Wed, 11 May 2016 15:06:28 -0400
+
+Name: Donna
+
+Email: illdjxc@gmail.com
+
+Comments: Hello, I tried calling you several times today, and I'm not getting through for some reason. If your website does not have many Facebook Likes, why would someone visit your Facebook Fanpage? People Like you when other people like you. The more people that LIKE your website and fanpage on Facebook, the more credibility you will have with new visitors. It works the same for Twitter, Instagram and Youtube. When people visit your page and see that you have a lot of followers, they now want to follow you too. They too want to know what all the hype is and why all those people are following you. Get some free likes, followers, and views just for trying this service I found: http://nfc.lol/7uzt
+
+
+
+-- 
+Thank you for using FormToEmail from http://FormToEmail.com
+
+--1462993590-eximdsn-1118993422--

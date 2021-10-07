@@ -1,0 +1,79 @@
+Return-path: <>
+Envelope-to: psmallwood@bart.asoshared.com
+Delivery-date: Mon, 17 Oct 2016 18:10:18 -0400
+Received: from mailnull by bart.asoshared.com with local (Exim 4.87)
+	id 1bwG6s-0003Cc-4T
+	for psmallwood@bart.asoshared.com; Mon, 17 Oct 2016 18:10:18 -0400
+X-Failed-Recipients: psmallwood2@verizon.net,
+  katherine@creative-launch.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@bart.asoshared.com>
+To: psmallwood@bart.asoshared.com
+Content-Type: multipart/report; report-type=delivery-status; boundary=1476742218-eximdsn-162579446
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1bwG6s-0003Cc-4T@bart.asoshared.com>
+Date: Mon, 17 Oct 2016 18:10:18 -0400
+
+--1476742218-eximdsn-162579446
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  psmallwood2@verizon.net
+    host mailchannels-lb-2-364402916.us-west-2.elb.amazonaws.com [54.214.248.94]
+    SMTP error from remote mail server after end of data:
+    550 5.7.1 [CS] Message blocked. If this is a false positive, please report this to your hosting service provider. See https://console.mailchannels.net/insights/bounce?auid=asmallorange&sender=psmallwood%40bart.asoshared.com&txid=40e7ae20547c7a62
+  katherine@creative-launch.com
+    host mailchannels-lb-2-364402916.us-west-2.elb.amazonaws.com [54.214.248.94]
+    SMTP error from remote mail server after end of data:
+    550 5.7.1 [CS] Message blocked. If this is a false positive, please report this to your hosting service provider. See https://console.mailchannels.net/insights/bounce?auid=asmallorange&sender=psmallwood%40bart.asoshared.com&txid=40e7ae20547c7a62
+
+--1476742218-eximdsn-162579446
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; bart.asoshared.com
+
+Action: failed
+Final-Recipient: rfc822;katherine@creative-launch.com
+Status: 5.0.0
+Remote-MTA: dns; mailchannels-lb-2-364402916.us-west-2.elb.amazonaws.com
+Diagnostic-Code: smtp; 550 5.7.1 [CS] Message blocked. If this is a false positive, please report this to your hosting service provider. See https://console.mailchannels.net/insights/bounce?auid=asmallorange&sender=psmallwood%40bart.asoshared.com&txid=40e7ae20547c7a62
+
+Action: failed
+Final-Recipient: rfc822;psmallwood2@verizon.net
+Status: 5.0.0
+Remote-MTA: dns; mailchannels-lb-2-364402916.us-west-2.elb.amazonaws.com
+Diagnostic-Code: smtp; 550 5.7.1 [CS] Message blocked. If this is a false positive, please report this to your hosting service provider. See https://console.mailchannels.net/insights/bounce?auid=asmallorange&sender=psmallwood%40bart.asoshared.com&txid=40e7ae20547c7a62
+
+--1476742218-eximdsn-162579446
+Content-type: message/rfc822
+
+Return-path: <psmallwood@bart.asoshared.com>
+Received: from psmallwood by bart.asoshared.com with local (Exim 4.87)
+	(envelope-from <psmallwood@bart.asoshared.com>)
+	id 1bwG6q-0003AB-JC; Mon, 17 Oct 2016 18:10:16 -0400
+To: katherine@creative-launch.com,psmallwood2@verizon.net
+Subject: P. Smallwood Art Comments
+X-PHP-Originating-Script: 1622:FormToEmail.php
+From: webdesignerzroyal@gmail.com
+Message-Id: <E1bwG6q-0003AB-JC@bart.asoshared.com>
+Date: Mon, 17 Oct 2016 18:10:16 -0400
+
+Name: Sterling Chambers
+
+Comments: I'm contact you to find out if you're interested in redesigning or upgrading your site, or if you're interested in building a new site.  I am a very skilled web designer with various abilities and can create just about anything that you can come up with.  My rates are affordable at any budget.  Please let me know what you're looking to do with the website and I can give you a proposal on getting it done.  
+Kind regards, 
+Sterling Chambers
+
+Email: webdesignerzroyal@gmail.com
+
+
+
+-- 
+Thank you for using FormToEmail from http://FormToEmail.com
+
+--1476742218-eximdsn-162579446--

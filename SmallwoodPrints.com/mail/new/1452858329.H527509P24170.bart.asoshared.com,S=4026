@@ -1,0 +1,76 @@
+Return-path: <>
+Envelope-to: psmallwood@bart.asoshared.com
+Delivery-date: Fri, 15 Jan 2016 06:45:29 -0500
+Received: from mailnull by bart.asoshared.com with local (Exim 4.86)
+	id 1aK2or-0006Hj-Et
+	for psmallwood@bart.asoshared.com; Fri, 15 Jan 2016 06:45:29 -0500
+X-Failed-Recipients: psmallwood2@verizon.net,
+  katherine@creative-launch.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@bart.asoshared.com>
+To: psmallwood@bart.asoshared.com
+Content-Type: multipart/report; report-type=delivery-status; boundary=1452858329-eximdsn-647816253
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1aK2or-0006Hj-Et@bart.asoshared.com>
+Date: Fri, 15 Jan 2016 06:45:29 -0500
+
+--1452858329-eximdsn-647816253
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  psmallwood2@verizon.net
+    host productio-tcloadba-tkyjfaz4ap1l-328615543.us-west-2.elb.amazonaws.com [54.245.249.235]
+    SMTP error from remote mail server after end of data:
+    550 5.7.1 [CS] Message blocked. If this is a false positive, please report this to your hosting service provider. See https://console.mailchannels.net/insights/bounce?auid=asmallorange&sender=psmallwood%40bart.asoshared.com&txid=6dcda80a
+  katherine@creative-launch.com
+    host productio-tcloadba-tkyjfaz4ap1l-328615543.us-west-2.elb.amazonaws.com [54.245.249.235]
+    SMTP error from remote mail server after end of data:
+    550 5.7.1 [CS] Message blocked. If this is a false positive, please report this to your hosting service provider. See https://console.mailchannels.net/insights/bounce?auid=asmallorange&sender=psmallwood%40bart.asoshared.com&txid=6dcda80a
+
+--1452858329-eximdsn-647816253
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; bart.asoshared.com
+
+Action: failed
+Final-Recipient: rfc822;katherine@creative-launch.com
+Status: 5.0.0
+Remote-MTA: dns; productio-tcloadba-tkyjfaz4ap1l-328615543.us-west-2.elb.amazonaws.com
+Diagnostic-Code: smtp; 550 5.7.1 [CS] Message blocked. If this is a false positive, please report this to your hosting service provider. See https://console.mailchannels.net/insights/bounce?auid=asmallorange&sender=psmallwood%40bart.asoshared.com&txid=6dcda80a
+
+Action: failed
+Final-Recipient: rfc822;psmallwood2@verizon.net
+Status: 5.0.0
+Remote-MTA: dns; productio-tcloadba-tkyjfaz4ap1l-328615543.us-west-2.elb.amazonaws.com
+Diagnostic-Code: smtp; 550 5.7.1 [CS] Message blocked. If this is a false positive, please report this to your hosting service provider. See https://console.mailchannels.net/insights/bounce?auid=asmallorange&sender=psmallwood%40bart.asoshared.com&txid=6dcda80a
+
+--1452858329-eximdsn-647816253
+Content-type: message/rfc822
+
+Return-path: <psmallwood@bart.asoshared.com>
+Received: from psmallwood by bart.asoshared.com with local (Exim 4.86)
+	(envelope-from <psmallwood@bart.asoshared.com>)
+	id 1aK2oq-0006HS-5g; Fri, 15 Jan 2016 06:45:28 -0500
+To: katherine@creative-launch.com,psmallwood2@verizon.net
+Subject: P. Smallwood Art Comments
+From: rsgtronjpsy@udkdoles.net
+Message-Id: <E1aK2oq-0006HS-5g@bart.asoshared.com>
+Date: Fri, 15 Jan 2016 06:45:28 -0500
+
+Name: Sandra
+
+Email: rsgtronjpsy@udkdoles.net
+
+Comments: Hi my name is Sandra and I just wanted to drop you a quick note here instead of calling you. I came to your Contact Artist | P. Smallwood page and noticed you could have a lot more traffic. I have found that the key to running a successful website is making sure the visitors you are getting are interested in your niche. There is a company that you can get targeted traffic from and they let you try the service for free for 7 days. I managed to get over 300 targeted visitors to day to my site. Check it out here: http://tgi.link/dcf2
+
+
+
+-- 
+Thank you for using FormToEmail from http://FormToEmail.com
+
+--1452858329-eximdsn-647816253--
