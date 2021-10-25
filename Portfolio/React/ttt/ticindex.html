@@ -3,37 +3,21 @@
 
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <title>Home</title>
-  <link href="masterCSS.css" rel="stylesheet" type="text/css" />
-  <link href="body.css" rel="stylesheet" type="text/css" />
+  <title>Tic-Tac-Toe</title>
 
   <!-- Load React. -->
   <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
   <script src="https://unpkg.com/react@17/umd/react.production.min.js" crossorigin></script>
   <script src="https://unpkg.com/react-dom@17/umd/react-dom.production.min.js" crossorigin></script>
-
 <!-- Note: remove before launching -->
   <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+  <link href="ticindex.css" rel="stylesheet" type="text/css" />
 </head>
 
-<body onresize="homeHeight()" onload="homeHeight()">
+<body>
 
-  <div id="root"></div>
-
+  <div id="ticRoot" style="width:400px; height:400px;"></div>
   <!-- Load our React component. -->
-  <script src="index.js" type="text/babel"></script>
-
-  <script>
-    function homeHeight() {
-      var w = window.innerWidth * 0.8;
-      var h = window.innerHeight - 320;
-
-      var width = w + "px";
-      var height = h + "px";
-      document.getElementById("port").style.width = width;
-      document.getElementById("port").style.height = height;
-    }
-</script>
+  <script src="ticindex.js" type="text/babel"></script>
 
 </body>
-</html>

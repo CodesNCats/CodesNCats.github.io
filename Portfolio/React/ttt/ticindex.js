@@ -1,6 +1,7 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
+'use strict';
+
+const e = React.createElement;
+
 function Square(props) {
     return (
       <button className="square" onClick={props.onClick}>
@@ -54,7 +55,7 @@ class Game extends React.Component {
 		};
 	}
 
-	handleClick(i) {
+	handleClick(props) {
 		const history = this.state.history.slice(0, this.state.stepNumber + 1);
 		const current = history[history.length - 1];
 		const squares = current.squares.slice();
@@ -119,12 +120,6 @@ const moves = history.map((step, move) => {
 }
 
 // ========================================
-
-ReactDOM.render(
-  <Game />,
-  document.getElementById('root')
-);
-
 function calculateWinner(squares) {
   const lines = [
     [0, 1, 2],
@@ -145,5 +140,5 @@ function calculateWinner(squares) {
   return null;
 }
 
-const domContainer = document.querySelector('#tic-tac-toe');
+const domContainer = document.querySelector('#ticRoot');
 ReactDOM.render(e(Game), domContainer);

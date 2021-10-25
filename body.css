@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+body{
+	margin: 0px;
+	overflow: hidden;
+	background-color: white;
+	background-image: url(Images/Background.jpg);
+	background-size: 4000px 1000px;
+	background-repeat: no-repeat;
+	animation-duration: 240s;
+	animation-timing-function: linear;
+	animation-direction: alternate;
+	animation-name: backslide;
+	animation-iteration-count: infinite;
+}
+
+@keyframes backslide {
+  from {
+		background-position: left 0px;
+  }
+
+  to {
+		background-position: right 0px;
+  }
+}
