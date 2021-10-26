@@ -21,7 +21,7 @@ class ViewPort extends React.Component {
         </div>
         <div id="main">
           <div id="port">
-            <iframe src={this.state.page} sandbox="allow-same-origin"/>
+            <iframe src={this.state.page} sandbox="allow-same-origin allow-top-navigation allow-popups"/>
           </div>
         </div>
       </div>
