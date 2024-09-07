@@ -4,6 +4,12 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <title>RipperRoo</title>
+
+  <script src="https://unpkg.com/react@17/umd/react.production.min.js" crossorigin></script>
+  <script src="https://unpkg.com/react-dom@17/umd/react-dom.production.min.js" crossorigin></script>
+
+<!-- Note: remove before launching -->
+  <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
 </head>
 
 <body onresize="homeHeight()" onload="homeHeight()">
@@ -20,6 +26,21 @@
     <div id="ticketEXP"></div>
     <div id="ticketInterface"></div>
   </div>
+ 
+  <!-- Load our React component. -->
+  <script src="index.js" type="text/babel"></script>
+
+  <script>
+    function homeHeight() {
+      var w = window.innerWidth * 0.8;
+      var h = window.innerHeight - 320;
+
+      var width = w + "px";
+      var height = h + "px";
+      document.getElementById("port").style.width = width;
+      document.getElementById("port").style.height = height;
+    }
+</script>
   
 </body>
 </html>
