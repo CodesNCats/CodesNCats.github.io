@@ -4,43 +4,205 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <title>RipperRoo</title>
-
-  <script src="https://unpkg.com/react@17/umd/react.production.min.js" crossorigin></script>
-  <script src="https://unpkg.com/react-dom@17/umd/react-dom.production.min.js" crossorigin></script>
-
-<!-- Note: remove before launching -->
-  <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
 </head>
 
-<body onresize="homeHeight()" onload="homeHeight()">
+<body onresize="resizeLoad()" onload="resizeLoad();initiateLoad(3600); startBlink()" style="font-family: Helvetica, Arial, sans-serif;">
 
-  <div id="main">
-    <div id="ticketNum"></div>
-    <div id="ticketQR"></div>
-    <div id=ticketType"></div>
-    <div id="ticketZones"></div>
-    <div id="ticketValid"></div>
-    <div id="ticketClock"></div>
-    <div id="ticketDate"></div>
-    <div id="ticketBlinker"></div>
-    <div id="ticketEXP"></div>
-    <div id="ticketInterface"></div>
-  </div>
- 
-  <!-- Load our React component. -->
-  <script src="index.js" type="text/babel"></script>
 
-  <script>
-    function homeHeight() {
-      var w = window.innerWidth * 0.8;
-      var h = window.innerHeight - 320;
+   <script type="text/JavaScript">
+	var width = window.innerWidth;
+	var height = window.innerHeight;
+	
+    function resizeLoad(){
+      var width = window.innerWidth;
+      var height = window.innerHeight;
+	  
+      document.getElementById("ticketNum").style.width = width*2.25/6.5 + "px";
+      document.getElementById("ticketNum").style.height = width*2.25/6.5 + "px";
+	  document.getElementById("ticketNum").style.left = width*0.25/6.5 + "px";
+	  document.getElementById("ticketNum").style.top = height*0.885/14 + "px";
+	  document.getElementById("ticketNum").style.borderRadius = width*0.1/6.5 + "px";
+	  document.getElementById("ticketNum").style.paddingTop = width*0.15/6.5 + "px";
+	  document.getElementById("ticketNum").style.paddingLeft = width*0.125/6.5 + "px";
+	  
+	  document.getElementById("way").style.fontSize = height*0.2/14 + "px";
+	  document.getElementById("adult").style.fontSize = height*0.275/14 + "px";
+	  
+	  document.getElementById("ticketQR").style.width = width*2.25/6.5 + "px";
+      document.getElementById("ticketQR").style.height = width*2.25/6.5 + "px";
+	  document.getElementById("ticketQR").style.right = width*0.25/6.5 + "px";
+	  document.getElementById("ticketQR").style.top = height*0.885/14 + "px";
+	  
+	  document.getElementById("ticketType").style.top = height*3.75/14 + "px";
+	  document.getElementById("ticketType").style.fontSize = height*0.5/14 + "px";
+	  
+	  document.getElementById("ticketZones").style.height = height*2.1/14 + "px";
+	  document.getElementById("ticketZones").style.width = width*6/6.5 + "px";
+	  document.getElementById("ticketZones").style.top = height*4.25/14 + "px";
+	  document.getElementById("ticketZones").style.left = width*.25/6.5 + "px";
+	  document.getElementById("ticketZones").style.borderRadius = width*0.1/6.5 + "px";
+	  
+	  document.getElementById("zoneNum").style.fontSize = height*1.5/14 + "px";
+	  document.getElementById("zoneNum").style.lineHeight = height*1.4/14 + "px";
+	  document.getElementById("zoneRide").style.fontSize = height*.4/14 + "px";
+	  document.getElementById("zoneRide").style.lineHeight = height*.35/14 + "px";
+	  document.getElementById("notValid").style.fontSize = height*.25/14 + "px";
+	  document.getElementById("notValid").style.lineHeight = height*.40/14 + "px";
+	  
+	  document.getElementById("ticketValid").style.top = height*6.5/14 + "px";
+	  document.getElementById("ticketValid").style.fontSize = height*.25/14 + "px";
+	  document.getElementById("ticketValid").style.lineHeight = height*.1/14 + "px";
+	  
+	  document.getElementById("ticketClock").style.fontSize = height*.25/14 + "px";
+	  document.getElementById("ticketClock").style.bottom = height*2.30/14 + "px";
 
-      var width = w + "px";
-      var height = h + "px";
-      document.getElementById("port").style.width = width;
-      document.getElementById("port").style.height = height;
+	  document.getElementById("ticketDate").style.fontSize = height*.25/14 + "px";
+	  document.getElementById("ticketDate").style.bottom = height*2.05/14 + "px";
+	  
+	  document.getElementById("ticketBlinker").style.height = height*.275/14 + "px";
+	  document.getElementById("ticketBlinker").style.bottom = height*1.775/14 + "px";
+	  document.getElementById("ticketBlinker").style.left = width*.05 + "px";
+	  
+	  document.getElementById("ticketEXP").style.fontSize = height*.25/14 + "px";
+	  document.getElementById("ticketEXP").style.bottom = height*1.525/14 + "px";
+	  
+	  document.getElementById("ticketInterface").style.height = height*1.25/14 + "px";
+	  document.getElementById("ticketInterface").style.backgroundSize = width + "px";
     }
-</script>
+	
+      function showTime() {
+    // Getting current time and date
+    let time = new Date();
+    let hour = time.getHours();
+    let min = time.getMinutes();
+    let sec = time.getSeconds();
+    am_pm = "AM";
+ 
+    // Setting time for 12 Hrs format
+    if (hour >= 12) {
+        if (hour > 12) hour -= 12;
+        am_pm = " PM";
+    } else if (hour == 0) {
+        hr = 12;
+        am_pm = " AM";
+    }
+ 
+    hour =
+        hour < 10 ? "0" + hour : hour;
+    min = min < 10 ? "0" + min : min;
+    sec = sec < 10 ? "0" + sec : sec;
+ 
+    let currentTime =
+        hour +
+        ":" +
+        min +
+        ":" +
+        sec +
+        am_pm;
+ 
+    // Displaying the time
+    document.getElementById(
+        "ticketClock"
+    ).innerHTML = currentTime;
+}
+	  
+	// call the `updateDateTime` function every second
+    setInterval(showTime, 1000);
+	
+	function initiateLoad(duration){
+		var type = "INTERSTATE";
+		document.getElementById("ticketType").innerHTML = "INTERSTATE";
+		const date = new Date();
+		var year = date.getFullYear();
+		var day = getDayName("en-Latn-US")
+		var numberDay = date.getDate();
+		var month = date.getMonth();
+		switch(month){
+		case 0: month = "Jan"; break;
+		case 1: month = "Feb"; break;
+		case 2: month = "Mar"; break;
+		case 3: month = "Apr"; break;
+		case 4: month = "May"; break;
+		case 5: month = "Jun"; break;
+		case 6: month = "Jul"; break;
+		case 7: month = "Aug"; break;
+		case 8: month = "Sep"; break;
+		case 9: month = "Oct"; break;
+		case 10: month = "Nov"; break;
+		case 11: month = "Dec"; break;
+		default: break;
+		}
+		document.getElementById("ticketDate").innerHTML = day +", " + month + " 0" + numberDay + ", " + year;
+		
+		var timer = duration, minutes, seconds;
+    setInterval(function () {
+        minutes = parseInt(timer / 60, 10);
+        seconds = parseInt(timer % 60, 10);
+
+        minutes = minutes < 10 ? "0" + minutes : minutes;
+        seconds = seconds < 10 ? "0" + seconds : seconds;
+
+        document.getElementById("timeTable").innerHTML = minutes + ":" + seconds;
+
+        if (--timer < 0) {
+            timer = duration;
+        }
+    }, 1000);
+		
+	}
+	function getDayName(locale)
+{
+    var date = new Date();
+    return date.toLocaleDateString(locale, { weekday: 'long' });        
+}
+	function startBlink(){
+		var i = 0;
+		setInterval(function() {
+			if(i == 0) {document.getElementById("ticketBlinker").style.display = "none";
+			i = 1;
+			} else { document.getElementById("ticketBlinker").style.display = "inline-block";
+			i=0;}
+		}, 750);
+	}
+   </script>
+
+    <div id="ticketNum" style="position:fixed; box-sizing: border-box; border-style: solid; border-width: 2px; border-color: black; border-radius: 5px">
+		<b id="way">One way </b>
+		<br><br>
+		<b id="adult">1 Adult</b>
+	</div>
+	
+    <div id="ticketQR" style="position:fixed; background-image:url('QR.png'); background-size:cover; background-repeat:no-repeat;"></div>
+	
+    <b id="ticketType" style="position:fixed; display: inline-block; width:100%; text-align: center; color:#E31C08;"></b>
+    
+	<div id="ticketZones" style="position:fixed; background-image: linear-gradient(#72B64E 5%, #FCFDFB 40%, #FCFDFB 60%, #72B64E 95%); text-align:center;">
+		<b id="zoneNum">2</b> <br>
+		<b id="zoneRide">ZONE RIDE</b> <br>
+		<b id="notValid"><sub>**Not Valid for HBLR**</sub></b>
+	</div>
+    
+	<div id="ticketValid"style="position:fixed; display:inline-block; width:100%; text-align: center;">View Validator Instructions</div>
+    
+	<b id="ticketClock" style="position:fixed; display:inline-block; width:100%; text-align: center;">
+		test1
+	</b>
+	
+    <b id="ticketDate" style="position:fixed; display:inline-block; width:100%; text-align: center;">
+		test2
+	</b>
+	
+    <div id="ticketBlinker" style="position:fixed; display:inline-block; width:90%; text-align: center;">
+		<div id="color1" style="width:33%; height:100%; float:left; background-color:#6BDB71;"></div>
+		<div id="color2" style="width:33%; height:100%; float:left; background-color:#93A33F;"></div>
+		<div id="color3" style="width:33%; height:100%; float:left; background-color:#7098FF;"></div>
+	</div>
+	
+    <div id="ticketEXP" style="position:fixed; display:inline-block; width:100%; text-align: center;">
+		<b>Expires in 00:00:<span id="timeTable"></span></b>
+	</div>
+    
+	<div id="ticketInterface" style="position:fixed; display:inline-block; width:100%; text-align:center; bottom:0px; background-image:url('interface.png'); background-size:contain; background-color:#191919; background-repeat:no-repeat;"></div>
   
 </body>
 </html>
